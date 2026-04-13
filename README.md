@@ -3,7 +3,8 @@
 bydlení-sreality, kolej;
 strava - obchody;
 transport;
-menza
+menza;
+zábava - kafe
 
 2. interaktivní prvky
 výběr kolej x byt

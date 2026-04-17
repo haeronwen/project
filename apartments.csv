@@ -1,0 +1,1364 @@
+price,charges,surface,disposition,address,district
+16100,3100,33,DISP_1_KK,"Federova, Praha - Kyje",Praha-Kyje
+40621,7168,40,UNDEFINED,"Starokošířská, Praha - Košíře",Praha-Košíře
+28000,6000,80,DISP_3_KK,"Amforova, Praha - Stodůlky",Praha-Stodůlky
+15990,0,33,DISP_1_KK,"Freyova, Praha - Vysočany",Praha-Vysočany
+24500,3000,51,DISP_2_1,"náměstí Josefa Machka, Praha - Košíře",Praha-Košíře
+28953,5109,24,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+14990,0,45,DISP_2_KK,"Donská, Praha - Vršovice",Praha-Vršovice
+22900,4000,45,DISP_2_KK,"Holandská, Praha - Vršovice",Praha-Vršovice
+25000,1500,50,DISP_2_KK,"U Křížku, Praha - Nusle",Praha-Nusle
+62980,11114,48,UNDEFINED,"Chodská, Praha - Vinohrady",Praha-Vinohrady
+25000,3095,42,DISP_2_KK,"Pekařova, Praha - Bohnice",Praha-Bohnice
+23900,3900,70,DISP_2_1,"U Mydlárny, Praha - Stodůlky",Praha-Stodůlky
+28328,4999,26,UNDEFINED,"Kališnická, Praha - Žižkov",Praha-Žižkov
+26795,4729,160,UNDEFINED,"Ruská, Praha - Vršovice",Praha-Vršovice
+22996,4058,16,UNDEFINED,"Kováků, Praha - Smíchov",Praha-Smíchov
+12990,0,30,DISP_1_KK,"Pelušková, Praha - Kyje",Praha-Kyje
+23500,0,51,DISP_2_KK,"Šmilovského, Praha - Vinohrady",Praha-Vinohrady
+21000,1110,49,DISP_2_1,"Primátorská, Praha - Libeň",Praha-Libeň
+23000,4200,69,DISP_2_1,"Pod Školou, Praha - Košíře",Praha-Košíře
+50564,8923,30,UNDEFINED,"Washingtonova, Praha - Nové Město",Praha-Nové Město
+15900,2500,39,DISP_2_KK,"Na Rokytce, Praha - Libeň",Praha-Libeň
+18000,6000,39,DISP_1_KK,"Kurta Konráda, Praha - Libeň",Praha-Libeň
+31000,7300,102,DISP_4_KK,"Nušlova, Praha - Stodůlky",Praha-Stodůlky
+25000,1500,42,DISP_2_KK,"Dalimilova, Praha - Žižkov",Praha-Žižkov
+22000,4300,40,DISP_1_KK,"Bukačova, Praha - Vysočany",Praha-Vysočany
+43226,7628,35,UNDEFINED,"Sevastopolská, Praha - Vršovice",Praha-Vršovice
+24000,6000,52,DISP_2_1,"Dělnická, Praha - Holešovice",Praha-Holešovice
+37900,0,89,DISP_3_KK,"Kubelíkova, Praha - Žižkov",Praha-Žižkov
+21000,3370,45,DISP_2_KK,"Zelenky-Hajského, Praha - Žižkov",Praha-Žižkov
+16500,2314,28,DISP_1_KK,"Ve Struhách, Praha - Bubeneč",Praha-Bubeneč
+16000,3300,33,DISP_1_KK,"Oty Bubeníčka, Praha - Uhříněves",Praha-Uhříněves
+26500,2300,43,DISP_2_KK,"Na Maninách, Praha - Holešovice",Praha-Holešovice
+21000,4700,52,DISP_2_KK,"Seifertova, Praha - Žižkov",Praha-Žižkov
+11500,2000,17,DISP_1_KK,"Na Cikánce, Praha - Radotín",Praha-Radotín
+21000,5000,42,DISP_2_KK,"U Stojanu, Praha - Chodov",Praha-Chodov
+26900,4650,69,DISP_2_1,"Polní, Praha - Břevnov",Praha-Břevnov
+46684,20760,82,UNDEFINED,". května, Praha - Nusle",Praha-Nusle
+13000,2500,77,DISP_3_1,"Bryksova, Praha - Černý Most",Praha-Černý Most
+24500,6000,54,DISP_2_1,"Bohnická, Praha - Bohnice",Praha-Bohnice
+32000,8445,96,DISP_4_KK,"Biskupcova, Praha - Žižkov",Praha-Žižkov
+21000,5000,66,DISP_2_KK,"Nad Rybníkem, Únětice - Únětice u Prahy, Středočeský kraj",Únětice
+17000,6200,45,DISP_2_KK,"Frýdlantská, Praha - Kobylisy",Praha-Kobylisy
+27500,3446,61,DISP_2_1,"náměstí Hrdinů, Praha - Nusle",Praha-Nusle
+19490,0,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+23990,0,55,DISP_2_KK,"Kryšpínova, Praha - Štěrboholy",Praha-Štěrboholy
+25000,7000,60,DISP_2_KK,"Kramperova, Praha - Kamýk",Praha-Kamýk
+23000,7000,90,DISP_3_1,"U Háje, Praha - Braník",Praha-Braník
+17900,3627,33,DISP_1_KK,"Soukalova, Praha - Modřany",Praha-Modřany
+22000,2800,62,DISP_2_1,"V Podhájí, Veleň - Veleň, Středočeský kraj",Veleň
+19500,7374,43,DISP_2_KK,"Nádražní, Praha - Smíchov",Praha-Smíchov
+15000,2000,45,DISP_1_KK,"U Svodnice, Praha - Královice",Praha-Královice
+37900,6700,75,DISP_3_KK,"Odkolkova, Praha - Vysočany",Praha-Vysočany
+17900,4700,54,DISP_2_KK,"Trnkovo náměstí, Praha - Hlubočepy",Praha-Hlubočepy
+29634,5229,61,UNDEFINED,"Kosatcová, Praha - Záběhlice",Praha-Záběhlice
+56859,10034,117,UNDEFINED,"Plzeňská, Praha - Smíchov",Praha-Smíchov
+113241,19984,50,UNDEFINED,"Křemencova, Praha - Nové Město",Praha-Nové Město
+26000,2000,50,DISP_2_KK,"Jilemnického, Praha - Bubeneč",Praha-Bubeneč
+19000,4600,49,DISP_2_KK,"Křížová, Praha - Smíchov",Praha-Smíchov
+30000,3800,60,DISP_2_KK,"Spinozova, Praha - Modřany",Praha-Modřany
+18000,2500,34,DISP_1_1,"Na Žvahově, Praha - Hlubočepy",Praha-Hlubočepy
+19500,4900,47,DISP_2_KK,"Teplická, Praha - Střížkov",Praha-Střížkov
+16000,4000,25,DISP_1_KK,"Počernická, Praha - Malešice",Praha-Malešice
+19490,0,38,DISP_1_KK,"Olgy Havlové, Praha - Žižkov",Praha-Žižkov
+16371,2889,300,UNDEFINED,"Lublaňská, Praha - Vinohrady",Praha-Vinohrady
+42793,47583,35,UNDEFINED,"Sevastopolská, Praha - Vršovice",Praha-Vršovice
+20990,0,50,DISP_2_KK,"Střížkovská, Praha - Libeň",Praha-Libeň
+25572,4513,160,UNDEFINED,"Ruská, Praha - Vršovice",Praha-Vršovice
+27500,6900,80,DISP_2_1,"Slovinská, Praha - Vršovice",Praha-Vršovice
+65418,11544,63,UNDEFINED,"Vrbenského, Praha - Holešovice",Praha-Holešovice
+22000,5000,49,DISP_1_KK,"Zvěřinova, Praha - Strašnice",Praha-Strašnice
+19000,4100,32,DISP_1_KK,"Bělohorská, Praha - Břevnov",Praha-Břevnov
+47540,8389,58,UNDEFINED,"Svatoslavova, Praha - Nusle",Praha-Nusle
+44083,7779,35,UNDEFINED,"Plzeňská, Praha - Smíchov",Praha-Smíchov
+16000,4000,50,DISP_2_KK,"Ve Stromkách, Vestec - Vestec u Prahy, Středočeský kraj",Vestec
+25000,4539,53,DISP_2_KK,"Na Neklance, Praha - Smíchov",Praha-Smíchov
+67432,31619,65,UNDEFINED,"Masná, Praha - Staré Město",Praha-Staré Město
+13490,0,17,DISP_1_KK,"Čestmírova, Praha - Nusle",Praha-Nusle
+21000,3021,33,DISP_1_KK,"Gerstelova, Praha - Vysočany",Praha-Vysočany
+32500,8000,53,DISP_2_KK,"Dagmar Burešové, Praha - Žižkov",Praha-Žižkov
+25990,0,49,DISP_2_KK,"Waltariho, Praha - Hloubětín",Praha-Hloubětín
+20000,3201,51,DISP_2_1,"Komunardů, Praha - Holešovice",Praha-Holešovice
+24000,5700,72,DISP_2_1,"Arbesovo náměstí, Praha - Smíchov",Praha-Smíchov
+33000,5500,89,DISP_3_KK,"Ke Klimentce, Praha - Smíchov",Praha-Smíchov
+30000,5000,72,DISP_3_KK,"Ostrovského, Praha - Smíchov",Praha-Smíchov
+60516,28356,36,UNDEFINED,"Sanderova, Praha - Holešovice",Praha-Holešovice
+28000,4200,57,DISP_2_1,"Kubištova, Praha - Podolí",Praha-Podolí
+23000,3100,55,DISP_2_1,"Černomořská, Praha - Vršovice",Praha-Vršovice
+13900,4130,16,GARSONIERA,"Molákova, Praha - Karlín",Praha-Karlín
+28000,8000,75,DISP_3_1,"Roháčova, Praha - Žižkov",Praha-Žižkov
+26000,6000,72,DISP_3_1,"Krynická, Praha - Troja",Praha-Troja
+22990,0,42,DISP_2_KK,"Anny Drabíkové, Praha - Háje",Praha-Háje
+13000,5500,20,DISP_1_KK,"Křížová, Praha - Smíchov",Praha-Smíchov
+10739,1895,300,UNDEFINED,"Révová, Praha - Strašnice",Praha-Strašnice
+15900,4000,33,DISP_1_KK,"Sicherova, Praha - Kyje",Praha-Kyje
+44000,7500,129,DISP_4_1,"Medkova, Praha - Chodov",Praha-Chodov
+17000,2990,26,DISP_1_KK,"V Zahradách, Praha - Libeň",Praha-Libeň
+9000,3500,88,DISP_3_1,"Nehvizdská, Praha - Hloubětín",Praha-Hloubětín
+20490,0,57,DISP_2_KK,"Janýrova, Praha - Strašnice",Praha-Strašnice
+25000,5000,60,DISP_2_KK,"Bolzanova, Praha - Nové Město",Praha-Nové Město
+13500,1000,30,DISP_1_1,"U Skládky, Praha - Libeň",Praha-Libeň
+16500,2800,27,DISP_1_KK,"Jemnická, Praha - Michle",Praha-Michle
+19500,3800,50,DISP_1_1,"Práčská, Praha - Záběhlice",Praha-Záběhlice
+28300,7700,72,DISP_3_KK,"Na Výtoni, Praha - Nové Město",Praha-Nové Město
+24900,169,34,DISP_1_KK,"Mukařovského, Praha - Stodůlky",Praha-Stodůlky
+41702,7359,0,UNDEFINED,"náměstí Jiřího z Poděbrad, Praha - Vinohrady",Praha-Vinohrady
+418747,73896,750,UNDEFINED,"Karla Tomáše, Praha - Horní Počernice",Praha-Horní Počernice
+59095,10428,38,UNDEFINED,"Školská, Praha - Nové Město",Praha-Nové Město
+30906,5454,53,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+14000,0,23,DISP_1_KK,"Čenětická, Praha - Chodov",Praha-Chodov
+33900,4000,65,DISP_2_1,"Na lysině, Praha - Podolí",Praha-Podolí
+25000,4200,52,DISP_2_KK,"Na Výšině, Říčany - Říčany u Prahy, Středočeský kraj",Říčany
+49000,11500,139,DISP_4_1,"U Smaltovny, Praha - Holešovice",Praha-Holešovice
+24000,4000,53,DISP_2_KK,"Pod Harfou, Praha - Vysočany",Praha-Vysočany
+58787,10374,80,UNDEFINED,"Na Hutích, Praha - Bubeneč",Praha-Bubeneč
+60689,28365,44,UNDEFINED,"Rybná, Praha - Staré Město",Praha-Staré Město
+45650,8056,46,UNDEFINED,"Míšeňská, Praha - Malá Strana",Praha-Malá Strana
+69161,32325,53,UNDEFINED,"Rybná, Praha - Staré Město",Praha-Staré Město
+29000,5500,80,DISP_3_KK,"Sazovická, Praha - Zličín",Praha-Zličín
+18500,3500,57,DISP_2_1,"Úhonická, Jeneč - Jeneč u Prahy, Středočeský kraj",Jeneč
+20146,8403,80,UNDEFINED,"Voskovcova, Praha - Hlubočepy",Praha-Hlubočepy
+24490,0,61,DISP_2_KK,"Přeučilova, Praha - Stodůlky",Praha-Stodůlky
+16500,0,34,DISP_1_KK,"Kadečkové, Praha - Letňany",Praha-Letňany
+25990,0,68,DISP_2_1,"Herálecká IV, Praha - Krč",Praha-Krč
+28961,5111,25,UNDEFINED,"Freyova, Praha - Vysočany",Praha-Vysočany
+14450,2950,25,DISP_1_KK,"Vrážská, Praha - Radotín",Praha-Radotín
+18000,3800,43,DISP_2_KK,"Cílkova, Praha - Kamýk",Praha-Kamýk
+11000,1000,16,GARSONIERA,"Pod Kavalírkou, Praha - Košíře",Praha-Košíře
+24000,4700,65,DISP_2_1,"Gdaňská, Praha - Bohnice",Praha-Bohnice
+20500,4000,58,DISP_2_1,"Na Pěšinách, Praha - Kobylisy",Praha-Kobylisy
+24000,4500,57,DISP_2_KK,"Novákových, Praha - Libeň",Praha-Libeň
+22000,4500,57,DISP_2_1,"Plzeňská, Praha - Smíchov",Praha-Smíchov
+50668,8941,18,UNDEFINED,"Svornosti, Praha - Smíchov",Praha-Smíchov
+21500,4100,53,DISP_2_KK,"Škrábkových, Praha - Letňany",Praha-Letňany
+19990,0,54,DISP_2_1,"Kamerunská, Praha - Vokovice",Praha-Vokovice
+21900,2000,24,DISP_1_KK,"Staropramenná, Praha - Smíchov",Praha-Smíchov
+22000,4078,43,DISP_1_KK,"Šrámkové, Praha - Žižkov",Praha-Žižkov
+17990,0,57,DISP_2_1,"Chlebovická, Praha - Letňany",Praha-Letňany
+26000,5000,65,DISP_2_1,"Na Malovance, Praha - Střešovice",Praha-Střešovice
+35000,4800,107,DISP_3_1,"Sázavská, Praha - Vinohrady",Praha-Vinohrady
+19000,7000,50,DISP_2_1,"Na Výtoni, Praha - Nové Město",Praha-Nové Město
+18500,3700,37,DISP_2_KK,"Vysočanská, Praha - Prosek",Praha-Prosek
+47936,8459,45,UNDEFINED,"Dlážděná, Praha - Nové Město",Praha-Nové Město
+21000,4063,44,DISP_2_KK,"Fabiánové, Praha - Hlubočepy",Praha-Hlubočepy
+25500,5500,73,DISP_2_KK,"Dělnická, Praha - Holešovice",Praha-Holešovice
+25000,3501,55,DISP_2_1,"Tejnická, Praha - Strašnice",Praha-Strašnice
+20500,2990,34,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+17500,3400,39,DISP_1_1,"Na Plzeňce, Praha - Smíchov",Praha-Smíchov
+20500,3833,29,DISP_2_KK,"Na Obrátce, Praha - Hloubětín",Praha-Hloubětín
+18580,4410,49,DISP_1_1,"Františka Kadlece, Praha - Libeň",Praha-Libeň
+20900,4774,37,DISP_1_KK,"Olšanská, Praha - Žižkov",Praha-Žižkov
+16000,5300,35,DISP_1_KK,"Freyova, Praha - Vysočany",Praha-Vysočany
+20990,0,44,DISP_2_KK,"Janského, Praha - Stodůlky",Praha-Stodůlky
+18500,3300,20,DISP_1_KK,"Jana Zajíce, Praha - Bubeneč",Praha-Bubeneč
+28429,5017,35,UNDEFINED,"Kodymova, Praha - Stodůlky",Praha-Stodůlky
+15000,3000,23,DISP_1_KK,"Holečkova, Praha - Košíře",Praha-Košíře
+15000,3000,42,DISP_2_KK,"Pavlíkova, Praha - Kamýk",Praha-Kamýk
+18990,0,36,DISP_1_KK,"Poděbradská, Praha - Vysočany",Praha-Hloubětín
+60772,10725,44,UNDEFINED,"V Háji, Praha - Holešovice",Praha-Holešovice
+21000,3300,33,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+18000,0,44,DISP_1_KK,"Kotlaska, Praha - Libeň",Praha-Libeň
+26500,6000,67,DISP_2_KK,"Osadní, Praha - Holešovice",Praha-Holešovice
+26368,4653,42,UNDEFINED,"Orebitská, Praha - Žižkov",Praha-Žižkov
+19000,5000,55,DISP_1_KK,"Sídlištní, Praha - Suchdol",Praha-Suchdol
+21990,0,34,DISP_1_KK,"Modrého, Praha - Hloubětín",Praha-Hloubětín
+24000,4000,51,DISP_2_KK,"Gollové, Praha - Hlubočepy",Praha-Hlubočepy
+32900,169,81,DISP_2_KK,"Mukařovského, Praha - Stodůlky",Praha-Stodůlky
+7500,0,86,DISP_4_KK,"Za Hotely, Horoměřice - Horoměřice, Středočeský kraj",Horoměřice
+28953,5109,43,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+19990,0,52,DISP_1_1,"náměstí 14. října, Praha - Smíchov",Praha-Smíchov
+21000,2960,33,DISP_1_KK,"Gerstelova, Praha - Vysočany",Praha-Vysočany
+22990,0,50,DISP_2_KK,"Biskupcova, Praha - Žižkov",Praha-Žižkov
+21000,3000,45,DISP_2_KK,"Neumannova, Praha - Zbraslav",Praha-Zbraslav
+19000,4500,43,DISP_2_KK,"Slavatova, Praha - Kyje",Praha-Kyje
+37000,6047,87,DISP_3_KK,"Nad Kolčavkou, Praha - Libeň",Praha-Libeň
+15000,5000,48,DISP_2_KK,"Augustinova, Praha - Chodov",Praha-Chodov
+22990,5000,30,DISP_1_KK,"Kovářská, Praha - Libeň",Praha-Libeň
+18500,3900,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+19490,0,33,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+21990,0,32,DISP_1_KK,"Ondříčkova, Praha - Žižkov",Praha-Žižkov
+22000,3000,54,DISP_2_KK,"Komunardů, Praha - Holešovice",Praha-Holešovice
+26900,5000,45,DISP_1_KK,"Osadní, Praha - Holešovice",Praha-Holešovice
+27740,12815,35,UNDEFINED,"Hlaváčkova, Praha - Košíře",Praha-Košíře
+24000,3900,50,DISP_2_KK,"Malešická, Praha - Žižkov",Praha-Žižkov
+13500,3500,34,DISP_1_KK,"Kokořínská, Praha - Ďáblice",Praha-Ďáblice
+17490,0,32,DISP_1_KK,"Horňátecká, Praha - Kobylisy",Praha-Kobylisy
+15500,3350,39,DISP_1_1,"Okořská, Praha - Čimice",Praha-Čimice
+72731,12835,72,UNDEFINED,"Malešická c, Praha - Žižkov",Praha-Žižkov
+65011,11473,91,UNDEFINED,"U Pergamenky, Praha - Holešovice",Praha-Holešovice
+20490,0,56,DISP_3_KK,"Svojšovická, Praha - Záběhlice",Praha-Záběhlice
+23500,7550,66,DISP_2_1,"Žinkovská, Praha - Strašnice",Praha-Strašnice
+21500,5565,60,DISP_2_1,"U Okrouhlíku, Praha - Smíchov",Praha-Smíchov
+23990,2430,55,DISP_2_KK,"Klapkova, Praha - Kobylisy",Praha-Kobylisy
+37000,7500,130,DISP_4_KK,"Stočesova, Praha - Ruzyně",Praha-Ruzyně
+34110,6019,35,UNDEFINED,"Olgy Havlové, Praha - Žižkov",Praha-Žižkov
+38000,6000,120,DISP_3_1,"Rumunská, Praha - Vinohrady",Praha-Vinohrady
+36299,6406,38,UNDEFINED,"Kurta Konráda, Praha - Libeň",Praha-Libeň
+25000,6000,55,DISP_2_KK,"Malešická, Praha - Žižkov",Praha-Žižkov
+17990,2990,45,DISP_1_1,"Mošnova, Praha - Smíchov",Praha-Smíchov
+27500,210,65,DISP_2_1,"Kodaňská, Praha - Vršovice",Praha-Vršovice
+9900,1500,17,GARSONIERA,"Maková, Praha - Křeslice",Praha-Křeslice
+42900,5600,85,DISP_3_KK,"Čechova, Praha - Bubeneč",Praha-Bubeneč
+29000,3000,48,DISP_2_KK,"Náprstkova, Praha - Staré Město",Praha-Staré Město
+26000,1500,48,DISP_2_KK,"Biskupcova, Praha - Žižkov",Praha-Žižkov
+23000,8400,72,DISP_3_KK,"Hlivická, Praha - Bohnice",Praha-Bohnice
+25000,6000,66,DISP_3_KK,"Františka Štěpánka, Praha - Hostivař",Praha-Hostivař
+18000,0,30,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+34990,7650,72,DISP_2_KK,"Sokolova, Praha - Karlín",Praha-Karlín
+21490,0,65,DISP_3_KK,"Brandlova, Praha - Chodov",Praha-Chodov
+10000,1500,90,DISP_4_1,"Pertoldova, Praha - Modřany",Praha-Modřany
+27085,4780,22,UNDEFINED,"Kubánské náměstí, Praha - Vršovice",Praha-Vršovice
+46464,8200,45,UNDEFINED,"Plzeňská, Praha - Smíchov",Praha-Smíchov
+73483,34433,50,UNDEFINED,"Soukenická, Praha - Nové Město",Praha-Nové Město
+16490,0,22,DISP_1_KK,"Bozděchova, Praha - Smíchov",Praha-Smíchov
+69481,12261,59,UNDEFINED,"Rostovská, Praha - Vršovice",Praha-Vršovice
+33000,5000,123,DISP_4_KK,"V Háji, Praha - Holešovice",Praha-Holešovice
+22000,3500,52,DISP_2_KK,"Zakšínská, Praha - Střížkov",Praha-Střížkov
+29000,6400,74,DISP_3_KK,"K Červenému vrchu, Praha - Vokovice",Praha-Vokovice
+18000,3195,36,DISP_1_1,"Šlikova, Praha - Břevnov",Praha-Břevnov
+61000,10765,59,UNDEFINED,"Ocelářská, Praha - Libeň",Praha-Libeň
+18562,865,45,DISP_2_KK,"Vrchlického, Praha - Košíře",Praha-Košíře
+29000,5300,67,DISP_2_KK,"Na Spojce, Praha - Vršovice",Praha-Vršovice
+14999,3000,32,DISP_1_KK,"Na Cikánce, Praha - Radotín",Praha-Radotín
+19990,6500,46,DISP_1_KK,"Pod Kesnerkou, Praha - Smíchov",Praha-Smíchov
+21900,5000,53,DISP_2_KK,"Vladivostocká, Praha - Vršovice",Praha-Vršovice
+26990,0,73,DISP_3_1,"Prusíkova, Praha - Stodůlky",Praha-Stodůlky
+28953,5109,34,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+23000,3500,43,DISP_2_KK,"Skuteckého, Praha - Řepy",Praha-Řepy
+27900,0,45,DISP_2_KK,"Sládkova, Praha - Bubeneč",Praha-Bubeneč
+19600,4000,39,DISP_1_KK,"Nad Dalejským údolím, Praha - Stodůlky",Praha-Stodůlky
+22990,0,53,DISP_2_KK,"Honzíkova, Praha - Dolní Měcholupy",Praha-Dolní Měcholupy
+38000,4000,100,DISP_3_1,"Solidarity, Praha - Strašnice",Praha-Strašnice
+17490,0,44,DISP_2_KK,"Ohradní, Praha - Michle",Praha-Michle
+29700,6330,63,DISP_3_KK,"Nepomuckých, Praha - Letňany",Praha-Letňany
+66116,11668,100,UNDEFINED,"Londýnská, Praha - Vinohrady",Praha-Vinohrady
+29500,3500,70,DISP_2_1,"Národní obrany, Praha - Bubeneč",Praha-Bubeneč
+26500,6000,58,DISP_2_KK,"Na Maninách, Praha - Holešovice",Praha-Holešovice
+28000,4600,100,DISP_3_KK,"Lucemburská, Praha - Vinohrady",Praha-Vinohrady
+23490,0,56,DISP_2_1,"Lublaňská, Praha - Vinohrady",Praha-Vinohrady
+18500,4500,74,DISP_2_KK,"K Pitkovicům, Praha - Benice",Praha-Benice
+16000,3500,22,DISP_1_KK,"V Šáreckém údolí, Praha - Dejvice",Praha-Dejvice
+21990,0,56,DISP_3_KK,"Hurbanova, Praha - Krč",Praha-Krč
+16490,0,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+25193,4446,52,UNDEFINED,"Na Bečvářce, Praha - Dejvice",Praha-Dejvice
+17600,0,36,DISP_1_KK,"Českobrodská, Praha - Hostavice",Praha-Hostavice
+35999,0,90,DISP_3_KK,"Vrázova, Praha - Smíchov",Praha-Smíchov
+38300,0,61,DISP_3_1,"U Pergamenky, Praha - Holešovice",Praha-Holešovice
+26693,12979,35,UNDEFINED,"Hlaváčkova, Praha - Košíře",Praha-Košíře
+28500,4644,44,DISP_2_KK,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+29000,5200,60,DISP_2_KK,"Petrohradská, Praha - Vršovice",Praha-Vršovice
+30258,11657,25,UNDEFINED,"Freyova, Praha - Vysočany",Praha-Vysočany
+28000,1,45,DISP_2_KK,"Chvalova, Praha - Žižkov",Praha-Žižkov
+27900,4500,39,DISP_1_KK,"U Mlýnského kanálu, Praha - Karlín",Praha-Karlín
+13500,1500,19,GARSONIERA,"Šmolíkova, Praha - Ruzyně",Praha-Ruzyně
+17500,7000,48,DISP_2_1,"Kloboučnická, Praha - Nusle",Praha-Nusle
+46510,8208,43,UNDEFINED,"Na Mokřině, Praha - Žižkov",Praha-Žižkov
+20600,4000,51,DISP_1_KK,"Do Roklí, Praha - Přední Kopanina",Praha-Přední Kopanina
+20980,0,15,DISP_1_KK,"Na Zátorách, Praha - Holešovice",Praha-Holešovice
+25000,6000,56,DISP_2_KK,"Na Zemance, Praha - Braník",Praha-Braník
+28000,3500,70,DISP_3_KK,"Na Březince, Praha - Smíchov",Praha-Smíchov
+22000,4500,45,DISP_2_KK,"Markušova, Praha - Chodov",Praha-Chodov
+14690,5000,30,DISP_1_1,"Čestmírova, Praha - Nusle",Praha-Nusle
+24100,3950,58,DISP_2_1,"Kubánské náměstí, Praha - Vršovice",Praha-Vršovice
+21000,5000,69,DISP_2_1,"Francouzská, Praha - Vinohrady",Praha-Vinohrady
+18490,4725,27,DISP_1_KK,"Obchodní, Říčany - Říčany u Prahy, Středočeský kraj",Říčany
+18990,0,43,DISP_2_KK,"K lukám, Praha - Libuš",Praha-Libuš
+26500,6000,62,DISP_2_KK,"Sinkulova, Praha - Podolí",Praha-Podolí
+16700,1800,25,DISP_1_KK,"Na Břehu, Praha - Vysočany",Praha-Vysočany
+24000,4500,54,DISP_2_KK,"Nad Alejí, Praha - Břevnov",Praha-Břevnov
+26000,6500,62,DISP_2_KK,"Hlučkova, Praha - Letňany",Praha-Letňany
+19000,8000,55,DISP_2_KK,"Paříkova, Praha - Vysočany",Praha-Vysočany
+25900,169,51,DISP_2_KK,"Mukařovského, Praha - Praha-Stodůlky",Praha-Stodůlky
+13000,1000,25,DISP_3_KK,"Světova, Praha - Libeň",Praha-Libeň
+10000,6000,20,DISP_1_KK,"Šlikova, Praha - Břevnov",Praha-Břevnov
+23000,6000,58,DISP_2_KK,Praha - Hlubočepy,Praha-Hlubočepy
+22000,5000,53,DISP_2_1,"Pod Lipami, Praha - Žižkov",Praha-Žižkov
+25200,4300,46,DISP_1_KK,"Klapálkova, Praha - Záběhlice",Praha-Záběhlice
+26000,3200,58,DISP_3_1,"Biskupcova, Praha - Žižkov",Praha-Žižkov
+26000,5400,68,DISP_4_KK,"Tobrucká, Praha - Vokovice",Praha-Vokovice
+49500,14600,146,DISP_4_KK,"Bartoškova, Praha - Nusle",Praha-Nusle
+48307,8525,30,UNDEFINED,"Příčná, Praha - Nové Město",Praha-Nové Město
+24500,5400,59,DISP_2_KK,"Babická, Praha - Chodov",Praha-Chodov
+16500,3500,38,DISP_1_1,"Gdaňská, Praha - Bohnice",Praha-Bohnice
+22500,2200,41,DISP_2_KK,"Světova, Praha - Libeň",Praha-Libeň
+85734,15129,76,UNDEFINED,"Chodská, Praha - Vinohrady",Praha-Vinohrady
+24000,5000,55,DISP_2_1,"Kremličkova, Praha - Krč",Praha-Krč
+23900,7000,60,DISP_2_KK,"K Olympiku, Praha - Karlín",Praha-Karlín
+16000,3000,27,GARSONIERA,"Myslbekova, Praha - Střešovice",Praha-Střešovice
+26500,6500,79,DISP_3_KK,"Bermanova, Praha - Čakovice",Praha-Čakovice
+22000,4500,40,DISP_2_KK,"Křivá, Praha - Žižkov",Praha-Žižkov
+38990,0,94,DISP_3_KK,"K Červenému vrchu, Praha - Vokovice",Praha-Vokovice
+21000,4657,33,DISP_1_KK,"Kurta Konráda, Praha - Libeň",Praha-Libeň
+28000,5000,85,DISP_3_1,"Wassermannova, Praha - Hlubočepy",Praha-Hlubočepy
+27000,4000,68,DISP_3_KK,"Lublinská, Praha - Troja",Praha-Troja
+21900,3500,35,DISP_2_KK,"Jenečská, Praha - Liboc",Praha-Liboc
+15500,3500,32,DISP_1_KK,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+18000,3400,47,GARSONIERA,"U Kříže, Praha - Jinonice",Praha-Jinonice
+21900,5300,51,DISP_2_KK,"Nuselská, Praha - Michle",Praha-Michle
+26000,4000,45,DISP_2_KK,"Buchovcova, Praha - Žižkov",Praha-Žižkov
+29500,1200,62,DISP_2_KK,"Korunní, Praha - Vinohrady",Praha-Vinohrady
+23000,4500,34,DISP_1_KK,"Boleslavova, Praha - Nusle",Praha-Nusle
+20043,3537,25,UNDEFINED,"Klapkova, Praha - Kobylisy",Praha-Kobylisy
+14912,2631,25,UNDEFINED,"Ďáblická, Praha - Kobylisy",Praha-Kobylisy
+21500,7360,63,DISP_2_1,"Patočkova, Praha - Střešovice",Praha-Střešovice
+24000,5000,68,DISP_2_KK,"Jevanská, Praha - Strašnice",Praha-Strašnice
+17000,4500,27,DISP_1_KK,"Nebřenická, Praha - Chodov",Praha-Chodov
+20500,2500,46,DISP_2_KK,"T. G. Masaryka, Horoměřice - Horoměřice, Středočeský kraj",Horoměřice
+34000,4266,82,DISP_3_KK,"Kolmanova, Praha - Modřany",Praha-Modřany
+29900,6235,47,DISP_2_KK,"Sokolovská, Praha - Karlín",Praha-Karlín
+51726,9128,64,UNDEFINED,"Dlážděná, Praha - Nové Město",Praha-Nové Město
+24000,4500,46,DISP_2_KK,"Hlučkova, Praha - Letňany",Praha-Letňany
+30000,3001,78,DISP_2_1,"Sokolovská, Praha - Karlín",Praha-Karlín
+27200,3750,51,DISP_2_KK,"Libická, Praha - Vinohrady",Praha-Vinohrady
+16490,0,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+28529,5034,25,UNDEFINED,"Na Proseku, Praha - Prosek",Praha-Prosek
+64337,11353,140,UNDEFINED,"U Hrušky, Praha - Motol",Praha-Motol
+15500,3500,33,DISP_1_KK,"Františka Diviše, Praha - Uhříněves",Praha-Uhříněves
+46251,8162,28,UNDEFINED,"Cimburkova, Praha - Žižkov",Praha-Žižkov
+24000,5000,70,DISP_2_1,"Sámova, Praha - Vršovice",Praha-Vršovice
+39000,7000,76,DISP_2_KK,"V Přístavu, Praha - Holešovice",Praha-Holešovice
+19451,3433,16,UNDEFINED,"Biskupcova, Praha - Žižkov",Praha-Žižkov
+23000,3900,56,DISP_2_1,"Černokostelecká, Praha - Strašnice",Praha-Strašnice
+18500,3500,34,DISP_1_KK,"U Michelského mlýna, Praha - Michle",Praha-Michle
+14900,4500,31,DISP_1_KK,"Kovanecká, Praha - Libeň",Praha-Libeň
+21500,4000,48,DISP_2_KK,"Průběžná, Praha - Strašnice",Praha-Strašnice
+21900,3500,58,DISP_2_KK,"Pivovarnická, Praha - Libeň",Praha-Libeň
+28700,5000,82,DISP_3_KK,"U Stojanu, Praha - Chodov",Praha-Chodov
+18000,4300,34,DISP_1_KK,"Hornoměcholupská, Praha - Horní Měcholupy",Praha-Horní Měcholupy
+35000,0,56,DISP_2_KK,"Husinecká, Praha - Žižkov",Praha-Žižkov
+19000,5500,42,DISP_2_KK,"Valentova, Praha - Chodov",Praha-Chodov
+21000,5500,44,DISP_2_KK,"Rižská, Praha - Hostivař",Praha-Hostivař
+14000,3250,25,GARSONIERA,"U Smaltovny, Praha - Holešovice",Praha-Holešovice
+27990,0,81,DISP_3_KK,"Sicherova, Praha - Kyje",Praha-Kyje
+46900,5500,91,DISP_4_KK,"Kališnická, Praha - Žižkov",Praha-Žižkov
+17900,4290,36,DISP_1_KK,"Radouňova, Praha - Řeporyje",Praha-Řeporyje
+118065,28076,35,UNDEFINED,"Konviktská, Praha - Staré Město",Praha-Staré Město
+24500,4900,28,DISP_1_KK,"Sokolovská, Praha - Karlín",Praha-Karlín
+26000,4200,65,DISP_3_KK,"Janovská, Praha - Horní Měcholupy",Praha-Horní Měcholupy
+21000,5500,52,DISP_2_KK,"Chlebovická, Praha - Letňany",Praha-Letňany
+31400,4600,72,DISP_3_KK,"Na Výtoni, Praha - Nové Město",Praha-Nové Město
+7200,2000,10,GARSONIERA,"Davídkova, Praha - Libeň",Praha-Libeň
+15000,2000,28,GARSONIERA,"Jaurisova, Praha - Nusle",Praha-Nusle
+28800,5000,72,DISP_3_1,"Kurkova, Praha - Kobylisy",Praha-Kobylisy
+28700,5600,65,DISP_2_KK,"Milady Horákové, Praha - Holešovice",Praha-Holešovice
+38400,6776,20,UNDEFINED,"Nuselská, Praha - Michle",Praha-Michle
+24000,5600,51,DISP_2_KK,"Bělohorská, Praha - Břevnov",Praha-Břevnov
+23900,2500,40,DISP_2_KK,"Andrštova, Praha - Libeň",Praha-Libeň
+31000,3170,45,DISP_2_KK,"Legerova, Praha - Nové Město",Praha-Nové Město
+18900,4650,36,DISP_1_KK,"Kurta Konráda, Praha - Libeň",Praha-Libeň
+26000,8500,69,DISP_3_KK,"Mračnická, Praha - Hostivař",Praha-Hostivař
+23000,980,52,DISP_2_KK,"Jana Zajíce, Praha - Bubeneč",Praha-Bubeneč
+20990,0,49,DISP_2_KK,"Volutová, Praha - Stodůlky",Praha-Stodůlky
+22900,169,27,DISP_1_KK,"Mukařovského, Praha - Stodůlky",Praha-Stodůlky
+21000,5500,72,DISP_2_1,"Na moklině, Praha - Řepy",Praha-Řepy
+29353,5180,25,UNDEFINED,"Na Bitevní Pláni, Praha - Nusle",Praha-Nusle
+40416,7132,0,UNDEFINED,"Batelovská, Praha - Michle",Praha-Michle
+17490,0,31,DISP_1_KK,"Gollové, Praha - Hlubočepy",Praha-Hlubočepy
+23253,3247,52,DISP_2_1,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+21000,4500,45,DISP_2_KK,"Thámova, Praha - Karlín",Praha-Karlín
+23000,3500,67,DISP_2_1,"Veleslavínská, Praha - Veleslavín",Praha-Veleslavín
+13900,2000,19,DISP_1_KK,"Buštěhradská, Praha - Střešovice",Praha-Střešovice
+18000,0,32,DISP_1_1,"Nad Hájem, Praha - Hodkovičky",Praha-Hodkovičky
+22000,4000,48,DISP_2_KK,"Ciolkovského, Praha - Ruzyně",Praha-Ruzyně
+62900,12500,115,DISP_4_KK,"Kolejní, Praha - Dejvice",Praha-Dejvice
+33000,6800,115,DISP_3_1,"Dehtínská, Praha - Radotín",Praha-Radotín
+20000,2501,53,DISP_2_1,"Nad Zámečkem, Praha - Košíře",Praha-Košíře
+16900,2000,42,DISP_2_KK,"U Nových domů Ⅲ, Praha - Krč",Praha-Krč
+22000,4000,30,DISP_1_KK,"Konojedská, Praha - Strašnice",Praha-Strašnice
+27900,4000,69,DISP_3_KK,"Jana Masaryka, Praha - Vinohrady",Praha-Vinohrady
+31000,3170,45,DISP_2_KK,"Legerova, Praha - Nové Město",Praha-Nové Město
+24500,4000,60,DISP_2_KK,"Nekvasilova, Praha - Karlín",Praha-Karlín
+28000,4500,58,DISP_2_KK,"Na Zlatě, Praha - Stodůlky",Praha-Stodůlky
+15900,3000,28,DISP_1_KK,"U Pekařky, Praha - Libeň",Praha-Libeň
+25000,5200,70,DISP_2_KK,"Chodovická, Praha - Horní Počernice",Praha-Horní Počernice
+12990,3258,33,DISP_1_1,"Jánošíkova, Praha - Krč",Praha-Krč
+16300,3500,29,DISP_1_KK,"Pod Labuťkou, Praha - Libeň",Praha-Libeň
+21000,4900,55,DISP_3_KK,"Za Poštou, Praha - Strašnice",Praha-Strašnice
+92503,43228,86,UNDEFINED,"Rybná, Praha - Staré Město",Praha-Staré Město
+33000,9000,109,DISP_4_KK,"Šátalská, Praha - Libuš",Praha-Libuš
+23000,4500,50,DISP_2_1,"Vostrovská, Praha - Dejvice",Praha-Dejvice
+25000,4500,47,DISP_1_KK,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+24500,4500,50,DISP_2_1,"Vostrovská, Praha - Dejvice",Praha-Dejvice
+18500,5500,45,DISP_2_KK,"Bronzová, Praha - Stodůlky",Praha-Stodůlky
+33620,5933,36,UNDEFINED,"Slavíkova, Praha - Žižkov",Praha-Žižkov
+42664,7529,35,UNDEFINED,"Rostovská, Praha - Vršovice",Praha-Vršovice
+27500,210,65,DISP_2_1,"Kodaňská, Praha - Vršovice",Praha-Vršovice
+20000,3500,38,DISP_1_KK,"Chorošová, Praha - Pitkovice",Praha-Pitkovice
+116709,54643,90,UNDEFINED,"Soukenická, Praha - Nové Město",Praha-Nové Město
+21000,800,27,DISP_1_KK,"Slovenská, Praha - Vinohrady",Praha-Vinohrady
+17000,3000,34,DISP_1_KK,"Oty Bubeníčka, Praha - Uhříněves",Praha-Uhříněves
+18000,5000,40,DISP_2_KK,"Štúrova, Praha - Krč",Praha-Krč
+28900,7100,72,DISP_3_KK,"Na Výtoni, Praha - Nové Město",Praha-Nové Město
+18990,0,55,DISP_2_KK,"Hrušovická, Praha - Kbely",Praha-Kbely
+20000,4500,38,DISP_1_KK,"Štanderova, Praha - Letňany",Praha-Letňany
+73483,34381,50,UNDEFINED,"Soukenická, Praha - Nové Město",Praha-Nové Město
+24000,4950,52,DISP_2_KK,"Hodkovická, Praha - Kamýk",Praha-Kamýk
+40200,7094,1080,UNDEFINED,"Kutilova, Praha - Modřany",Praha-Modřany
+34494,6087,50,UNDEFINED,"Teplická, Praha - Střížkov",Praha-Střížkov
+19500,4000,35,DISP_2_KK,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+20000,4500,37,DISP_1_KK,"Roháčova, Praha - Žižkov",Praha-Žižkov
+29000,3700,70,DISP_3_KK,"V Olšinách, Praha - Vršovice",Praha-Vršovice
+25000,8539,62,DISP_2_KK,"Klímova, Praha - Radlice",Praha-Radlice
+26454,4668,40,UNDEFINED,"Rokycanova, Praha - Žižkov",Praha-Žižkov
+30000,5800,85,DISP_3_1,"Legerova, Praha - Nové Město",Praha-Nové Město
+18000,3900,35,DISP_1_KK,Praha - Stodůlky,Praha-Stodůlky
+25496,10302,24,UNDEFINED,"Tyršova, Praha - Nové Město",Praha-Nové Město
+14500,2500,25,DISP_1_KK,"Bolevecká, Praha - Horní Měcholupy",Praha-Horní Měcholupy
+18000,6000,61,DISP_2_KK,"Soukalova, Praha - Modřany",Praha-Modřany
+21500,4200,48,DISP_2_KK,"Musílkova, Praha - Košíře",Praha-Košíře
+38903,6865,36,UNDEFINED,"Tetauerova, Praha - Žižkov",Praha-Žižkov
+93454,16492,76,UNDEFINED,"U Kanálky, Praha - Vinohrady",Praha-Vinohrady
+20900,2600,52,DISP_2_KK,"Pod Zahrady, Přezletice - Přezletice, Středočeský kraj",Přezletice
+18990,0,41,DISP_1_KK,"Nad Akcízem, Praha - Ďáblice",Praha-Ďáblice
+24990,0,28,DISP_1_KK,"V háji, Praha - Holešovice",Praha-Holešovice
+21786,9457,23,UNDEFINED,"U Pernikářky, Praha - Smíchov",Praha-Smíchov
+51870,20469,45,UNDEFINED,"Jana Masaryka, Praha - Vinohrady",Praha-Vinohrady
+20500,4298,43,DISP_2_KK,"Vašátkova, Praha - Černý Most",Praha-Černý Most
+23490,0,73,DISP_3_1,"Poznaňská, Praha - Bohnice",Praha-Bohnice
+44540,7860,52,UNDEFINED,"Vinohradská, Praha - Vinohrady",Praha-Vinohrady
+24999,4000,29,DISP_2_KK,"Bělehradská, Praha - Vinohrady",Praha-Vinohrady
+23000,5000,51,DISP_2_KK,"Hlučkova, Praha - Letňany",Praha-Letňany
+18500,4200,36,DISP_2_KK,"Boleslavova, Praha - Nusle",Praha-Nusle
+24204,11311,90,UNDEFINED,"Blanická, Praha - Vinohrady",Praha-Vinohrady
+16000,2800,75,DISP_3_1,"U Bažantnice, Praha - Velká Chuchle",Praha-Velká Chuchle
+27000,7500,62,DISP_3_KK,"Pod Barvířkou, Praha - Smíchov",Praha-Smíchov
+24500,4000,56,DISP_2_KK,"Karlovarská, Praha - Řepy",Praha-Řepy
+29900,7300,67,DISP_3_KK,"Podvinný mlýn, Praha - Libeň",Praha-Libeň
+238692,42122,116,UNDEFINED,"Do Chuchle, Praha - Slivenec",Praha-Slivenec
+17500,3500,39,DISP_1_KK,"Na Slatince, Praha - Záběhlice",Praha-Záběhlice
+59651,10527,46,UNDEFINED,"Breitfeldova, Praha - Karlín",Praha-Karlín
+18500,3900,37,DISP_1_KK,"Gerstelova, Praha - Vysočany",Praha-Vysočany
+24500,4600,75,DISP_2_1,"Nučická, Praha - Strašnice",Praha-Strašnice
+35238,15613,33,UNDEFINED,"V Lesíčku, Praha - Smíchov",Praha-Smíchov
+72757,12840,80,UNDEFINED,"Krkonošská, Praha - Vinohrady",Praha-Vinohrady
+18400,4000,33,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+49977,8820,45,UNDEFINED,"Veletržní, Praha - Bubeneč",Praha-Bubeneč
+20000,5000,42,DISP_2_KK,"Novodvorská, Praha - Braník",Praha-Braník
+16700,5300,39,DISP_2_KK,"Tolstého, Praha - Vršovice",Praha-Vršovice
+51870,9154,130,UNDEFINED,"Mostecká, Praha - Malá Strana",Praha-Malá Strana
+13000,2000,28,DISP_1_KK,"Kostelecká, Praha - Čakovice",Praha-Čakovice
+15000,0,18,GARSONIERA,"Ústecká, Praha - Dolní Chabry",Praha-Dolní Chabry
+19000,4400,42,DISP_1_KK,"Honzíkova, Praha - Dolní Měcholupy",Praha-Dolní Měcholupy
+20000,4000,40,DISP_2_KK,"V Kališti, Praha - Dubeč",Praha-Dubeč
+17490,0,30,DISP_1_KK,"U Radosti, Praha - Třebonice",Praha-Třebonice
+16500,3000,31,DISP_1_KK,"K Vltavě, Praha - Modřany",Praha-Modřany
+25000,5600,52,DISP_2_KK,Praha - Hloubětín,Praha-Hloubětín
+28000,1000,85,DISP_3_KK,"Bělehradská, Praha - Vinohrady",Praha-Vinohrady
+23490,0,55,DISP_2_KK,"Dragounská, Praha - Štěrboholy",Praha-Štěrboholy
+35000,4500,85,DISP_3_KK,"Ocelářská, Praha - Libeň",Praha-Libeň
+27990,0,34,DISP_2_KK,"Vodičkova, Praha - Nové Město",Praha-Nové Město
+16000,1001,23,DISP_1_KK,"Libocká, Praha - Liboc",Praha-Liboc
+38595,6811,25,UNDEFINED,"Sokolská, Praha - Nové Město",Praha-Nové Město
+17990,4040,28,DISP_1_KK,"Sokolovská, Praha - Vysočany",Praha-Vysočany
+13175,0,19,GARSONIERA,"K Chotolu, Horoměřice, Středočeský kraj",Horoměřice
+44373,7830,42,UNDEFINED,"Rumunská, Praha - Vinohrady",Praha-Vinohrady
+17000,4000,28,DISP_1_KK,"Milady Horákové, Praha - Holešovice",Praha-Holešovice
+22000,3000,62,DISP_2_1,"Víta Nejedlého, Praha - Žižkov",Praha-Žižkov
+15990,0,36,DISP_1_1,"Fikerova, Praha - Modřany",Praha-Modřany
+103742,48610,90,UNDEFINED,"Soukenická, Praha - Nové Město",Praha-Nové Město
+22490,0,58,DISP_2_KK,"Tupolevova, Praha - Letňany",Praha-Letňany
+23800,991,55,DISP_2_1,"Drahobejlova, Praha - Libeň",Praha-Libeň
+35000,5400,76,DISP_3_1,"Jordana Jovkova, Praha - Modřany",Praha-Modřany
+59323,10469,47,UNDEFINED,"Rostovská, Praha - Vršovice",Praha-Vršovice
+24700,5200,59,DISP_2_KK,"Svitákova, Praha - Stodůlky",Praha-Stodůlky
+18000,5000,53,DISP_2_1,Praha - Sedlec,Praha-Sedlec
+24000,2100,61,DISP_2_KK,"Košická, Praha - Vršovice",Praha-Vršovice
+18500,2500,32,DISP_1_KK,"Kovářská, Praha - Libeň",Praha-Libeň
+23342,4119,19,UNDEFINED,"Čelakovského sady, Praha - Nové Město",Praha-Nové Město
+22000,3900,41,DISP_1_KK,"Na Maninách, Praha - Holešovice",Praha-Holešovice
+17000,4500,46,DISP_2_KK,"Horoměřice - Horoměřice, Středočeský kraj",Horoměřice
+21271,3754,28,UNDEFINED,"Branická, Praha - Braník",Praha-Braník
+23990,0,60,DISP_2_KK,"Argentinská, Praha - Holešovice",Praha-Holešovice
+30733,5424,36,UNDEFINED,"Na Zbořenci, Praha - Nové Město",Praha-Nové Město
+21490,0,50,DISP_1_KK,"Na Rokytce, Praha - Libeň",Praha-Libeň
+83858,39252,86,UNDEFINED,"Krocínova, Praha - Staré Město",Praha-Staré Město
+20990,0,54,DISP_2_KK,"V dolině, Praha - Michle",Praha-Michle
+29826,13938,98,UNDEFINED,"Na Okrouhlíku, Praha - Libeň",Praha-Libeň
+29490,0,74,DISP_3_KK,"Petržílkova, Praha - Stodůlky",Praha-Stodůlky
+10900,3000,18,DISP_2_KK,"Kováků, Praha - Smíchov",Praha-Smíchov
+24000,5900,54,DISP_2_KK,"Bukačova, Praha - Vysočany",Praha-Vysočany
+18700,3500,34,DISP_1_KK,"Sochorcova, Praha - Háje",Praha-Háje
+20000,4500,65,DISP_2_1,"Pod Kavalírkou, Praha - Košíře",Praha-Košíře
+20000,2000,36,DISP_1_KK,"Davídkova, Praha - Libeň",Praha-Libeň
+11500,4000,21,DISP_1_1,"Sokolovská, Praha - Libeň",Praha-Libeň
+27900,6356,95,DISP_2_KK,"Oddechová, Praha - Lipence",Praha-Lipence
+24000,8200,47,DISP_2_KK,"Antonínská, Praha - Holešovice",Praha-Holešovice
+17990,0,40,DISP_2_KK,"Novodvorská, Praha - Braník",Praha-Braník
+30000,6600,100,DISP_3_KK,"Českodubská, Praha - Vinoř",Praha-Vinoř
+33650,0,58,DISP_2_KK,"U Pergamenky, Praha - Holešovice",Praha-Holešovice
+16000,3000,26,DISP_1_1,"Varnsdorfská, Praha - Střížkov",Praha-Střížkov
+18900,2499,42,DISP_1_KK,"U měšťanského pivovaru, Praha - Holešovice",Praha-Holešovice
+8000,2500,12,DISP_1_KK,"Vrbenského, Praha - Holešovice",Praha-Holešovice
+22500,4500,50,DISP_2_KK,"5. května, Praha - Nusle",Praha-Nusle
+44990,5000,172,DISP_4_KK,"Milotická, Praha - Zličín",Praha-Zličín
+22990,0,66,DISP_3_KK,"Malkovského, Praha - Letňany",Praha-Letňany
+25300,4700,52,DISP_2_1,"Baranova, Praha - Žižkov",Praha-Žižkov
+17000,3000,39,DISP_1_KK,"Korunní, Praha - Vinohrady",Praha-Vinohrady
+17500,3500,37,DISP_1_1,"Roháčova, Praha - Žižkov",Praha-Žižkov
+21500,4577,43,DISP_1_KK,"Jankovcova, Praha - Holešovice",Praha-Holešovice
+19000,4000,43,DISP_2_KK,"Mohylová, Praha - Stodůlky",Praha-Stodůlky
+27000,1500,55,DISP_2_1,"Čajkovského, Praha - Žižkov",Praha-Žižkov
+27000,5279,66,DISP_3_KK,"Třebenická, Praha - Kobylisy",Praha-Kobylisy
+25000,4900,40,DISP_1_KK,"Breitfeldova, Praha - Karlín",Praha-Karlín
+22000,4685,45,DISP_2_KK,"Hráského, Praha - Chodov",Praha-Chodov
+26400,4600,50,DISP_2_KK,"Na Výšinách, Praha - Bubeneč",Praha-Bubeneč
+58787,10374,46,UNDEFINED,"Rybná, Praha - Staré Město",Praha-Staré Město
+35000,8379,139,DISP_3_KK,"Laudonova, Praha - Štěrboholy",Praha-Štěrboholy
+17500,2800,49,DISP_1_1,"Slezská, Praha - Vinohrady",Praha-Vinohrady
+28000,6600,67,DISP_3_KK,"Jurkovičova, Praha - Háje",Praha-Háje
+24000,4700,45,DISP_2_KK,"Hrdličkova, Praha - Chodov",Praha-Chodov
+37000,7600,122,DISP_4_KK,"Nad Okrouhlíkem, Praha - Libeň",Praha-Libeň
+30051,5303,40,UNDEFINED,"Orebitská, Praha - Žižkov",Praha-Žižkov
+29414,5191,29,UNDEFINED,"Plzeňská, Praha - Motol",Praha-Motol
+73483,34405,46,UNDEFINED,"Masná, Praha - Staré Město",Praha-Staré Město
+22900,6900,42,DISP_2_KK,"Kozí, Praha - Staré Město",Praha-Staré Město
+26000,5800,50,DISP_2_KK,"Hodkovická, Praha - Kamýk",Praha-Kamýk
+18900,5500,54,DISP_1_KK,"Smolíkova, Praha - Košíře",Praha-Košíře
+17500,2500,31,DISP_1_KK,"Františka Štěpánka, Praha - Hostivař",Praha-Hostivař
+35000,6600,70,DISP_3_KK,"Korunní, Praha - Vinohrady",Praha-Vinohrady
+23990,0,119,DISP_3_1,"Žitná, Šestajovice - Šestajovice u Prahy, Středočeský kraj",Šestajovice
+18000,3080,41,DISP_2_KK,"Kurandové, Praha - Hlubočepy",Praha-Hlubočepy
+29900,4200,56,DISP_2_1,"Všehrdova, Praha - Malá Strana",Praha-Malá Strana
+40791,7198,29,UNDEFINED,"Rumunská, Praha - Vinohrady",Praha-Vinohrady
+14650,4050,26,GARSONIERA,"Písnická, Praha - Kamýk",Praha-Kamýk
+23000,6000,53,DISP_2_KK,"Mantovská, Praha - Horní Měcholupy",Praha-Horní Měcholupy
+24000,5800,48,DISP_2_KK,"V Mezihoří, Praha - Libeň",Praha-Libeň
+27000,5500,74,DISP_3_KK,"Sazovická, Praha - Zličín",Praha-Zličín
+27490,0,63,DISP_2_KK,"Hanusova, Praha - Michle",Praha-Michle
+17500,3250,30,DISP_1_KK,"Pod Soutratím, Praha - Vršovice",Praha-Vršovice
+43226,7628,72,UNDEFINED,"Vrázova, Praha - Smíchov",Praha-Smíchov
+45906,21453,100,UNDEFINED,"Nad Václavkou, Praha - Smíchov",Praha-Smíchov
+23900,6496,56,DISP_2_1,"Nad Ondřejovem, Praha - Podolí",Praha-Podolí
+22000,3500,50,DISP_2_KK,"Lnářská, Praha - Uhříněves",Praha-Uhříněves
+17200,2980,33,DISP_1_KK,"Na Břehu, Praha - Vysočany",Praha-Vysočany
+48162,8499,100,UNDEFINED,"Milíčova, Praha - Žižkov",Praha-Žižkov
+22000,5200,59,DISP_2_KK,"Zdiměřická, Praha - Chodov",Praha-Chodov
+41818,4990,144,DISP_4_1,"Československé armády, Praha - Bubeneč",Praha-Bubeneč
+29990,0,61,DISP_2_KK,"U průhonu, Praha - Holešovice",Praha-Holešovice
+25000,4000,69,DISP_2_1,"U Třetí baterie, Praha - Břevnov",Praha-Břevnov
+42522,15708,40,UNDEFINED,"U Michelského mlýna, Praha - Michle",Praha-Michle
+25000,5000,47,DISP_3_KK,"Žitavského, Praha - Zbraslav",Praha-Zbraslav
+60979,10761,44,UNDEFINED,"V Háji, Praha - Holešovice",Praha-Holešovice
+16490,0,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+22000,5500,40,DISP_1_KK,"V Třešňovce, Praha - Hrdlořezy",Praha-Hrdlořezy
+78061,13776,70,UNDEFINED,"Vinohradská, Praha - Vinohrady",Praha-Vinohrady
+73483,34413,43,UNDEFINED,"Masná, Praha - Staré Město",Praha-Staré Město
+30396,5364,55,UNDEFINED,"Švehlova, Praha - Hostivař",Praha-Hostivař
+16000,3500,33,DISP_1_KK,"Kadečkové, Praha - Letňany",Praha-Letňany
+27000,2160,22,DISP_1_KK,"Legerova, Praha - Nové Město",Praha-Nové Město
+25490,0,73,DISP_3_KK,"Měchenická, Praha - Záběhlice",Praha-Záběhlice
+30068,5306,46,UNDEFINED,"Chodecká, Praha - Břevnov",Praha-Břevnov
+26000,8000,105,DISP_3_1,"Václavkova, Praha - Dejvice",Praha-Dejvice
+38000,9500,121,DISP_3_1,"Družstevní ochoz, Praha - Michle",Praha-Michle
+30000,5000,87,DISP_2_KK,"Kudrnova, Praha - Motol",Praha-Motol
+25000,4150,55,DISP_2_1,"Ke Karlovu, Praha - Nové Město",Praha-Nové Město
+44000,1000,107,DISP_4_KK,"Polská, Praha - Vinohrady",Praha-Vinohrady
+19900,4500,34,DISP_1_KK,"U Komína, Praha - Radlice",Praha-Radlice
+108064,50500,100,UNDEFINED,"U Milosrdných, Praha - Staré Město",Praha-Staré Město
+15500,3500,28,DISP_1_KK,"Jahodová, Praha - Záběhlice",Praha-Záběhlice
+172848,47849,75,UNDEFINED,"Karlova, Praha - Staré Město",Praha-Staré Město
+24800,6500,62,DISP_2_KK,"Na Lávce, Praha - Záběhlice",Praha-Záběhlice
+64839,11442,50,UNDEFINED,"Urxova, Praha - Karlín",Praha-Karlín
+29500,5500,75,DISP_2_1,"Sudoměřská, Praha - Žižkov",Praha-Žižkov
+14500,4000,22,DISP_1_KK,"Na Mlejnku, Praha - Braník",Praha-Braník
+22490,0,47,DISP_1_KK,"Lihovarská, Praha - Libeň",Praha-Libeň
+23000,3000,60,DISP_2_KK,"Moravanská, Praha - Vinoř",Praha-Vinoř
+17500,3000,42,DISP_1_1,"Fráni Šrámka, Praha - Smíchov",Praha-Smíchov
+52822,9321,55,UNDEFINED,"Rostovská, Praha - Vršovice",Praha-Vršovice
+28500,5500,70,DISP_2_1,"Korunovační, Praha - Bubeneč",Praha-Bubeneč
+19000,1200,32,DISP_1_KK,"28. pluku, Praha - Vršovice",Praha-Vršovice
+19000,2200,48,DISP_2_KK,"Za Zelenou liškou, Praha - Krč",Praha-Krč
+19900,4459,37,DISP_2_KK,"Třebohostická, Praha - Strašnice",Praha-Strašnice
+27500,4400,59,DISP_2_KK,"Domalípova, Praha - Hloubětín",Praha-Hloubětín
+18990,0,54,DISP_2_1,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+21900,169,27,DISP_1_KK,"Mukařovského, Praha - Stodůlky",Praha-Stodůlky
+20490,0,39,DISP_2_KK,"Českobrodská, Praha - Běchovice",Praha-Běchovice
+25200,6200,47,DISP_2_KK,"Na Palouku, Praha - Strašnice",Praha-Strašnice
+23000,7000,60,DISP_2_KK,"Nad Dalejským údolím, Praha - Stodůlky",Praha-Stodůlky
+21000,3500,56,DISP_2_KK,"Libočanská, Praha - Prosek",Praha-Prosek
+54896,9688,65,UNDEFINED,"Kafkova, Praha - Dejvice",Praha-Dejvice
+23990,0,66,DISP_3_1,"Košťálkova, Praha - Kobylisy",Praha-Kobylisy
+30632,12656,52,UNDEFINED,"U Křížku, Praha - Nusle",Praha-Nusle
+18900,800,46,DISP_2_1,"Muchova, Praha - Dejvice",Praha-Dejvice
+25500,4200,45,DISP_2_KK,"Vrázova, Praha - Smíchov",Praha-Smíchov
+36309,29466,39,UNDEFINED,"Mozartova, Praha - Smíchov",Praha-Smíchov
+22500,2000,46,DISP_2_KK,"Mexická, Praha - Vršovice",Praha-Vršovice
+19900,3500,33,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+23000,6263,57,DISP_2_KK,"Zákostelní, Praha - Vysočany",Praha-Vysočany
+18600,3419,42,DISP_1_KK,"Sazovická, Praha - Zličín",Praha-Zličín
+17000,4000,30,DISP_1_KK,"Žitná, Hostivice - Litovice, Středočeský kraj",Hostivice
+24000,1000,47,DISP_2_KK,"Holečkova, Praha - Košíře",Praha-Košíře
+23000,4050,40,DISP_2_KK,"Veverkova, Praha - Holešovice",Praha-Holešovice
+17000,6000,31,DISP_1_KK,"Pod radnicí, Praha - Košíře",Praha-Košíře
+30000,7500,80,DISP_3_KK,"Vysočanská, Praha - Prosek",Praha-Prosek
+23000,5000,55,DISP_2_KK,"U Slovanky, Praha - Libeň",Praha-Libeň
+19900,4426,56,DISP_2_1,"Okořská, Praha - Čimice",Praha-Čimice
+18900,7500,60,DISP_2_KK,"Boloňská, Praha - Horní Měcholupy",Praha-Horní Měcholupy
+23600,2300,35,DISP_1_1,"Jana Masaryka, Praha - Vinohrady",Praha-Vinohrady
+15700,0,28,DISP_1_KK,"Maroldova, Praha - Nusle",Praha-Nusle
+21000,7000,57,DISP_2_1,"Brunclíkova, Praha - Břevnov",Praha-Břevnov
+23400,1300,59,DISP_2_1,"Jeseniova, Praha - Žižkov",Praha-Žižkov
+16500,5000,42,DISP_2_KK,"Hekrova, Praha - Háje",Praha-Háje
+26000,6600,63,DISP_2_KK,"Žitenická, Praha - Prosek",Praha-Prosek
+18851,8358,80,UNDEFINED,"Voskovcova, Praha - Hlubočepy",Praha-Hlubočepy
+37400,5500,86,DISP_3_KK,"Peckova, Praha - Karlín",Praha-Karlín
+19000,3200,34,DISP_1_KK,"Vinohradská, Praha - Žižkov",Praha-Žižkov
+18500,3000,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+20000,1000,60,DISP_2_KK,"Vršovická, Praha - Vršovice",Praha-Vršovice
+45508,8031,51,UNDEFINED,"Svatoslavova, Praha - Nusle",Praha-Nusle
+23000,3500,56,DISP_2_KK,"28. pluku, Praha - Vršovice",Praha-Vršovice
+34900,8556,87,DISP_3_KK,"Waltariho, Praha - Hloubětín",Praha-Hloubětín
+32756,5780,50,UNDEFINED,"Kubelíkova, Praha - Žižkov",Praha-Žižkov
+29000,2350,25,DISP_1_KK,"Legerova, Praha - Nové Město",Praha-Nové Město
+17000,4000,45,DISP_2_KK,"Chabařovická, Praha - Kobylisy",Praha-Kobylisy
+17000,5500,55,DISP_1_1,"Gabčíkova, Praha - Libeň",Praha-Libeň
+39503,15771,52,UNDEFINED,"Husinecká, Praha - Žižkov",Praha-Žižkov
+15000,3000,29,DISP_1_KK,"Brtnická, Praha - Michle",Praha-Michle
+16290,0,40,DISP_2_KK,"Havířovská, Praha - Letňany",Praha-Letňany
+23000,5225,53,DISP_2_1,"José Martího, Praha - Veleslavín",Praha-Veleslavín
+7950,800,25,GARSONIERA,"Jana Želivského, Praha - Žižkov",Praha-Žižkov
+17500,3200,51,DISP_3_1,"Biskupcova, Praha - Žižkov",Praha-Žižkov
+25591,11533,37,UNDEFINED,"Učňovská, Praha - Hrdlořezy",Praha-Hrdlořezy
+77806,32589,82,UNDEFINED,"Jana Masaryka, Praha - Vinohrady",Praha-Vinohrady
+21000,3500,49,DISP_2_1,"Sadská, Praha - Hloubětín",Praha-Hloubětín
+20000,6200,53,DISP_2_KK,"Pavla Beneše, Praha - Letňany",Praha-Letňany
+24000,5000,56,DISP_2_1,"Buková, Praha - Žižkov",Praha-Žižkov
+17000,5000,43,DISP_2_KK,"Jetřichovická, Praha - Prosek",Praha-Prosek
+24000,6000,50,DISP_2_KK,"Bukačova, Praha - Vysočany",Praha-Vysočany
+22000,4000,53,DISP_2_1,"Hartigova, Praha - Žižkov",Praha-Žižkov
+14500,4100,24,DISP_1_KK,"Freyova, Praha - Vysočany",Praha-Vysočany
+24500,3450,45,DISP_2_KK,"Sokolovská, Praha - Karlín",Praha-Karlín
+19990,0,54,DISP_2_KK,"Kafkova, Praha - Dejvice",Praha-Dejvice
+37581,6632,23,UNDEFINED,"Plzeňská, Praha - Smíchov",Praha-Smíchov
+19999,3000,21,DISP_1_KK,"Bělehradská, Praha - Vinohrady",Praha-Vinohrady
+47000,5000,108,DISP_2_KK,"Křižíkova, Praha - Karlín",Praha-Karlín
+27500,3500,59,DISP_3_KK,"V Dolině, Praha - Michle",Praha-Michle
+43000,9000,85,DISP_3_KK,"Učňovská, Praha - Hrdlořezy",Praha-Hrdlořezy
+26000,4900,70,DISP_2_KK,"Mezi Vodami, Praha - Modřany",Praha-Modřany
+30000,4200,60,DISP_2_KK,"Nezamyslova, Praha - Nusle",Praha-Nusle
+28000,8000,84,DISP_3_KK,"Žichlínská, Praha - Újezd nad Lesy",Praha-Újezd nad Lesy
+35500,7500,88,DISP_3_KK,"Kladenská, Praha - Dejvice",Praha-Dejvice
+14490,0,46,DISP_1_KK,"Mimoňská, Praha - Prosek",Praha-Prosek
+23500,5300,65,DISP_3_KK,"Vejvanovského, Praha - Chodov",Praha-Chodov
+16500,4900,36,DISP_1_KK,"Kryšpínova, Praha - Dolní Měcholupy",Praha-Dolní Měcholupy
+23000,5346,57,DISP_2_KK,"Štěchovická, Praha - Strašnice",Praha-Strašnice
+24500,3500,56,DISP_2_KK,"Zelená, Praha - Bubeneč",Praha-Bubeneč
+14800,2000,19,DISP_1_KK,"Na Ostrůvku, Praha - Nusle",Praha-Nusle
+15900,4500,37,DISP_1_KK,"Padovská, Praha - Horní Měcholupy",Praha-Horní Měcholupy
+34000,4200,57,DISP_2_KK,"Novovysočanská, Praha - Vysočany",Praha-Vysočany
+33120,5845,50,UNDEFINED,"Spojovací, Praha - Vysočany",Praha-Vysočany
+16000,5000,33,DISP_1_KK,"Šífařská, Praha - Hodkovičky",Praha-Hodkovičky
+35159,6204,24,UNDEFINED,"Sokolská, Praha - Nové Město",Praha-Nové Město
+30990,0,59,DISP_2_KK,"Sokolova, Praha - Karlín",Praha-Karlín
+65824,11616,63,UNDEFINED,"Vrbenského, Praha - Holešovice",Praha-Holešovice
+16000,5000,38,DISP_1_KK,"V Osikách, Praha - Dolní Měcholupy",Praha-Dolní Měcholupy
+12000,0,82,DISP_3_1,"Ciolkovského, Praha - Ruzyně",Praha-Ruzyně
+23000,5500,59,DISP_2_KK,"Svitákova, Praha - Stodůlky",Praha-Stodůlky
+33000,5500,60,DISP_3_KK,"Paťanka, Praha - Dejvice",Praha-Dejvice
+54447,9608,50,UNDEFINED,"Rostovská, Praha - Vršovice",Praha-Vršovice
+20800,6500,60,DISP_2_KK,"Bulharská, Praha - Vršovice",Praha-Vršovice
+63793,11257,49,UNDEFINED,"Chodská, Praha - Vinohrady",Praha-Vinohrady
+16490,0,30,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+37477,6614,53,UNDEFINED,"Budečská, Praha - Vinohrady",Praha-Vinohrady
+28000,4000,45,DISP_2_KK,"Rejskova, Praha - Vinohrady",Praha-Vinohrady
+22990,0,55,DISP_3_KK,"náměstí Hrdinů, Praha - Nusle",Praha-Nusle
+129677,60763,80,UNDEFINED,"Zapova, Praha - Smíchov",Praha-Smíchov
+30863,5446,43,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+18000,5000,42,DISP_2_KK,"Klapkova, Praha - Kobylisy",Praha-Kobylisy
+22500,1500,53,DISP_2_1,"Krátká, Praha - Vinohrady",Praha-Vinohrady
+21354,3768,65,UNDEFINED,"Plajnerova, Praha - Čakovice",Praha-Čakovice
+41497,7323,27,UNDEFINED,"Perucká, Praha - Vinohrady",Praha-Vinohrady
+20000,4200,34,DISP_1_KK,"Bukačova, Praha - Vysočany",Praha-Vysočany
+37174,6560,74,UNDEFINED,"Prosecka, Praha - Libeň",Praha-Libeň
+16795,2964,297,UNDEFINED,"Lublaňská, Praha - Vinohrady",Praha-Vinohrady
+21700,1301,38,DISP_2_KK,"Slezská, Praha - Vinohrady",Praha-Vinohrady
+24900,5066,40,DISP_1_1,"Umělecká, Praha - Holešovice",Praha-Holešovice
+23990,0,68,DISP_3_1,"Šiškova, Praha - Kobylisy",Praha-Kobylisy
+15000,2850,38,DISP_1_1,"Kotevní, Praha - Smíchov",Praha-Smíchov
+25000,6000,53,DISP_2_KK,"Makedonská, Praha - Střížkov",Praha-Střížkov
+21490,0,55,DISP_2_1,"Arabská, Praha - Vokovice",Praha-Vokovice
+30000,5000,76,DISP_3_1,"Budějovická, Praha - Krč",Praha-Krč
+19900,2250,40,DISP_1_1,"Soudní, Praha - Nusle",Praha-Nusle
+28851,5091,37,UNDEFINED,"U Parního mlýna, Praha - Holešovice",Praha-Holešovice
+26000,4000,70,DISP_2_KK,"Brožíkova, Praha - Košíře",Praha-Košíře
+31127,0,54,DISP_2_1,"Svatoslavova, Praha - Nusle",Praha-Nusle
+23400,5600,58,DISP_2_KK,"Na Veselí, Praha - Nusle",Praha-Nusle
+18000,4600,43,DISP_2_1,"Vršovická, Praha - Vršovice",Praha-Vršovice
+58355,10298,56,UNDEFINED,"Nekvasilova, Praha - Karlín",Praha-Karlín
+27000,4200,46,DISP_2_KK,"U Komína, Praha - Radlice",Praha-Radlice
+89390,15775,70,UNDEFINED,"Heřmanova, Praha - Holešovice",Praha-Holešovice
+23510,11133,33,UNDEFINED,"Sokolovská, Praha - Karlín",Praha-Karlín
+24000,4217,46,DISP_2_KK,"Hodkovická, Praha - Kamýk",Praha-Kamýk
+18000,2328,49,DISP_2_KK,"Janovská, Praha - Horní Měcholupy",Praha-Horní Měcholupy
+17000,3800,28,DISP_1_KK,"Novgorodská, Praha - Vršovice",Praha-Vršovice
+16900,2500,33,DISP_1_KK,"Vondroušova, Praha - Řepy",Praha-Řepy
+17900,4500,43,DISP_2_KK,"Doležalova, Praha - Černý Most",Praha-Černý Most
+28745,5073,47,UNDEFINED,"Jerevanská, Praha - Vršovice",Praha-Vršovice
+22700,4000,44,DISP_2_KK,"Strančická, Praha - Strašnice",Praha-Strašnice
+18000,4000,34,DISP_1_KK,"Hábova, Praha - Stodůlky",Praha-Stodůlky
+20000,3200,48,DISP_1_KK,"Gerstelova, Praha - Vysočany",Praha-Vysočany
+21000,6000,54,DISP_2_KK,"U Traktorky, Praha - Dolní Chabry",Praha-Dolní Chabry
+13990,0,33,DISP_1_1,"Pod strojírnami, Praha - Vysočany",Praha-Vysočany
+50384,8891,49,UNDEFINED,"Rostovská, Praha - Vršovice",Praha-Vršovice
+134000,23647,150,UNDEFINED,"Rybná, Praha - Staré Město",Praha-Staré Město
+24000,3750,52,DISP_2_KK,"Sudoměřská, Praha - Žižkov",Praha-Žižkov
+55226,9746,70,UNDEFINED,"Laurinova, Praha - Stodůlky",Praha-Stodůlky
+30000,6700,133,DISP_3_1,"Zoubkova, Praha - Smíchov",Praha-Smíchov
+51870,20469,43,UNDEFINED,"Americká, Praha - Vinohrady",Praha-Vinohrady
+22000,5500,60,DISP_2_KK,"Blachutova, Praha - Čakovice",Praha-Čakovice
+65266,11517,48,UNDEFINED,"Václavské náměstí, Praha - Nové Město",Praha-Nové Město
+27000,3992,60,DISP_2_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+24977,4408,37,UNDEFINED,"Prvního pluku, Praha - Karlín",Praha-Karlín
+18500,4500,36,DISP_2_KK,"Sekaninova, Praha - Nusle",Praha-Nusle
+18000,4000,25,DISP_1_KK,"Lublaňská, Praha - Nové Město",Praha-Nové Město
+13000,3600,32,DISP_1_KK,"Krátký lán, Praha - Vokovice",Praha-Vokovice
+18000,4452,47,DISP_1_KK,"Tupolevova, Praha - Letňany",Praha-Letňany
+60000,7200,124,DISP_2_1,"Plaská, Praha - Malá Strana",Praha-Malá Strana
+21000,2000,68,DISP_3_1,"Drahobejlova, Praha - Libeň",Praha-Libeň
+17000,4000,44,DISP_2_KK,"Ke Krči, Praha - Braník",Praha-Braník
+16000,4700,33,DISP_1_KK,"Kurta Konráda, Praha - Libeň",Praha-Libeň
+19990,0,40,DISP_1_KK,"Vorařská, Praha - Modřany",Praha-Modřany
+15400,0,28,DISP_1_KK,"Škrábkových, Praha - Letňany",Praha-Letňany
+18500,3100,31,DISP_1_KK,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+17000,3000,45,DISP_2_KK,"Nad Ohradou, Praha - Žižkov",Praha-Žižkov
+24900,4500,50,DISP_2_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+29500,5940,83,DISP_3_1,"Zárubova, Praha - Kamýk",Praha-Kamýk
+24000,4789,50,DISP_2_KK,"Na Prosecké vyhlídce, Praha - Prosek",Praha-Prosek
+27000,4000,52,DISP_2_KK,"28. pluku, Praha - Vršovice",Praha-Vršovice
+29500,970,97,DISP_3_KK,"Rybalkova, Praha - Vršovice",Praha-Vršovice
+23000,5900,51,DISP_2_KK,"Na Mlejnku, Praha - Braník",Praha-Braník
+24000,3500,33,DISP_1_KK,"Horská, Praha - Nové Město",Praha-Nové Město
+23600,6800,69,DISP_2_KK,"Jurkovičova, Praha - Háje",Praha-Háje
+23500,6515,75,DISP_3_1,"Dědinova, Praha - Chodov",Praha-Chodov
+27500,4935,63,DISP_2_KK,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+19000,3751,28,DISP_1_KK,"Sokolovská, Praha - Karlín",Praha-Karlín
+19700,5200,50,DISP_2_KK,"Škrábkových, Praha - Letňany",Praha-Letňany
+18000,3447,42,DISP_2_KK,"Jarní, Hostivice - Hostivice, Středočeský kraj",Hostivice
+27000,3500,61,DISP_2_KK,"Holečkova, Praha - Smíchov",Praha-Smíchov
+37809,6672,20,UNDEFINED,"Plzeňská, Praha - Smíchov",Praha-Smíchov
+23000,6950,60,DISP_2_1,"Karoliny Světlé, Praha - Staré Město",Praha-Staré Město
+24000,3600,60,DISP_2_KK,"Českomalínská, Praha - Bubeneč",Praha-Bubeneč
+19000,2500,30,DISP_1_KK,"Ondříčkova, Praha - Žižkov",Praha-Žižkov
+18000,4130,35,DISP_2_KK,"Doudova, Praha - Podolí",Praha-Podolí
+26000,9000,42,DISP_2_KK,"Čistovická, Praha - Řepy",Praha-Řepy
+22000,1850,60,DISP_1_1,"Slévačská, Praha - Kyje",Praha-Kyje
+15500,4500,41,DISP_2_KK,"Přístavní, Praha - Holešovice",Praha-Holešovice
+13990,0,29,DISP_1_KK,"Rochovská, Praha - Hloubětín",Praha-Hloubětín
+18000,0,48,DISP_1_KK,"Jabloňová, Praha - Záběhlice",Praha-Záběhlice
+22000,5000,48,DISP_2_KK,"Lužická, Praha - Vinohrady",Praha-Vinohrady
+64839,29588,100,UNDEFINED,"Jugoslávských partyzánů, Praha - Dejvice",Praha-Dejvice
+10000,3000,58,DISP_3_KK,"Stochovská, Praha - Ruzyně",Praha-Ruzyně
+19490,0,43,DISP_2_KK,"Modrá, Praha - Stodůlky",Praha-Stodůlky
+25000,5500,52,DISP_2_1,"Zengrova, Praha - Dejvice",Praha-Dejvice
+11800,0,88,DISP_3_1,"Chalabalova, Praha - Stodůlky",Praha-Stodůlky
+24000,3600,48,DISP_2_KK,"Sudoměřská, Praha - Žižkov",Praha-Žižkov
+25000,4500,61,DISP_2_KK,"Komořanská, Praha - Modřany",Praha-Modřany
+28000,850,70,DISP_2_1,"Sokolovská, Praha - Libeň",Praha-Libeň
+14400,5400,34,GARSONIERA,"Sicherova, Praha - Kyje",Praha-Kyje
+34490,0,110,DISP_4_1,"Na Hřebenkách, Praha - Smíchov",Praha-Smíchov
+24900,4000,67,DISP_2_KK,"U Vysočanského pivovaru, Praha - Vysočany",Praha-Vysočany
+23000,6000,67,DISP_2_KK,"Názovská, Praha - Strašnice",Praha-Strašnice
+37336,19480,45,UNDEFINED,"Pod dvorem, Praha - Veleslavín",Praha-Veleslavín
+98208,17331,72,UNDEFINED,"Navrátilova, Praha - Nové Město",Praha-Nové Město
+21000,3900,62,DISP_2_KK,"Skloněná, Praha - Vysočany",Praha-Vysočany
+19500,4000,32,DISP_1_KK,"Herlíkovická, Praha - Kbely",Praha-Kbely
+45000,7000,150,DISP_4_1,"Ohnivcova, Praha - Braník",Praha-Braník
+58784,10374,41,UNDEFINED,"Václavské náměstí, Praha - Nové Město",Praha-Nové Město
+37990,0,78,DISP_3_KK,"Tusarova, Praha - Holešovice",Praha-Holešovice
+53600,9459,60,UNDEFINED,"U Zvonařky g, Praha - Vinohrady",Praha-Vinohrady
+18000,4500,46,DISP_2_KK,Praha - Stodůlky,Praha-Stodůlky
+24600,6093,92,DISP_3_1,"Půlkruhová, Praha - Vokovice",Praha-Vokovice
+17000,5000,59,DISP_2_1,"17. listopadu, Hostivice - Litovice, Středočeský kraj",Hostivice
+24900,4600,45,DISP_2_KK,"Hartigova, Praha - Žižkov",Praha-Žižkov
+19990,0,65,DISP_3_1,"Vrbenského, Praha - Holešovice",Praha-Holešovice
+29000,4500,48,DISP_2_KK,"Na Palouku, Praha - Strašnice",Praha-Strašnice
+25800,3100,56,DISP_2_KK,"Kolmanova, Praha - Modřany",Praha-Modřany
+18990,0,43,DISP_2_KK,"Modrá, Praha - Stodůlky",Praha-Stodůlky
+48490,0,111,DISP_4_KK,"Musílkova, Praha - Košíře",Praha-Košíře
+47548,18615,56,UNDEFINED,"Slovinská, Praha - Vršovice",Praha-Vršovice
+29000,6000,88,DISP_3_1,"Plamínkové, Praha - Nusle",Praha-Nusle
+21900,169,31,DISP_1_KK,"Mukařovského, Praha - Stodůlky",Praha-Stodůlky
+23900,5500,52,DISP_2_KK,"Žerotínova, Praha - Žižkov",Praha-Žižkov
+21500,7000,57,DISP_2_KK,"Vltavská, Praha - Smíchov",Praha-Smíchov
+17000,6000,31,DISP_1_KK,"Pod radnicí, Praha - Košíře",Praha-Košíře
+13990,0,20,DISP_1_KK,"Perucká, Praha - Vinohrady",Praha-Vinohrady
+34000,6000,136,DISP_3_KK,"Na Výsledku II, Praha - Nusle",Praha-Nusle
+25000,6000,85,DISP_2_1,"Betlémské náměstí, Praha - Staré Město",Praha-Staré Město
+67626,11934,40,UNDEFINED,"Pštrossova, Praha - Nové Město",Praha-Nové Město
+31900,3500,78,DISP_2_1,"Dušní, Praha - Staré Město",Praha-Staré Město
+30906,5454,56,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+26146,4614,22,UNDEFINED,"Radlická, Praha - Smíchov",Praha-Smíchov
+38903,6865,25,UNDEFINED,"Sokolská, Praha - Nové Město",Praha-Nové Město
+47548,19203,27,UNDEFINED,"Americká, Praha - Vinohrady",Praha-Vinohrady
+67802,11965,47,UNDEFINED,"Římská, Praha - Vinohrady",Praha-Vinohrady
+19700,5300,37,DISP_1_KK,"Breitfeldova, Praha - Karlín",Praha-Karlín
+38000,3900,87,DISP_2_1,"Klimentská, Praha - Nové Město",Praha-Nové Město
+23000,700,96,DISP_2_KK,"Strakonická, Praha - Lahovice",Praha-Lahovice
+23000,5000,48,DISP_2_1,"Šafářova, Praha - Hostivař",Praha-Hostivař
+24500,5500,45,DISP_2_1,"Blahníkova, Praha - Žižkov",Praha-Žižkov
+10200,2800,22,GARSONIERA,"Pod Karlovarskou silnicí, Praha - Ruzyně",Praha-Ruzyně
+43421,7662,35,UNDEFINED,"Plzeňská, Praha - Smíchov",Praha-Smíchov
+21000,7000,48,DISP_2_1,"Boučkova, Praha - Břevnov",Praha-Břevnov
+116709,54581,111,UNDEFINED,"Maiselova, Praha - Josefov",Praha-Josefov
+19000,3100,37,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+29000,5000,55,DISP_2_KK,Praha - Hlubočepy,Praha-Hlubočepy
+18900,4400,42,DISP_2_KK,"Františka Kadlece, Praha - Libeň",Praha-Libeň
+24000,5000,50,DISP_2_KK,"Rybalkova, Praha - Vršovice",Praha-Vršovice
+12500,3000,20,DISP_1_KK,"Pod Sychrovem Ⅰ, Praha - Michle",Praha-Michle
+25990,0,73,DISP_3_KK,"Dubečská, Praha - Strašnice",Praha-Strašnice
+20000,5000,55,DISP_2_1,"V Padolině, Praha - Dolní Počernice",Praha-Dolní Počernice
+22000,4200,46,DISP_1_1,"Valdštejnské náměstí, Praha - Malá Strana",Praha-Malá Strana
+25000,4000,66,DISP_2_KK,"Herálecká Ⅳ, Praha - Krč",Praha-Krč
+29000,5800,80,DISP_2_1,"Hartigova, Praha - Žižkov",Praha-Žižkov
+23900,3500,46,DISP_2_KK,"Rajmonova, Praha - Kobylisy",Praha-Kobylisy
+20490,0,59,DISP_2_1,"Antala Staška, Praha - Krč",Praha-Krč
+20000,4300,45,DISP_2_KK,"Čimická, Praha - Kobylisy",Praha-Kobylisy
+29756,5251,60,UNDEFINED,"Šárecká, Praha - Dejvice",Praha-Dejvice
+23000,4000,54,DISP_1_KK,"Novovysočanská, Praha - Vysočany",Praha-Vysočany
+39454,6962,55,UNDEFINED,"Kubova, Praha - Karlín",Praha-Karlín
+36309,6408,70,UNDEFINED,"Weberova, Praha - Motol",Praha-Motol
+12500,0,71,DISP_3_1,"Sámova, Praha - Vršovice",Praha-Vršovice
+16990,0,30,DISP_1_KK,"Ovesná, Hostivice - Litovice, Středočeský kraj",Hostivice
+25935,4577,50,UNDEFINED,"Kamenická, Praha - Holešovice",Praha-Holešovice
+29000,6000,103,DISP_3_1,"Pod Karlovem, Praha - Vinohrady",Praha-Vinohrady
+25240,11846,90,UNDEFINED,"Blanická, Praha - Vinohrady",Praha-Vinohrady
+47548,8391,65,UNDEFINED,"U Půjčovny, Praha - Nové Město",Praha-Nové Město
+15000,3000,31,DISP_1_KK,"Sekaninova, Praha - Nusle",Praha-Nusle
+23500,1300,45,DISP_1_1,"Milady Horákové, Praha - Holešovice",Praha-Holešovice
+17490,0,46,DISP_1_KK,"Hradeckých, Praha - Nusle",Praha-Nusle
+24000,7650,64,DISP_2_KK,"Wiedermannova, Praha - Stodůlky",Praha-Stodůlky
+38616,6814,20,UNDEFINED,"Nuselská, Praha - Michle",Praha-Michle
+17999,6500,33,DISP_1_KK,"Benešova, Praha - Hlubočepy",Praha-Hlubočepy
+39500,7000,90,DISP_3_KK,"Vítkova, Praha - Karlín",Praha-Karlín
+23000,6000,76,DISP_3_1,"Jasmínová, Praha - Záběhlice",Praha-Záběhlice
+21500,5000,25,DISP_1_KK,"Tyršova, Praha - Nové Město",Praha-Nové Město
+77806,36361,46,UNDEFINED,"Masná, Praha - Staré Město",Praha-Staré Město
+42664,7529,36,UNDEFINED,"Bořivojova, Praha - Žižkov",Praha-Žižkov
+21000,4657,33,DISP_1_KK,"Kurta Konráda, Praha - Libeň",Praha-Libeň
+21500,6026,58,DISP_2_KK,"Jaromíra Vejvody, Praha - Zbraslav",Praha-Zbraslav
+27000,4000,53,DISP_2_KK,"Vrátnická, Praha - Modřany",Praha-Modřany
+26928,12255,48,UNDEFINED,"Vinohradská, Praha - Strašnice",Praha-Strašnice
+31500,0,47,DISP_2_KK,"Vítězné náměstí, Praha - Bubeneč",Praha-Bubeneč
+12500,4500,40,DISP_2_1,"Rýdlova, Říčany - Říčany u Prahy, Středočeský kraj",Říčany
+25000,3000,52,DISP_2_1,"Herálecká Ⅲ, Praha - Krč",Praha-Krč
+23500,5000,51,DISP_2_KK,"U Hostavického potoka, Praha - Hostavice",Praha-Hostavice
+26360,4652,21,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+29900,6400,82,DISP_3_1,"Petržílkova, Praha - Stodůlky",Praha-Stodůlky
+10000,0,70,DISP_3_KK,"Janského, Praha - Stodůlky",Praha-Stodůlky
+15500,4000,41,DISP_2_KK,"Hurbanova, Praha - Krč",Praha-Krč
+20600,6000,47,DISP_2_KK,"Vybíralova, Praha - Černý Most",Praha-Černý Most
+48759,8604,44,UNDEFINED,"Drahňovická, Praha - Chodov",Praha-Chodov
+17890,5000,45,DISP_2_KK,"Doubravická, Praha - Chodov",Praha-Chodov
+19000,6000,46,DISP_2_KK,"Bajkonurská, Praha - Háje",Praha-Háje
+25000,6240,52,DISP_2_KK,"Jurkovičova, Praha - Háje",Praha-Háje
+20043,3537,25,UNDEFINED,"Klapkova, Praha - Kobylisy",Praha-Kobylisy
+21300,5500,43,DISP_1_KK,"Pelušková, Praha - Kyje",Praha-Kyje
+13500,3000,30,DISP_1_KK,"Na Kopečku, Praha - Libeň",Praha-Libeň
+21000,2500,29,DISP_1_KK,"Holečkova, Praha - Košíře",Praha-Košíře
+19000,2200,47,DISP_1_1,"Sarajevská, Praha - Vinohrady",Praha-Vinohrady
+52822,9321,58,UNDEFINED,"U Pergamenky a, Praha - Holešovice",Praha-Holešovice
+112041,19772,80,UNDEFINED,"Pštrossova, Praha - Nové Město",Praha-Nové Město
+21900,4200,49,DISP_2_1,"Na Louži, Praha - Vršovice",Praha-Vršovice
+37706,6654,53,UNDEFINED,"namesti generala Kutlvasra, Praha - Nusle",Praha-Nusle
+10700,0,10,DISP_5_1,"Moskevská, Praha - Vršovice",Praha-Vršovice
+30700,0,47,DISP_2_KK,"U Pergamenky, Praha - Holešovice",Praha-Holešovice
+32713,14353,35,UNDEFINED,"Bulharská, Praha - Vršovice",Praha-Vršovice
+16500,0,27,DISP_1_KK,"Olgy Havlové, Praha - Žižkov",Praha-Žižkov
+22000,4500,45,DISP_2_KK,"Hráského, Praha - Chodov",Praha-Chodov
+26000,2000,30,DISP_1_KK,"Záhřebská, Praha - Vinohrady",Praha-Vinohrady
+25900,5700,69,DISP_2_KK,"U Uranie, Praha - Holešovice",Praha-Holešovice
+20000,3500,24,DISP_1_1,"Hálkova, Praha - Nové Město",Praha-Nové Město
+17900,3600,40,DISP_1_1,"Kladenská, Praha - Vokovice",Praha-Vokovice
+16990,0,30,DISP_1_KK,"Miroslava Hajna, Praha - Letňany",Praha-Letňany
+25000,5000,63,DISP_2_KK,"Zvěřinova, Praha - Strašnice",Praha-Strašnice
+20000,5000,31,GARSONIERA,"Zahradníčkova, Praha - Košíře",Praha-Košíře
+14000,0,18,GARSONIERA,"Klánova, Praha - Braník",Praha-Braník
+25000,5000,88,DISP_2_1,"Koulova, Praha - Dejvice",Praha-Dejvice
+24400,1500,30,DISP_1_KK,"Kališnická, Praha - Žižkov",Praha-Žižkov
+73483,12968,89,UNDEFINED,"Maiselova, Praha - Josefov",Praha-Josefov
+22500,0,53,DISP_2_KK,"Kabešova, Praha - Vysočany",Praha-Vysočany
+21000,4000,65,DISP_3_KK,"Nad Lesním divadlem, Praha - Braník",Praha-Braník
+19490,6000,33,DISP_1_KK,"Wassermannova, Praha - Hlubočepy",Praha-Hlubočepy
+18490,0,47,DISP_2_KK,"Slavatova, Praha - Kyje",Praha-Kyje
+57922,27123,38,UNDEFINED,"Masná, Praha - Staré Město",Praha-Staré Město
+19900,4070,36,DISP_1_KK,"Gerstelova, Praha - Vysočany",Praha-Vysočany
+32900,2600,92,DISP_2_1,"Chodská, Praha - Vinohrady",Praha-Vinohrady
+25000,4900,67,DISP_3_KK,"Komenského, Horoměřice - Horoměřice, Středočeský kraj",Horoměřice
+15000,4500,28,DISP_1_KK,"Pokorného, Praha - Hloubětín",Praha-Hloubětín
+9000,2800,24,GARSONIERA,"Lýskova, Praha - Stodůlky",Praha-Stodůlky
+22000,5387,35,DISP_1_KK,"Ramonova, Praha - Strašnice",Praha-Strašnice
+56091,22480,80,UNDEFINED,"Olšanská H, Praha - Žižkov",Praha-Žižkov
+22000,4000,27,DISP_1_KK,Praha - Újezd u Průhonic,Praha-Újezd u Průhonic
+23950,3050,47,DISP_2_KK,"Kováků, Praha - Smíchov",Praha-Smíchov
+25000,5200,67,DISP_2_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+19990,0,51,DISP_2_KK,"Podolská, Praha - Podolí",Praha-Podolí
+32000,7200,89,DISP_3_KK,"Jeřabinová, Praha - Smíchov",Praha-Smíchov
+17000,1800,36,DISP_1_1,"Lupáčova, Praha - Žižkov",Praha-Žižkov
+16900,2900,24,GARSONIERA,"U Pekařky, Praha - Libeň",Praha-Libeň
+60000,8000,134,DISP_3_KK,"Laubova, Praha - Vinohrady",Praha-Vinohrady
+19000,4300,44,DISP_1_KK,"Olgy Havlové, Praha - Žižkov",Praha-Žižkov
+22900,4500,55,DISP_2_1,"náměstí Svatopluka Čecha, Praha - Vršovice",Praha-Vršovice
+19000,2000,23,DISP_1_KK,"Janáčkovo nábřeží, Praha - Smíchov",Praha-Smíchov
+32000,1904,55,DISP_2_KK,"Sudoměřská, Praha - Žižkov",Praha-Žižkov
+21900,3600,50,DISP_2_KK,"Hrdlořezská, Praha - Hrdlořezy",Praha-Hrdlořezy
+25000,4500,34,DISP_1_KK,"Boleslavova, Praha - Nusle",Praha-Nusle
+24138,4260,160,UNDEFINED,"Ruská, Praha - Vršovice",Praha-Vršovice
+33900,5000,89,DISP_3_KK,"U Vysočanského pivovaru, Praha - Vysočany",Praha-Vysočany
+18000,0,34,DISP_2_KK,"Nepomuckých, Praha - Letňany",Praha-Letňany
+29000,6570,87,DISP_4_KK,"K Rovinám, Praha - Jinonice",Praha-Jinonice
+41038,7242,35,UNDEFINED,"Ostrovského, Praha - Smíchov",Praha-Smíchov
+92503,16324,86,UNDEFINED,"Rybná, Praha - Staré Město",Praha-Staré Město
+31575,15231,35,UNDEFINED,"Hlaváčkova, Praha - Košíře",Praha-Košíře
+24000,5600,52,DISP_2_KK,"Františka Jansy, Praha - Dolní Měcholupy",Praha-Dolní Měcholupy
+22000,5000,44,DISP_2_KK,"Jana Želivského, Praha - Žižkov",Praha-Žižkov
+33450,4500,93,DISP_3_KK,"Přemyslovská, Praha - Vinohrady",Praha-Vinohrady
+37830,6676,23,UNDEFINED,"Plzeňská, Praha - Smíchov",Praha-Smíchov
+28959,5110,34,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+25000,1600,60,DISP_2_1,"Jeremenkova, Praha - Podolí",Praha-Podolí
+28000,3151,63,DISP_2_KK,"Křižíkova, Praha - Karlín",Praha-Karlín
+13890,3480,16,DISP_1_KK,"Molákova, Praha - Karlín",Praha-Karlín
+32300,6700,88,DISP_5_KK,"Oblouková, Praha - Vršovice",Praha-Vršovice
+33500,8860,94,DISP_3_KK,"Laurinova, Praha - Stodůlky",Praha-Stodůlky
+60948,10756,55,UNDEFINED,"Chodská, Praha - Vinohrady",Praha-Vinohrady
+17000,3000,20,DISP_1_KK,"Jenečská, Praha - Liboc",Praha-Liboc
+16990,0,49,DISP_2_KK,"Kukelská, Praha - Hloubětín",Praha-Hloubětín
+53173,9383,40,UNDEFINED,"Washingtonova, Praha - Nové Město",Praha-Nové Město
+18900,1001,30,DISP_1_KK,"Drahobejlova, Praha - Libeň",Praha-Libeň
+31088,5486,35,UNDEFINED,"Koněvova, Praha - Žižkov",Praha-Žižkov
+43883,7744,39,UNDEFINED,"Svatoslavova, Praha - Nusle",Praha-Nusle
+14500,4700,34,DISP_1_KK,"Sluneční náměstí, Praha - Stodůlky",Praha-Stodůlky
+23000,7200,65,DISP_2_1,"Chlumova, Praha - Žižkov",Praha-Žižkov
+15490,0,45,DISP_2_KK,"U zeleného ptáka, Praha - Kunratice",Praha-Kunratice
+19500,2990,28,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+27700,7880,62,DISP_3_KK,"Terronská, Praha - Bubeneč",Praha-Bubeneč
+26500,5000,65,DISP_2_1,"Vysokoškolská, Praha - Suchdol",Praha-Suchdol
+28500,5400,75,DISP_2_KK,"Pod Pramenem, Praha - Nusle",Praha-Nusle
+26500,6580,53,DISP_2_KK,"Za Vackovem, Praha - Žižkov",Praha-Žižkov
+8000,2500,16,OSTATNI,Praha - Chodov,Praha-Chodov
+28000,5000,72,DISP_3_KK,"Kálikova, Praha - Stodůlky",Praha-Stodůlky
+19000,6000,25,DISP_1_KK,"Plynární, Praha - Holešovice",Praha-Holešovice
+31901,5629,52,UNDEFINED,"Svitákova, Praha - Stodůlky",Praha-Stodůlky
+24000,3300,46,DISP_2_KK,"Biskupcova, Praha - Žižkov",Praha-Žižkov
+19490,0,64,DISP_1_KK,"Nad Výšinkou, Praha - Smíchov",Praha-Smíchov
+22000,4000,61,DISP_2_1,"Kubánské náměstí, Praha - Vršovice",Praha-Vršovice
+28400,3600,43,DISP_2_KK,"Jeřabinová, Praha - Motol",Praha-Motol
+20990,0,53,DISP_2_KK,"Františka Diviše, Praha - Uhříněves",Praha-Uhříněves
+15000,5000,36,DISP_1_KK,"Libeř - Libeň u Libeře, Středočeský kraj",Libeř
+53132,9376,45,UNDEFINED,"Michelská d, Praha - Michle",Praha-Michle
+45900,8200,109,DISP_4_KK,"Walterovo náměstí, Praha - Jinonice",Praha-Jinonice
+15600,2000,24,DISP_1_KK,"Bulharská, Praha - Vršovice",Praha-Vršovice
+19800,0,52,DISP_2_KK,"Trnkovo náměstí, Praha - Hlubočepy",Praha-Hlubočepy
+19000,4000,59,DISP_2_KK,"Františka Diviše, Praha - Uhříněves",Praha-Uhříněves
+22000,600,75,DISP_2_1,"Valčíkova, Praha - Libeň",Praha-Libeň
+108064,50500,100,UNDEFINED,"U Milosrdných, Praha - Staré Město",Praha-Staré Město
+19500,4000,41,DISP_1_KK,"Vrátnická, Praha - Modřany",Praha-Modřany
+29530,5211,45,UNDEFINED,"Petřínská, Praha - Malá Strana",Praha-Malá Strana
+18000,4500,36,DISP_1_KK,"Milánská, Praha - Horní Měcholupy",Praha-Horní Měcholupy
+28953,5109,36,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+30258,5340,30,UNDEFINED,"Hartigova, Praha - Žižkov",Praha-Žižkov
+20500,4500,48,DISP_2_1,"Ke Strašnické, Praha - Strašnice",Praha-Strašnice
+24700,4300,55,DISP_2_KK,"Komornická, Praha - Dejvice",Praha-Dejvice
+20000,1000,44,DISP_2_KK,"Čistovická, Praha - Řepy",Praha-Řepy
+13500,0,100,DISP_4_KK,"K Horoměřicům, Praha - Suchdol",Praha-Suchdol
+20000,2500,21,DISP_1_KK,"Hartigova, Praha - Žižkov",Praha-Žižkov
+23500,6000,55,DISP_2_KK,"Hartigova, Praha - Žižkov",Praha-Žižkov
+16000,4500,33,DISP_2_KK,"Černého, Praha - Střížkov",Praha-Střížkov
+18200,0,33,DISP_1_KK,"Českomoravská, Praha - Libeň",Praha-Libeň
+22000,5171,52,DISP_2_KK,"Mattioliho, Praha - Záběhlice",Praha-Záběhlice
+18000,4000,35,DISP_1_KK,"U Stojanu, Praha - Chodov",Praha-Chodov
+51870,20469,43,UNDEFINED,"Americká, Praha - Vinohrady",Praha-Vinohrady
+13990,0,33,DISP_1_KK,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+22000,3500,58,DISP_2_KK,"Arabská, Praha - Vokovice",Praha-Vokovice
+24990,0,73,DISP_3_KK,"Nevanova, Praha - Řepy",Praha-Řepy
+29900,2400,72,DISP_2_1,"V Kolkovně, Praha - Staré Město",Praha-Staré Město
+24000,6700,62,DISP_1_KK,"Novobohdalecká, Praha - Michle",Praha-Michle
+14490,0,26,DISP_1_KK,"Peroutkova, Praha - Jinonice",Praha-Jinonice
+238692,42122,117,UNDEFINED,"Do Chuchle, Praha - Slivenec",Praha-Slivenec
+19490,0,45,DISP_2_1,"Na Petřinách, Praha - Střešovice",Praha-Střešovice
+17500,3800,37,DISP_1_KK,"Pod Viaduktem, Praha - Stodůlky",Praha-Stodůlky
+24891,4392,50,UNDEFINED,"Hartigova, Praha - Žižkov",Praha-Žižkov
+24000,5990,60,DISP_2_1,"Pod dálnicí, Praha - Michle",Praha-Michle
+80000,9000,250,DISP_7_1,"Trojanova, Praha - Nové Město",Praha-Nové Město
+17500,2631,35,DISP_1_KK,"Gerstelova, Praha - Vysočany",Praha-Vysočany
+23000,4510,47,DISP_2_KK,"Čenětická, Praha - Chodov",Praha-Chodov
+18000,5000,36,DISP_1_KK,"Chlebovická, Praha - Letňany",Praha-Letňany
+18000,4000,34,DISP_1_KK,"Počernická, Praha - Malešice",Praha-Malešice
+28900,6000,73,DISP_3_1,"Tuchorazská, Praha - Malešice",Praha-Malešice
+16000,3000,33,DISP_1_KK,"Sládkovičova, Praha - Krč",Praha-Krč
+19000,3500,33,DISP_1_KK,"U Tesly, Praha - Hloubětín",Praha-Hloubětín
+23900,4500,48,DISP_2_KK,"V Stráni, Praha - Košíře",Praha-Košíře
+15000,0,32,DISP_1_KK,"Přímá, Praha - Smíchov",Praha-Smíchov
+19900,3600,33,DISP_1_KK,"Dačického, Praha - Nusle",Praha-Nusle
+28909,5102,37,UNDEFINED,"Kolbenova, Praha - Vysočany",Praha-Vysočany
+46330,8176,25,UNDEFINED,"Varšavská, Praha - Vinohrady",Praha-Vinohrady
+15000,2460,28,DISP_1_KK,"Mattioliho, Praha - Záběhlice",Praha-Záběhlice
+26000,5700,57,DISP_2_KK,"Piskáčkových, Praha - Vysočany",Praha-Vysočany
+21490,0,50,DISP_2_1,"Herálecká I, Praha - Krč",Praha-Krč
+30000,2500,94,DISP_2_KK,"Navrátilova, Praha - Nové Město",Praha-Nové Město
+16490,0,35,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+46727,8246,40,UNDEFINED,"Veletržní, Praha - Bubeneč",Praha-Bubeneč
+29500,5000,95,DISP_3_KK,"U Včely, Praha - Zbraslav",Praha-Zbraslav
+13000,3500,32,DISP_1_1,"Varnsdorfská, Praha - Střížkov",Praha-Střížkov
+25000,4000,42,DISP_2_1,"Zengrova, Praha - Dejvice",Praha-Dejvice
+15400,0,32,DISP_1_KK,"Mattioliho, Praha - Záběhlice",Praha-Záběhlice
+19900,4500,43,DISP_1_KK,"V Třešňovce, Praha - Hrdlořezy",Praha-Hrdlořezy
+19990,0,41,DISP_2_KK,"Pelušková, Praha - Kyje",Praha-Kyje
+21000,4600,35,DISP_1_KK,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+30802,5436,0,UNDEFINED,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+27000,3500,89,DISP_3_1,"Libáňská, Praha - Horní Počernice",Praha-Horní Počernice
+26000,1500,48,DISP_2_KK,"Biskupcova, Praha - Žižkov",Praha-Žižkov
+17490,5000,33,DISP_1_KK,"Zahradníčkova, Praha - Košíře",Praha-Košíře
+38000,6000,80,DISP_3_KK,"V Cibulkách, Praha - Košíře",Praha-Košíře
+30000,9300,77,DISP_3_KK,"Pod Hliništěm, Praha - Kobylisy",Praha-Kobylisy
+19990,0,52,DISP_2_KK,"Na Císařce, Praha - Smíchov",Praha-Smíchov
+29500,6000,78,DISP_3_KK,"Láskova, Praha - Chodov",Praha-Chodov
+81264,14341,65,UNDEFINED,"U Staré sokolovny, Praha - Vršovice",Praha-Vršovice
+21900,4500,49,DISP_1_KK,"U Zátiší, Praha - Hodkovičky",Praha-Hodkovičky
+26990,0,93,DISP_3_1,"Velká skála, Praha - Troja",Praha-Troja
+20000,4000,35,DISP_1_1,"Na Petynce, Praha - Střešovice",Praha-Střešovice
+31990,0,68,DISP_3_KK,"Vokáčova, Praha - Michle",Praha-Michle
+26376,12326,60,UNDEFINED,"U Sluncové, Praha - Karlín",Praha-Karlín
+30541,5390,41,UNDEFINED,"Kouřimská, Praha - Vinohrady",Praha-Vinohrady
+47548,8391,49,UNDEFINED,"U Okrouhlíku c, Praha - Smíchov",Praha-Smíchov
+19000,4000,44,DISP_2_KK,"U Jezera, Praha - Stodůlky",Praha-Stodůlky
+30906,5454,44,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+21990,5500,35,DISP_2_KK,"Na Jarově, Praha - Žižkov",Praha-Žižkov
+59000,11000,190,DISP_5_1,"U Dvojdomů, Praha - Hostivař",Praha-Hostivař
+36500,4500,50,DISP_2_KK,"Horská, Praha - Nové Město",Praha-Nové Město
+19000,2499,37,DISP_1_1,"Bořivojova, Praha - Žižkov",Praha-Žižkov
+34000,5000,81,DISP_3_KK,"Belgická, Praha - Vinohrady",Praha-Vinohrady
+20990,0,48,DISP_2_KK,"Baranova, Praha - Žižkov",Praha-Žižkov
+25000,4000,46,DISP_2_KK,"Pod Harfou, Praha - Vysočany",Praha-Vysočany
+29299,13694,29,UNDEFINED,"Slavíkova, Praha - Žižkov",Praha-Žižkov
+33000,3000,39,DISP_2_KK,"Bořivojova, Praha - Žižkov",Praha-Žižkov
+23990,0,54,DISP_2_1,"Na Petřinách, Praha - Břevnov",Praha-Břevnov
+20000,5000,43,DISP_1_KK,"U Hranic, Praha - Strašnice",Praha-Strašnice
+23500,980,52,DISP_2_KK,"Jana Zajíce, Praha - Bubeneč",Praha-Bubeneč
+18000,4000,43,DISP_2_KK,"Firkušného, Praha - Uhříněves",Praha-Uhříněves
+16500,3335,40,DISP_1_KK,"Miroslava Hajna, Praha - Letňany",Praha-Letňany
+20000,3100,36,DISP_1_KK,"Bukačova, Praha - Vysočany",Praha-Vysočany
+16000,1600,50,DISP_1_1,"Sokolovská, Praha - Vysočany",Praha-Vysočany
+18900,4100,30,DISP_1_KK,"Molákova, Praha - Karlín",Praha-Karlín
+29000,5000,42,DISP_2_KK,"Sarajevská, Praha - Vinohrady",Praha-Vinohrady
+28000,5693,66,DISP_2_KK,"Cholupická, Praha - Kamýk",Praha-Kamýk
+28900,169,60,DISP_2_KK,"Mukařovského, Praha - Stodůlky",Praha-Stodůlky
+114980,53877,125,UNDEFINED,"Krocínova, Praha - Staré Město",Praha-Staré Město
+27500,5581,49,DISP_2_KK,"Na Pomezí, Praha - Košíře",Praha-Košíře
+22500,4800,58,DISP_2_KK,"Tvrdého, Praha - Letňany",Praha-Letňany
+25000,5000,55,DISP_2_KK,"Kafkova, Praha - Dejvice",Praha-Dejvice
+19900,4500,33,DISP_1_KK,"Zálesí, Praha - Krč",Praha-Krč
+22800,4000,42,DISP_2_KK,"Werichova, Praha - Hlubočepy",Praha-Hlubočepy
+32900,5000,71,DISP_4_KK,"V Nových Bohnicích, Praha - Bohnice",Praha-Bohnice
+32900,5000,105,DISP_3_KK,"Pod Zahrady, Přezletice - Přezletice, Středočeský kraj",Přezletice
+46917,23254,79,UNDEFINED,"Polská, Praha - Vinohrady",Praha-Vinohrady
+21900,3200,36,DISP_1_KK,"Odkolkova, Praha - Vysočany",Praha-Vysočany
+20000,4540,40,DISP_1_KK,"Budovcova, Praha - Žižkov",Praha-Žižkov
+24000,2800,29,DISP_1_KK,"Krymská, Praha - Vršovice",Praha-Vršovice
+90774,38649,72,UNDEFINED,"Americká, Praha - Vinohrady",Praha-Vinohrady
+14990,0,17,DISP_1_KK,"Radlická, Praha - Smíchov",Praha-Smíchov
+12000,2200,25,GARSONIERA,"Hvozdíková, Praha - Záběhlice",Praha-Záběhlice
+17500,3260,28,DISP_1_KK,"K Barrandovu, Praha - Hlubočepy",Praha-Hlubočepy
+38000,9300,90,DISP_4_KK,"Generála Šišky, Praha - Modřany",Praha-Modřany
+21000,2500,46,DISP_2_KK,"Oldřichova, Praha - Nusle",Praha-Nusle
+22000,5000,47,DISP_2_KK,"Slávy Horníka, Praha - Košíře",Praha-Košíře
+50142,8848,40,UNDEFINED,"Dlážděná, Praha - Nové Město",Praha-Nové Město
+20900,4100,38,DISP_2_KK,"Holečkova, Praha - Košíře",Praha-Košíře
+26990,0,73,DISP_3_KK,"Klapálkova, Praha - Chodov",Praha-Chodov
+54776,9666,120,UNDEFINED,"Šmilovského, Praha - Vinohrady",Praha-Vinohrady
+28000,5200,72,DISP_3_1,"Šiškova, Praha - Kobylisy",Praha-Kobylisy
+19000,4300,55,DISP_2_KK,"Bartoškova, Praha - Nusle",Praha-Nusle
+24000,5578,60,DISP_2_1,"Čimelická, Praha - Lhotka",Praha-Lhotka
+17000,3331,28,DISP_1_KK,"Zakšínská, Praha - Střížkov",Praha-Střížkov
+29566,5218,35,UNDEFINED,"Dvacátého osmého pluku, Praha - Vršovice",Praha-Vršovice
+22500,3000,43,DISP_2_KK,"Fibichova, Praha - Žižkov",Praha-Žižkov
+18000,3400,60,DISP_2_KK,"Rostislavova, Praha - Nusle",Praha-Nusle
+25569,4512,82,UNDEFINED,"Kosatcová, Praha - Záběhlice",Praha-Záběhlice
+38806,6848,60,UNDEFINED,"Tyršova, Praha - Nové Město",Praha-Nové Město
+26000,5000,46,DISP_2_KK,"Arnošta Valenty, Praha - Černý Most",Praha-Černý Most
+27955,4933,22,UNDEFINED,"Kubánské náměstí, Praha - Vršovice",Praha-Vršovice
+32678,14318,34,UNDEFINED,"Bulharská, Praha - Vršovice",Praha-Vršovice
+19000,800,40,DISP_2_KK,"Strančická, Praha - Strašnice",Praha-Strašnice
+18000,4000,50,DISP_2_KK,"Dvořákova, Říčany - Říčany u Prahy, Středočeský kraj",Říčany
+38194,6740,30,UNDEFINED,"Řehořova, Praha - Žižkov",Praha-Žižkov
+24500,5000,56,DISP_3_KK,"Vratislavská, Praha - Bohnice",Praha-Bohnice
+23000,5000,50,DISP_3_KK,"Kloboučnická, Praha - Nusle",Praha-Nusle
+20000,3700,56,DISP_2_KK,"Plzeňská, Praha - Smíchov",Praha-Smíchov
+22800,4500,77,DISP_3_KK,"Za Hotelem, Nupaky - Nupaky, Středočeský kraj",Nupaky
+36569,6453,40,UNDEFINED,"Olgy Havlové, Praha - Žižkov",Praha-Žižkov
+24000,6000,49,DISP_2_KK,"Musílkova, Praha - Košíře",Praha-Košíře
+121551,21450,112,UNDEFINED,"Rybná, Praha - Staré Město",Praha-Staré Město
+31000,2300,91,DISP_3_KK,"Na Křivce, Praha - Michle",Praha-Michle
+21000,3700,50,DISP_2_KK,"Levá, Praha - Podolí",Praha-Podolí
+13000,1500,21,GARSONIERA,"Bělohorská, Praha - Břevnov",Praha-Břevnov
+19300,4500,47,DISP_2_KK,"Holandská, Praha - Vršovice",Praha-Vršovice
+22900,169,27,DISP_1_KK,"Mukařovského, Praha - Stodůlky",Praha-Stodůlky
+33000,9000,105,DISP_3_KK,"Skloněná, Praha - Vysočany",Praha-Vysočany
+22490,0,76,DISP_3_KK,"Herlíkovická, Praha - Kbely",Praha-Kbely
+47981,22458,112,UNDEFINED,"Ostrovní, Praha - Nové Město",Praha-Nové Město
+23000,3300,54,DISP_2_KK,"Symfonická, Praha - Stodůlky",Praha-Stodůlky
+26500,6500,63,DISP_2_KK,"U Uranie, Praha - Holešovice",Praha-Holešovice
+54465,9611,110,UNDEFINED,"Kováříkova, Praha - Hlubočepy",Praha-Hlubočepy
+26900,6000,53,DISP_2_KK,"Viklefova, Praha - Žižkov",Praha-Žižkov
+18490,0,45,DISP_2_KK,"Za dvorem, Praha - Krč",Praha-Krč
+23990,1650,55,DISP_2_KK,"Sokolovská, Praha - Libeň",Praha-Libeň
+19000,4000,47,DISP_2_KK,"Ohradní, Praha - Michle",Praha-Michle
+24800,5000,78,DISP_3_KK,"Hošťálkova, Praha - Břevnov",Praha-Břevnov
+25000,5000,52,DISP_2_KK,"Ondrákové, Praha - Hlubočepy",Praha-Hlubočepy
+22900,6700,60,DISP_2_KK,"Ke Strašnické, Praha - Strašnice",Praha-Strašnice
+44289,7816,46,UNDEFINED,"Svatoslavova, Praha - Nusle",Praha-Nusle
+29000,4100,56,DISP_3_KK,"Hodonínská, Praha - Michle",Praha-Michle
+20000,4120,54,DISP_2_KK,"Michelská, Praha - Michle",Praha-Michle
+14265,6431,86,UNDEFINED,"Přemyslovská, Praha - Vinohrady",Praha-Vinohrady
+41586,22620,70,UNDEFINED,"U Rajské zahrady, Praha - Žižkov",Praha-Žižkov
+28990,0,43,DISP_2_KK,"V háji, Praha - Holešovice",Praha-Holešovice
+25000,6644,79,DISP_3_1,"Kpt. Stránského, Praha - Černý Most",Praha-Černý Most
+23990,0,48,DISP_2_KK,"Hrušovická, Praha - Kbely",Praha-Kbely
+36309,16387,34,UNDEFINED,"Kurta Konráda, Praha - Libeň",Praha-Libeň
+26490,0,68,DISP_3_1,"Krynická, Praha - Troja",Praha-Troja
+13000,3000,49,DISP_2_1,"Křižíkova, Praha - Karlín",Praha-Karlín
+24990,0,54,DISP_2_KK,"Na Zámyšli, Praha - Košíře",Praha-Košíře
+22000,5000,53,DISP_2_1,"Chodovická, Praha - Horní Počernice",Praha-Horní Počernice
+23800,7000,50,DISP_2_KK,"Na Vysočanských vinicích, Praha - Vysočany",Praha-Vysočany
+32000,1000,83,DISP_2_1,"Dětská, Praha - Strašnice",Praha-Strašnice
+20000,2500,43,DISP_2_KK,"Okrajní, Praha - Strašnice",Praha-Strašnice
+43355,7651,102,UNDEFINED,"Xaveriova, Praha - Smíchov",Praha-Smíchov
+17877,8650,15,DISP_1_KK,"Na Zátorách, Praha - Holešovice",Praha-Holešovice
+16500,5500,30,DISP_2_KK,"Čestmírova, Praha - Nusle",Praha-Nusle
+25000,0,25,DISP_1_KK,"Jana Masaryka, Praha - Vinohrady",Praha-Vinohrady
+22000,6000,50,DISP_2_KK,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+19000,5000,55,DISP_1_KK,"Sídlištní, Praha - Lysolaje",Praha-Lysolaje
+37000,8500,114,DISP_4_KK,"Ondrákové, Praha - Hlubočepy",Praha-Hlubočepy
+42361,7476,20,UNDEFINED,"Nuselská, Praha - Michle",Praha-Michle
+16500,5000,31,DISP_1_KK,"Za Strašnickou vozovnou, Praha - Strašnice",Praha-Strašnice
+15500,3500,33,DISP_1_KK,"Českomoravská, Praha - Libeň",Praha-Libeň
+37830,6676,20,UNDEFINED,"Plzeňská, Praha - Smíchov",Praha-Smíchov
+10505,7800,17,DISP_1_KK,"Na Zátorách, Praha - Holešovice",Praha-Holešovice
+42190,22107,79,UNDEFINED,"Polská, Praha - Vinohrady",Praha-Vinohrady
+14787,2610,19,UNDEFINED,"Ďáblická, Praha - Dejvice",Praha-Dejvice
+25888,4568,22,UNDEFINED,"Těšnov, Praha - Nové Město",Praha-Nové Město
+26988,4763,25,UNDEFINED,"Kubánské náměstí, Praha - Vršovice",Praha-Vršovice
+40633,7170,53,UNDEFINED,Praha - Karlín,Praha-Karlín
+22000,6500,54,DISP_2_KK,"Saarinenova, Praha - Hloubětín",Praha-Hloubětín
+19900,4300,47,DISP_1_1,"U Balabenky, Praha - Libeň",Praha-Libeň
+54814,9673,66,UNDEFINED,"Marie Cibulkové, Praha - Nusle",Praha-Nusle
+17490,0,34,DISP_1_KK,"Českomoravská, Praha - Libeň",Praha-Libeň
+24400,1000,48,DISP_2_KK,"Werichova, Praha - Hlubočepy",Praha-Hlubočepy
+25000,1500,46,DISP_2_KK,"Kafkova, Praha - Dejvice",Praha-Dejvice
+19000,4800,45,DISP_2_KK,"Bulharská, Praha - Vršovice",Praha-Vršovice
+15600,3000,23,DISP_1_KK,"Kralická, Praha - Strašnice",Praha-Strašnice
+15000,2800,25,DISP_1_KK,"Vokovická, Praha - Vokovice",Praha-Vokovice
+22990,0,77,DISP_3_1,"Dědinova, Praha - Chodov",Praha-Chodov
+31028,14036,30,UNDEFINED,"V Háji, Praha - Holešovice",Praha-Holešovice
+12000,3000,24,DISP_1_KK,"Přemyšlenská, Praha - Kobylisy",Praha-Kobylisy
+36000,6000,80,DISP_3_1,"Voroněžská, Praha - Vršovice",Praha-Vršovice
+21000,6500,64,DISP_2_KK,"Petržílkova, Praha - Stodůlky",Praha-Stodůlky
+25400,2990,52,DISP_2_KK,"Blahníkova, Praha - Žižkov",Praha-Žižkov
+28500,4664,65,DISP_2_KK,"Lanžhotská, Praha - Zličín",Praha-Zličín
+17500,2500,22,DISP_1_KK,"U Průhonu, Praha - Holešovice",Praha-Holešovice
+30000,5500,72,DISP_2_KK,"Novákových, Praha - Libeň",Praha-Libeň
+23500,2500,48,DISP_2_KK,"Žerotínova, Praha - Žižkov",Praha-Žižkov
+17500,2500,50,DISP_2_1,"V Břízkách, Praha - Košíře",Praha-Košíře
+27900,4400,49,DISP_2_KK,"Odkolkova, Praha - Vysočany",Praha-Vysočany
+22000,4500,59,DISP_1_KK,"Náměstí Na Balabence, Praha - Libeň",Praha-Libeň
+42000,4500,101,DISP_4_KK,"U Nádražní lávky, Praha - Karlín",Praha-Karlín
+19900,3600,35,DISP_1_KK,"Pechmanových, Praha - Vysočany",Praha-Vysočany
+25000,6600,57,DISP_3_1,"Havlovská, Praha - Dejvice",Praha-Dejvice
+17500,2000,28,DISP_1_KK,"Omská, Praha - Vršovice",Praha-Vršovice
+70026,32778,65,UNDEFINED,"Masná, Praha - Staré Město",Praha-Staré Město
+23000,5500,68,DISP_3_1,"Přímětická, Praha - Michle",Praha-Michle
+45000,14000,98,DISP_3_KK,"U Sluncové, Praha - Karlín",Praha-Karlín
+28500,4500,58,DISP_2_KK,"Odkolkova, Praha - Vysočany",Praha-Vysočany
+26000,6934,56,DISP_2_KK,"Waltariho, Praha - Hloubětín",Praha-Hloubětín
+26000,3000,50,DISP_2_KK,"Sudoměřská, Praha - Žižkov",Praha-Žižkov
+21000,2500,35,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+27000,1500,55,DISP_2_KK,"Vinohradská, Praha - Vinohrady",Praha-Vinohrady
+20990,0,33,DISP_1_1,"Heřmanova, Praha - Holešovice",Praha-Holešovice
+27000,5000,57,DISP_2_KK,"Piskáčkových, Praha - Vysočany",Praha-Vysočany
+14000,4500,33,DISP_1_KK,"Panuškova, Praha - Krč",Praha-Krč
+20990,0,33,DISP_2_KK,"Ovčí hájek, Praha - Stodůlky",Praha-Stodůlky
+17000,5500,34,DISP_1_1,"Roháčova, Praha - Žižkov",Praha-Žižkov
+21000,4000,29,DISP_1_1,"Voroněžská, Praha - Vršovice",Praha-Vršovice
+21500,2500,45,DISP_2_KK,"Svatoslavova, Praha - Nusle",Praha-Nusle
+14490,0,30,DISP_1_KK,"Šestajovická, Praha - Hloubětín",Praha-Hloubětín
+30906,5454,40,UNDEFINED,"Zbraslavská, Praha - Malá Chuchle",Praha-Malá Chuchle
+17772,3136,117,UNDEFINED,"Americká, Praha - Vinohrady",Praha-Vinohrady
+22000,3500,53,DISP_2_KK,"Mochovská, Praha - Hloubětín",Praha-Hloubětín
+17000,4000,42,DISP_1_1,"Hennerova, Praha - Motol",Praha-Motol
+26000,7000,80,DISP_2_KK,"Vrbenského, Praha - Holešovice",Praha-Holešovice
+76077,35552,80,UNDEFINED,"Dušní, Praha - Josefov",Praha-Josefov
+28000,6500,74,DISP_3_KK,"Remízková, Praha - Újezd u Průhonic",Praha-Újezd u Průhonic
+17990,0,32,DISP_1_KK,"Oktábcových, Praha - Vysočany",Praha-Vysočany
+24800,4682,50,DISP_2_KK,"Biskupcova, Praha - Žižkov",Praha-Žižkov
+21000,2000,35,GARSONIERA,"Cimburkova, Praha - Žižkov",Praha-Žižkov
+18900,2500,32,DISP_1_KK,"Na Zámyšli, Praha - Košíře",Praha-Košíře
+23500,5000,57,DISP_2_1,"28. pluku, Praha - Vršovice",Praha-Vršovice
+22999,4000,27,DISP_1_KK,"Bělehradská, Praha - Vinohrady",Praha-Vinohrady
+34000,5500,57,DISP_2_KK,"Varšavská, Praha - Vinohrady",Praha-Vinohrady
+35000,4500,108,DISP_3_1,"Sartoriova, Praha - Břevnov",Praha-Břevnov
+15500,5460,35,DISP_2_KK,"Vodňanského, Praha - Břevnov",Praha-Břevnov
+103742,18307,125,UNDEFINED,"V Kolkovně, Praha - Staré Město",Praha-Staré Město
+25000,6005,53,DISP_2_KK,"Michelangelova, Praha - Strašnice",Praha-Strašnice
+23500,4250,72,DISP_2_1,"Srbínská, Praha - Strašnice",Praha-Strašnice
+24000,1000,50,DISP_2_KK,"Ondříčkova, Praha - Žižkov",Praha-Žižkov
+238692,42122,107,UNDEFINED,"Do Chuchle, Praha - Slivenec",Praha-Slivenec
+22500,5700,64,DISP_3_1,"Bojasova, Praha - Kobylisy",Praha-Kobylisy
+15000,3600,22,DISP_1_KK,"Sportovní, Praha - Vršovice",Praha-Vršovice
+22800,1900,45,DISP_2_KK,"Novákových, Praha - Libeň",Praha-Libeň
+24000,7865,61,DISP_2_1,"Na Šťáhlavce, Praha - Dejvice",Praha-Dejvice
+27000,3900,60,DISP_2_1,"Lublaňská, Praha - Vinohrady",Praha-Vinohrady
+26000,5800,84,DISP_3_1,"Holečkova, Praha - Smíchov",Praha-Smíchov
+36000,8000,74,DISP_2_KK,"Pod Kaštany, Praha - Bubeneč",Praha-Bubeneč
+22000,4500,61,DISP_2_KK,"Užocká, Praha - Vršovice",Praha-Vršovice
+23490,0,80,DISP_3_1,"Volkova, Praha - Černý Most",Praha-Černý Most
+27000,3373,50,DISP_2_KK,"Rejskova, Praha - Vinohrady",Praha-Vinohrady
+27000,1000,60,DISP_2_1,"5. května, Praha - Nusle",Praha-Nusle
+17900,5300,47,DISP_2_KK,"Okružní, Praha - Komořany",Praha-Komořany
+15800,3600,29,DISP_1_KK,"Drahobejlova, Praha - Libeň",Praha-Libeň
+26800,5048,53,DISP_2_KK,"Kafkova, Praha - Dejvice",Praha-Dejvice
+19000,3000,34,DISP_1_KK,"Modrého, Praha - Hloubětín",Praha-Hloubětín
+28000,4200,90,DISP_4_1,"Dětská, Praha - Strašnice",Praha-Strašnice
+36000,6000,94,DISP_3_KK,"V Třešňovce, Praha - Hrdlořezy",Praha-Hrdlořezy
+21000,4400,35,DISP_1_KK,"Gerstelova, Praha - Vysočany",Praha-Vysočany
+25000,7300,63,DISP_3_KK,"Tererova, Praha - Chodov",Praha-Chodov
+25935,4577,53,UNDEFINED,"Arabská, Praha - Vokovice",Praha-Vokovice
+23000,7855,66,DISP_3_1,"Jažlovická, Praha - Chodov",Praha-Chodov
+17000,3000,49,DISP_1_1,"Hradeckých, Praha - Nusle",Praha-Nusle
+39007,6883,34,UNDEFINED,"Svatoslavova, Praha - Nusle",Praha-Nusle
+24000,7000,73,DISP_2_1,"Sokolovská, Praha - Libeň",Praha-Libeň
+25490,0,59,DISP_2_KK,"Domalípova, Praha - Hloubětín",Praha-Hloubětín
+23000,3600,45,DISP_2_KK,"Ve Struhách, Praha - Bubeneč",Praha-Bubeneč
+24000,5500,52,DISP_2_KK,"Křižíkova, Praha - Karlín",Praha-Karlín
+33716,104849,34,UNDEFINED,"Kurta Konráda, Praha - Libeň",Praha-Libeň
+25500,3900,75,DISP_2_1,"Zenklova, Praha - Libeň",Praha-Libeň
+21000,800,32,DISP_1_KK,"Podskalská, Praha - Nové Město",Praha-Nové Město
+21000,750,47,DISP_1_1,"Jana Želivského, Praha - Žižkov",Praha-Žižkov
+30000,9400,70,DISP_2_KK,"Olšanská, Praha - Žižkov",Praha-Žižkov
+15800,2500,24,DISP_1_KK,"Na Dolinách, Praha - Nusle",Praha-Nusle
+23000,2200,80,DISP_3_KK,"Korunní, Praha - Vinohrady",Praha-Vinohrady
+19500,3000,32,DISP_1_KK,"28. pluku, Praha - Vršovice",Praha-Vršovice
+28813,5085,21,UNDEFINED,"Bulharská, Praha - Vršovice",Praha-Vršovice
+27000,4300,66,DISP_1_KK,"Březenská, Praha - Libeň",Praha-Libeň
+22000,4700,54,DISP_3_KK,"Peštukova, Praha - Veleslavín",Praha-Veleslavín
+21000,4700,54,DISP_2_KK,"Chotěšovská, Praha - Letňany",Praha-Letňany
+30258,5340,85,UNDEFINED,"Pod Štěpem, Praha - Hostivař",Praha-Hostivař
+21000,3900,45,DISP_1_KK,"Kettnerova, Praha - Stodůlky",Praha-Stodůlky
+27000,5000,56,DISP_2_KK,"Chodská, Praha - Vinohrady",Praha-Vinohrady
+16490,0,26,DISP_1_KK,"Stočesova, Praha - Ruzyně",Praha-Ruzyně
+22000,3800,50,DISP_1_1,"Rooseveltova, Praha - Bubeneč",Praha-Bubeneč
+16490,0,33,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+19990,0,36,DISP_2_KK,"Nádražní, Praha - Hlubočepy",Praha-Smíchov
+24000,4800,48,DISP_1_1,"Laubova, Praha - Vinohrady",Praha-Vinohrady
+22900,2901,54,DISP_2_KK,"Pod Lipami, Praha - Žižkov",Praha-Žižkov
+31000,9000,74,DISP_3_KK,"Kettnerova, Praha - Stodůlky",Praha-Stodůlky
+52415,9250,55,UNDEFINED,"V Třešňovce, Praha - Hrdlořezy",Praha-Hrdlořezy
+8000,3000,53,DISP_2_KK,"Táboritská, Praha - Žižkov",Praha-Žižkov
+33068,5835,55,UNDEFINED,"náměstí Olgy Scheinpflugové, Praha - Hlubočepy",Praha-Hlubočepy
+19500,2990,28,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+13200,0,25,GARSONIERA,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+19000,1000,54,DISP_2_KK,"Litovická, Hostivice - Litovice, Středočeský kraj",Hostivice
+31597,5576,63,UNDEFINED,"U Druhé baterie, Praha - Břevnov",Praha-Břevnov
+10400,1,85,DISP_5_1,"Vladivostocká, Praha - Vršovice",Praha-Vršovice
+17000,1000,35,DISP_1_1,"Vodičkova, Praha - Nové Město",Praha-Nové Město
+12000,3000,21,DISP_1_KK,"Bořivojova, Praha - Žižkov",Praha-Žižkov
+24000,6500,56,DISP_2_KK,"Sazovická, Praha - Zličín",Praha-Zličín
+32000,5300,80,DISP_3_KK,"Píškova, Praha - Stodůlky",Praha-Stodůlky
+25758,4545,20,UNDEFINED,"Víta Nejedlého, Praha - Žižkov",Praha-Žižkov
+42000,7500,97,DISP_3_1,"Korunní, Praha - Vinohrady",Praha-Vinohrady
+34485,6085,55,UNDEFINED,"Rumunská, Praha - Vinohrady",Praha-Vinohrady
+30000,5500,88,DISP_3_KK,"K Novému dvoru, Praha - Lhotka",Praha-Lhotka
+15000,3000,37,DISP_2_KK,"Vehlovická, Praha - Čimice",Praha-Čimice
+16403,7354,80,UNDEFINED,"Voskovcova, Praha - Hlubočepy",Praha-Hlubočepy
+15000,5100,30,DISP_1_1,"Šestajovická, Praha - Hloubětín",Praha-Hloubětín
+21551,3803,24,UNDEFINED,"Nádražní, Praha - Smíchov",Praha-Smíchov
+56479,9967,54,UNDEFINED,"Vrbenského, Praha - Holešovice",Praha-Holešovice
+19500,4500,59,DISP_2_1,"Libocká, Praha - Liboc",Praha-Liboc
+16490,0,30,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+15000,4400,32,DISP_1_KK,"Radlická, Praha - Smíchov",Praha-Smíchov
+9254,3366,22,DISP_4_1,"Thámova, Praha - Karlín",Praha-Karlín
+12500,5300,30,DISP_1_KK,"Štúrova, Praha - Krč",Praha-Krč
+15490,0,23,DISP_1_KK,"Poděbradská, Praha - Vysočany",Praha-Vysočany
+18990,0,40,DISP_2_KK,"Novodvorská, Praha - Kamýk",Praha-Kamýk
+27500,5700,52,DISP_3_KK,"Molákova, Praha - Karlín",Praha-Karlín
+49900,850,130,DISP_3_1,"U Akademie, Praha - Bubeneč",Praha-Bubeneč
+29900,6300,87,DISP_3_KK,"Sokolovská, Praha - Vysočany",Praha-Vysočany
+21850,5400,51,DISP_2_1,"Hostýnská, Praha - Malešice",Praha-Malešice
+18000,3000,34,DISP_1_KK,"Mochovská, Praha - Hloubětín",Praha-Hloubětín
+17500,3699,44,DISP_2_KK,"Frýdlantská, Praha - Kobylisy",Praha-Kobylisy
+13500,4300,49,DISP_1_KK,"Za Mlýnem, Hostivice - Hostivice, Středočeský kraj",Hostivice
+25000,4531,46,DISP_2_KK,"Na Spojce, Praha - Vršovice",Praha-Vršovice
+49018,8650,50,UNDEFINED,"Zemědělská, Praha - Dejvice",Praha-Dejvice
+34000,4200,55,DISP_2_KK,"U Vodárny, Praha - Vinohrady",Praha-Vinohrady
+23000,3200,33,DISP_1_KK,"Tupolevova, Praha - Letňany",Praha-Letňany
+33800,4800,63,DISP_2_KK,"Na Farkáně Ⅰ, Praha - Radlice",Praha-Radlice
+47820,20184,30,UNDEFINED,"Legerova, Praha - Vinohrady",Praha-Vinohrady
+37990,0,87,DISP_3_KK,"K Červenému vrchu, Praha - Vokovice",Praha-Vokovice
+87503,15442,75,UNDEFINED,"Opletalova, Praha - Nové Město",Praha-Nové Město
+77201,13624,133,UNDEFINED,"Španělská, Praha - Vinohrady",Praha-Vinohrady
+12000,2900,16,OSTATNI,"Českobrodská, Praha - Hrdlořezy",Praha-Hrdlořezy
+26000,6000,60,DISP_2_1,"Ve Smečkách, Praha - Nové Město",Praha-Nové Město
+19900,900,40,DISP_1_KK,"Skloněná, Praha - Vysočany",Praha-Vysočany
+60516,10679,71,UNDEFINED,"Újezd, Praha - Malá Strana",Praha-Malá Strana
+58970,10407,52,UNDEFINED,"Mostecka , Mala Strana, Praha - Malá Strana",Praha-Malá Strana
+16500,3500,40,DISP_1_1,"Jaroslava Foglara, Praha - Stodůlky",Praha-Stodůlky
+18490,0,47,DISP_1_KK,"Vykáňská, Praha - Strašnice",Praha-Strašnice
+16490,0,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+17000,2500,37,DISP_1_1,"Ortenovo náměstí, Praha - Holešovice",Praha-Holešovice
+17500,4150,39,DISP_1_KK,"Hadovitá, Praha - Michle",Praha-Michle
+17300,4600,30,DISP_1_KK,"U Libeňského pivovaru, Praha - Libeň",Praha-Libeň
+10000,2000,74,DISP_3_1,"Svojetická, Praha - Strašnice",Praha-Strašnice
+18582,3279,30,UNDEFINED,"Kotorská, Praha - Nusle",Praha-Nusle
+22000,4000,56,DISP_3_KK,"Borošova, Praha - Háje",Praha-Háje
+42257,7457,30,UNDEFINED,"Veletržní, Praha - Bubeneč",Praha-Bubeneč
+19500,5000,41,DISP_2_KK,"Šluknovská, Praha - Střížkov",Praha-Střížkov
+25071,4424,20,UNDEFINED,"Vrchlického, Praha - Košíře",Praha-Košíře
+18000,4850,46,DISP_1_KK,"Komořanská, Praha - Modřany",Praha-Modřany
+26500,5900,85,DISP_4_1,"Sládkovičova, Praha - Krč",Praha-Krč
+20000,4000,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+18000,4500,45,DISP_2_KK,"Böhmova, Praha - Stodůlky",Praha-Stodůlky
+32843,14102,45,UNDEFINED,"Sportovní, Praha - Vršovice",Praha-Vršovice
+21500,3990,48,DISP_2_KK,"Pšeničná, Hostivice - Litovice, Středočeský kraj",Hostivice
+24000,5000,46,DISP_2_KK,"Starokošířská, Praha - Košíře",Praha-Košíře
+23990,0,72,DISP_3_KK,"Hlivická, Praha - Bohnice",Praha-Bohnice
+24000,4300,57,DISP_2_KK,"Hadovitá, Praha - Michle",Praha-Michle
+29500,4924,50,DISP_2_KK,"Na Výšinách, Praha - Bubeneč",Praha-Bubeneč
+39500,8000,100,DISP_3_1,"Francouzská, Praha - Vinohrady",Praha-Vinohrady
+26500,4670,44,DISP_2_1,"Mikuláše z Husi, Praha - Nusle",Praha-Nusle
+17500,3800,33,DISP_1_KK,"Jana Přibíka, Praha - Vysočany",Praha-Vysočany
+14000,3000,24,DISP_1_KK,"Josefa Houdka, Praha - Lipence",Praha-Lipence
+21000,4429,44,DISP_2_KK,"Láskova, Praha - Chodov",Praha-Chodov
+22000,5000,53,DISP_2_KK,"Ječná, Hostivice - Litovice, Středočeský kraj",Hostivice
+17000,2500,39,DISP_1_1,"U Vesny, Praha - Strašnice",Praha-Strašnice
+19900,3800,55,DISP_2_KK,"Na Jezerce, Praha - Nusle",Praha-Nusle
+30627,5405,45,UNDEFINED,"Táboritská, Praha - Žižkov",Praha-Žižkov
+18600,4000,35,DISP_1_KK,"Veletržní, Praha - Holešovice",Praha-Holešovice
+30000,2500,72,DISP_3_1,"Lublinská, Praha - Troja",Praha-Troja
+17112,2888,25,DISP_1_KK,"Ve Smečkách, Praha - Nové Město",Praha-Nové Město
+15890,4089,37,DISP_1_KK,"Makedonská, Praha - Střížkov",Praha-Střížkov
+23990,0,70,DISP_3_1,"Jílovská, Praha - Lhotka",Praha-Lhotka
+16490,0,39,DISP_1_KK,"Počernická, Praha - Malešice",Praha-Malešice
+19990,0,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Praha-Hloubětín
+18000,4500,42,DISP_1_1,"Bořivojova, Praha - Žižkov",Praha-Žižkov
+25990,0,55,DISP_2_KK,"Rooseveltova, Praha - Bubeneč",Praha-Bubeneč
+32497,5735,53,UNDEFINED,"Drahobejlova, Praha - Libeň",Praha-Libeň
+9000,3000,130,DISP_6_1,"Veltruská, Praha - Prosek",Praha-Prosek
+17500,2260,32,DISP_1_KK,"Pod Labuťkou, Praha - Libeň",Praha-Libeň
+29000,2350,28,DISP_2_KK,"Legerova, Praha - Nové Město",Praha-Nové Město
+27000,6000,91,DISP_3_1,"Nevanova, Praha - Řepy",Praha-Řepy
+12000,3000,30,DISP_1_KK,"Chaloupky, Praha - Zadní Kopanina",Praha-Zadní Kopanina
+19490,3900,35,DISP_1_KK,"Gerstelova, Praha - Vysočany",Praha-Vysočany
+17100,4539,26,DISP_1_KK,"Perucká, Praha - Vinohrady",Praha-Vinohrady
+21490,0,47,DISP_2_KK,"Thomasova, Praha - Třebonice",Praha-Třebonice
+23500,6800,48,DISP_2_KK,"Na Domovině, Praha - Libuš",Praha-Libuš
+30000,6500,72,DISP_3_KK,"Buchovcova, Praha - Žižkov",Praha-Žižkov
+23700,5300,64,DISP_3_1,"Něvská, Praha - Čakovice",Praha-Čakovice
+14697,6870,86,UNDEFINED,"Přemyslovská, Praha - Vinohrady",Praha-Vinohrady
+37098,17354,65,UNDEFINED,"Švehlova, Praha - Záběhlice",Praha-Záběhlice
+14000,4000,42,DISP_1_1,"Purkyňova, Říčany - Říčany u Prahy, Středočeský kraj",Říčany
+29900,9975,75,DISP_3_KK,"Ostravská, Praha - Letňany",Praha-Letňany
+21000,3000,41,DISP_2_KK,"Vorařská, Praha - Modřany",Praha-Modřany
+34900,12049,71,DISP_3_1,"Francouzská, Praha - Vinohrady",Praha-Vinohrady
+31987,5645,31,UNDEFINED,"Kmochova, Praha - Smíchov",Praha-Smíchov
+23000,4000,42,DISP_2_KK,"Podplukovníka Sochora, Praha - Holešovice",Praha-Holešovice
+19000,3500,43,DISP_2_KK,"Nad Kolonií, Praha - Podolí",Praha-Podolí
+19400,4600,45,DISP_2_KK,"Kurkova, Praha - Kobylisy",Praha-Kobylisy

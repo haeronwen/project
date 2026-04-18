@@ -27,7 +27,7 @@ Tesco was blocked. Albert has no structured online prices.
 
 Prices for cinema, pubs, cafes, gym memberships and other non-food expenses will be taken from Czech Statistical Office data and other published sources as fixed estimates.
 
-# Work in Progress - Bára
+# Work in Progress - Anna
 ## Dorms 
 Dorm prices are scraped from the official university accomodation system `https://rehos.cuni.cz/` by iteration over dormitory IDs and accessing individual dorm detail pages. Data are extracted from HTML tables containing room types and prices. Rows corresponding to newly renovated rooms were removed to ensure consistency of room types.
 

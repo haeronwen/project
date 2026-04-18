@@ -10,7 +10,6 @@ zábava - kafe
 2. interaktivní prvky
 výběr kolej x byt
 
-
 # Work in Progress - Bára
 
 ## Apartments
@@ -28,13 +27,24 @@ Tesco was blocked. Albert has no structured online prices.
 
 Prices for cinema, pubs, cafes, gym memberships and other non-food expenses will be taken from Czech Statistical Office data and other published sources as fixed estimates.
 
+# Work in Progress - Bára
+## Dorms 
+Dorm prices are scraped from the official university accomodation system `https://rehos.cuni.cz/` by iteration over dormitory IDs and accessing individual dorm detail pages. Data are extracted from HTML tables containing room types and prices. Rows corresponding to newly renovated rooms were removed to ensure consistency of room types.
+
+## Canteen 
+Meal prices are collected from the Charles University canteen API `https://kamweb.ruk.cuni.cz/` by querying daily menus for a fixed time period (week April 20-24) . Data are retrieved by JSON API requests containing daily menus for each selected date. Only student prices are included.
+
 ## Ideas for interactive aspects
-### Apartments
+### Apartments - B
 Students would be able to filtertheir preferred accomodation type by different categoriees, for apartments it would be for example district or number of occupants and if sharing, the rent will be split automatically by the number of people. The simulator will show the average rent for the selected filters alongside the full cost breakdown.
 
-### Groceries
+### Groceries - B
 Students will be able to select a store (Lidl or Rohlik) or view averaged prices across both. A basic cost estimator will calculate a monthly grocery bill based on the standardised basket.
 
 As a more ambitious extension, students could select from a set of common student recipes. The simulator would then generate a shopping list with the cheapest available matching products from the selected store, giving a realistic weekly meal cost estimate.
+
+### Dorms and canteen - A
+Student that would like cheaper options can chose that they would like to be accomodated in university dorms, and they can chose their preffered location and the type of the room (private, shared by two etc.). Also, they can chose how many days in a week they would like to eat in university canteen. 
+
 
 

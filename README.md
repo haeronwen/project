@@ -11,7 +11,7 @@ Analyse and compare monthly living consts for students in Prague across differen
 - Leisure - manually estimated 
 
 ### How to run 
-1. run notebooks(apartments_cleaner,dorm_cleaner,canteen_processed,groceries_processed)
+1. run notebooks(1-4cleaner)
 2. run analysis
 
 ### Requirements

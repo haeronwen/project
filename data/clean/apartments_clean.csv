@@ -1,29 +1,29 @@
 price,charges,surface,disposition,address,district,full_cost,disposition_clean,price_per_m2,price_group,zone
 16100,3100,33,DISP_1_KK,"Federova, Praha - Kyje",Kyje,19200,1+KK,581.8181818181819,lower_student,outer_or_suburbs
-40621,7168,40,,"Starokošířská, Praha - Košíře",Košíře,47789,unknown,1194.725,luxury,inner_city
+40621,7168,40,,"Starokošířská, Praha - Košíře",Košíře,47789,,1194.725,luxury,inner_city
 28000,6000,80,DISP_3_KK,"Amforova, Praha - Stodůlky",Stodůlky,34000,3+KK,425.0,upper_student,outer_or_suburbs
 15990,0,33,DISP_1_KK,"Freyova, Praha - Vysočany",Vysočany,15990,1+KK,484.54545454545456,very_cheap,inner_city
 24500,3000,51,DISP_2_1,"náměstí Josefa Machka, Praha - Košíře",Košíře,27500,2+1,539.2156862745098,upper_student,inner_city
-28953,5109,24,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,34062,unknown,1419.25,upper_student,outer_or_suburbs
+28953,5109,24,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,34062,,1419.25,upper_student,outer_or_suburbs
 14990,0,45,DISP_2_KK,"Donská, Praha - Vršovice",Vršovice,14990,2+KK,333.1111111111111,very_cheap,inner_city
 22900,4000,45,DISP_2_KK,"Holandská, Praha - Vršovice",Vršovice,26900,2+KK,597.7777777777778,upper_student,inner_city
 25000,1500,50,DISP_2_KK,"U Křížku, Praha - Nusle",Nusle,26500,2+KK,530.0,lower_student,inner_city
 25000,3095,42,DISP_2_KK,"Pekařova, Praha - Bohnice",Bohnice,28095,2+KK,668.9285714285714,upper_student,outer_or_suburbs
 23900,3900,70,DISP_2_1,"U Mydlárny, Praha - Stodůlky",Stodůlky,27800,2+1,397.14285714285717,upper_student,outer_or_suburbs
-28328,4999,26,,"Kališnická, Praha - Žižkov",Žižkov,33327,unknown,1281.8076923076924,upper_student,inner_city
-26795,4729,160,,"Ruská, Praha - Vršovice",Vršovice,31524,unknown,197.025,upper_student,inner_city
-22996,4058,16,,"Kováků, Praha - Smíchov",Smíchov,27054,unknown,1690.875,upper_student,inner_city
+28328,4999,26,,"Kališnická, Praha - Žižkov",Žižkov,33327,,1281.8076923076924,upper_student,inner_city
+26795,4729,160,,"Ruská, Praha - Vršovice",Vršovice,31524,,197.025,upper_student,inner_city
+22996,4058,16,,"Kováků, Praha - Smíchov",Smíchov,27054,,1690.875,upper_student,inner_city
 12990,0,30,DISP_1_KK,"Pelušková, Praha - Kyje",Kyje,12990,1+KK,433.0,very_cheap,outer_or_suburbs
 23500,0,51,DISP_2_KK,"Šmilovského, Praha - Vinohrady",Vinohrady,23500,2+KK,460.7843137254902,lower_student,inner_city
 21000,1110,49,DISP_2_1,"Primátorská, Praha - Libeň",Libeň,22110,2+1,451.2244897959184,lower_student,inner_city
 23000,4200,69,DISP_2_1,"Pod Školou, Praha - Košíře",Košíře,27200,2+1,394.2028985507246,upper_student,inner_city
-50564,8923,30,,"Washingtonova, Praha - Nové Město",Nové Město,59487,unknown,1982.9,luxury,center
+50564,8923,30,,"Washingtonova, Praha - Nové Město",Nové Město,59487,,1982.9,luxury,center
 15900,2500,39,DISP_2_KK,"Na Rokytce, Praha - Libeň",Libeň,18400,2+KK,471.79487179487177,lower_student,inner_city
 18000,6000,39,DISP_1_KK,"Kurta Konráda, Praha - Libeň",Libeň,24000,1+KK,615.3846153846154,lower_student,inner_city
 31000,7300,102,DISP_4_KK,"Nušlova, Praha - Stodůlky",Stodůlky,38300,4+KK,375.4901960784314,upper_student,outer_or_suburbs
 25000,1500,42,DISP_2_KK,"Dalimilova, Praha - Žižkov",Žižkov,26500,2+KK,630.952380952381,lower_student,inner_city
 22000,4300,40,DISP_1_KK,"Bukačova, Praha - Vysočany",Vysočany,26300,1+KK,657.5,lower_student,inner_city
-43226,7628,35,,"Sevastopolská, Praha - Vršovice",Vršovice,50854,unknown,1452.9714285714285,luxury,inner_city
+43226,7628,35,,"Sevastopolská, Praha - Vršovice",Vršovice,50854,,1452.9714285714285,luxury,inner_city
 24000,6000,52,DISP_2_1,"Dělnická, Praha - Holešovice",Holešovice,30000,2+1,576.9230769230769,upper_student,inner_city
 37900,0,89,DISP_3_KK,"Kubelíkova, Praha - Žižkov",Žižkov,37900,3+KK,425.8426966292135,upper_student,inner_city
 21000,3370,45,DISP_2_KK,"Zelenky-Hajského, Praha - Žižkov",Žižkov,24370,2+KK,541.5555555555555,lower_student,inner_city
@@ -50,7 +50,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 15000,2000,45,DISP_1_KK,"U Svodnice, Praha - Královice",Královice,17000,1+KK,377.77777777777777,very_cheap,outer_or_suburbs
 37900,6700,75,DISP_3_KK,"Odkolkova, Praha - Vysočany",Vysočany,44600,3+KK,594.6666666666666,luxury,inner_city
 17900,4700,54,DISP_2_KK,"Trnkovo náměstí, Praha - Hlubočepy",Hlubočepy,22600,2+KK,418.51851851851853,lower_student,inner_city
-29634,5229,61,,"Kosatcová, Praha - Záběhlice",Záběhlice,34863,unknown,571.5245901639345,upper_student,outer_or_suburbs
+29634,5229,61,,"Kosatcová, Praha - Záběhlice",Záběhlice,34863,,571.5245901639345,upper_student,outer_or_suburbs
 26000,2000,50,DISP_2_KK,"Jilemnického, Praha - Bubeneč",Bubeneč,28000,2+KK,560.0,upper_student,inner_city
 19000,4600,49,DISP_2_KK,"Křížová, Praha - Smíchov",Smíchov,23600,2+KK,481.6326530612245,lower_student,inner_city
 30000,3800,60,DISP_2_KK,"Spinozova, Praha - Modřany",Modřany,33800,2+KK,563.3333333333334,upper_student,outer_or_suburbs
@@ -59,12 +59,12 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 16000,4000,25,DISP_1_KK,"Počernická, Praha - Malešice",Malešice,20000,1+KK,800.0,lower_student,outer_or_suburbs
 19490,0,38,DISP_1_KK,"Olgy Havlové, Praha - Žižkov",Žižkov,19490,1+KK,512.8947368421053,lower_student,inner_city
 20990,0,50,DISP_2_KK,"Střížkovská, Praha - Libeň",Libeň,20990,2+KK,419.8,lower_student,inner_city
-25572,4513,160,,"Ruská, Praha - Vršovice",Vršovice,30085,unknown,188.03125,upper_student,inner_city
+25572,4513,160,,"Ruská, Praha - Vršovice",Vršovice,30085,,188.03125,upper_student,inner_city
 27500,6900,80,DISP_2_1,"Slovinská, Praha - Vršovice",Vršovice,34400,2+1,430.0,upper_student,inner_city
 22000,5000,49,DISP_1_KK,"Zvěřinova, Praha - Strašnice",Strašnice,27000,1+KK,551.0204081632653,upper_student,inner_city
 19000,4100,32,DISP_1_KK,"Bělohorská, Praha - Břevnov",Břevnov,23100,1+KK,721.875,lower_student,inner_city
-47540,8389,58,,"Svatoslavova, Praha - Nusle",Nusle,55929,unknown,964.2931034482758,luxury,inner_city
-44083,7779,35,,"Plzeňská, Praha - Smíchov",Smíchov,51862,unknown,1481.7714285714285,luxury,inner_city
+47540,8389,58,,"Svatoslavova, Praha - Nusle",Nusle,55929,,964.2931034482758,luxury,inner_city
+44083,7779,35,,"Plzeňská, Praha - Smíchov",Smíchov,51862,,1481.7714285714285,luxury,inner_city
 16000,4000,50,DISP_2_KK,"Ve Stromkách, Vestec - Vestec u Prahy, Středočeský kraj",Vestec,20000,2+KK,400.0,lower_student,outer_or_suburbs
 25000,4539,53,DISP_2_KK,"Na Neklance, Praha - Smíchov",Smíchov,29539,2+KK,557.3396226415094,upper_student,inner_city
 13490,0,17,DISP_1_KK,"Čestmírova, Praha - Nusle",Nusle,13490,1+KK,793.5294117647059,very_cheap,inner_city
@@ -93,19 +93,19 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 19500,3800,50,DISP_1_1,"Práčská, Praha - Záběhlice",Záběhlice,23300,1+1,466.0,lower_student,outer_or_suburbs
 28300,7700,72,DISP_3_KK,"Na Výtoni, Praha - Nové Město",Nové Město,36000,3+KK,500.0,upper_student,center
 24900,169,34,DISP_1_KK,"Mukařovského, Praha - Stodůlky",Stodůlky,25069,1+KK,737.3235294117648,lower_student,outer_or_suburbs
-30906,5454,53,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,36360,unknown,686.0377358490566,upper_student,outer_or_suburbs
+30906,5454,53,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,36360,,686.0377358490566,upper_student,outer_or_suburbs
 14000,0,23,DISP_1_KK,"Čenětická, Praha - Chodov",Chodov,14000,1+KK,608.695652173913,very_cheap,outer_or_suburbs
 33900,4000,65,DISP_2_1,"Na lysině, Praha - Podolí",Podolí,37900,2+1,583.0769230769231,upper_student,inner_city
 25000,4200,52,DISP_2_KK,"Na Výšině, Říčany - Říčany u Prahy, Středočeský kraj",Říčany,29200,2+KK,561.5384615384615,upper_student,outer_or_suburbs
 24000,4000,53,DISP_2_KK,"Pod Harfou, Praha - Vysočany",Vysočany,28000,2+KK,528.3018867924528,upper_student,inner_city
-45650,8056,46,,"Míšeňská, Praha - Malá Strana",Malá Strana,53706,unknown,1167.5217391304348,luxury,center
+45650,8056,46,,"Míšeňská, Praha - Malá Strana",Malá Strana,53706,,1167.5217391304348,luxury,center
 29000,5500,80,DISP_3_KK,"Sazovická, Praha - Zličín",Zličín,34500,3+KK,431.25,upper_student,outer_or_suburbs
 18500,3500,57,DISP_2_1,"Úhonická, Jeneč - Jeneč u Prahy, Středočeský kraj",Jeneč,22000,2+1,385.96491228070175,lower_student,outer_or_suburbs
-20146,8403,80,,"Voskovcova, Praha - Hlubočepy",Hlubočepy,28549,unknown,356.8625,upper_student,inner_city
+20146,8403,80,,"Voskovcova, Praha - Hlubočepy",Hlubočepy,28549,,356.8625,upper_student,inner_city
 24490,0,61,DISP_2_KK,"Přeučilova, Praha - Stodůlky",Stodůlky,24490,2+KK,401.4754098360656,lower_student,outer_or_suburbs
 16500,0,34,DISP_1_KK,"Kadečkové, Praha - Letňany",Letňany,16500,1+KK,485.29411764705884,very_cheap,outer_or_suburbs
 25990,0,68,DISP_2_1,"Herálecká IV, Praha - Krč",Krč,25990,2+1,382.20588235294116,lower_student,outer_or_suburbs
-28961,5111,25,,"Freyova, Praha - Vysočany",Vysočany,34072,unknown,1362.88,upper_student,inner_city
+28961,5111,25,,"Freyova, Praha - Vysočany",Vysočany,34072,,1362.88,upper_student,inner_city
 14450,2950,25,DISP_1_KK,"Vrážská, Praha - Radotín",Radotín,17400,1+KK,696.0,very_cheap,outer_or_suburbs
 18000,3800,43,DISP_2_KK,"Cílkova, Praha - Kamýk",Kamýk,21800,2+KK,506.9767441860465,lower_student,outer_or_suburbs
 11000,1000,16,GARSONIERA,"Pod Kavalírkou, Praha - Košíře",Košíře,12000,GARSONIERA,750.0,very_cheap,inner_city
@@ -113,7 +113,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 20500,4000,58,DISP_2_1,"Na Pěšinách, Praha - Kobylisy",Kobylisy,24500,2+1,422.41379310344826,lower_student,inner_city
 24000,4500,57,DISP_2_KK,"Novákových, Praha - Libeň",Libeň,28500,2+KK,500.0,upper_student,inner_city
 22000,4500,57,DISP_2_1,"Plzeňská, Praha - Smíchov",Smíchov,26500,2+1,464.9122807017544,lower_student,inner_city
-50668,8941,18,,"Svornosti, Praha - Smíchov",Smíchov,59609,unknown,3311.6111111111113,luxury,inner_city
+50668,8941,18,,"Svornosti, Praha - Smíchov",Smíchov,59609,,3311.6111111111113,luxury,inner_city
 21500,4100,53,DISP_2_KK,"Škrábkových, Praha - Letňany",Letňany,25600,2+KK,483.0188679245283,lower_student,outer_or_suburbs
 19990,0,54,DISP_2_1,"Kamerunská, Praha - Vokovice",Vokovice,19990,2+1,370.18518518518516,lower_student,inner_city
 21900,2000,24,DISP_1_KK,"Staropramenná, Praha - Smíchov",Smíchov,23900,1+KK,995.8333333333334,lower_student,inner_city
@@ -123,7 +123,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 35000,4800,107,DISP_3_1,"Sázavská, Praha - Vinohrady",Vinohrady,39800,3+1,371.9626168224299,upper_student,inner_city
 19000,7000,50,DISP_2_1,"Na Výtoni, Praha - Nové Město",Nové Město,26000,2+1,520.0,lower_student,center
 18500,3700,37,DISP_2_KK,"Vysočanská, Praha - Prosek",Prosek,22200,2+KK,600.0,lower_student,inner_city
-47936,8459,45,,"Dlážděná, Praha - Nové Město",Nové Město,56395,unknown,1253.2222222222222,luxury,center
+47936,8459,45,,"Dlážděná, Praha - Nové Město",Nové Město,56395,,1253.2222222222222,luxury,center
 21000,4063,44,DISP_2_KK,"Fabiánové, Praha - Hlubočepy",Hlubočepy,25063,2+KK,569.6136363636364,lower_student,inner_city
 25500,5500,73,DISP_2_KK,"Dělnická, Praha - Holešovice",Holešovice,31000,2+KK,424.6575342465753,upper_student,inner_city
 25000,3501,55,DISP_2_1,"Tejnická, Praha - Strašnice",Strašnice,28501,2+1,518.2,upper_student,inner_city
@@ -135,20 +135,20 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 16000,5300,35,DISP_1_KK,"Freyova, Praha - Vysočany",Vysočany,21300,1+KK,608.5714285714286,lower_student,inner_city
 20990,0,44,DISP_2_KK,"Janského, Praha - Stodůlky",Stodůlky,20990,2+KK,477.04545454545456,lower_student,outer_or_suburbs
 18500,3300,20,DISP_1_KK,"Jana Zajíce, Praha - Bubeneč",Bubeneč,21800,1+KK,1090.0,lower_student,inner_city
-28429,5017,35,,"Kodymova, Praha - Stodůlky",Stodůlky,33446,unknown,955.6,upper_student,outer_or_suburbs
+28429,5017,35,,"Kodymova, Praha - Stodůlky",Stodůlky,33446,,955.6,upper_student,outer_or_suburbs
 15000,3000,23,DISP_1_KK,"Holečkova, Praha - Košíře",Košíře,18000,1+KK,782.6086956521739,very_cheap,inner_city
 15000,3000,42,DISP_2_KK,"Pavlíkova, Praha - Kamýk",Kamýk,18000,2+KK,428.57142857142856,very_cheap,outer_or_suburbs
 18990,0,36,DISP_1_KK,"Poděbradská, Praha - Vysočany",Hloubětín,18990,1+KK,527.5,lower_student,outer_or_suburbs
 21000,3300,33,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Hloubětín,24300,1+KK,736.3636363636364,lower_student,outer_or_suburbs
 18000,0,44,DISP_1_KK,"Kotlaska, Praha - Libeň",Libeň,18000,1+KK,409.09090909090907,very_cheap,inner_city
 26500,6000,67,DISP_2_KK,"Osadní, Praha - Holešovice",Holešovice,32500,2+KK,485.07462686567163,upper_student,inner_city
-26368,4653,42,,"Orebitská, Praha - Žižkov",Žižkov,31021,unknown,738.5952380952381,upper_student,inner_city
+26368,4653,42,,"Orebitská, Praha - Žižkov",Žižkov,31021,,738.5952380952381,upper_student,inner_city
 19000,5000,55,DISP_1_KK,"Sídlištní, Praha - Suchdol",Suchdol,24000,1+KK,436.3636363636364,lower_student,outer_or_suburbs
 21990,0,34,DISP_1_KK,"Modrého, Praha - Hloubětín",Hloubětín,21990,1+KK,646.7647058823529,lower_student,outer_or_suburbs
 24000,4000,51,DISP_2_KK,"Gollové, Praha - Hlubočepy",Hlubočepy,28000,2+KK,549.0196078431372,upper_student,inner_city
 32900,169,81,DISP_2_KK,"Mukařovského, Praha - Stodůlky",Stodůlky,33069,2+KK,408.25925925925924,upper_student,outer_or_suburbs
 7500,0,86,DISP_4_KK,"Za Hotely, Horoměřice - Horoměřice, Středočeský kraj",Horoměřice,7500,4+KK,87.20930232558139,very_cheap,outer_or_suburbs
-28953,5109,43,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,34062,unknown,792.1395348837209,upper_student,outer_or_suburbs
+28953,5109,43,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,34062,,792.1395348837209,upper_student,outer_or_suburbs
 19990,0,52,DISP_1_1,"náměstí 14. října, Praha - Smíchov",Smíchov,19990,1+1,384.4230769230769,lower_student,inner_city
 21000,2960,33,DISP_1_KK,"Gerstelova, Praha - Vysočany",Vysočany,23960,1+KK,726.060606060606,lower_student,inner_city
 22990,0,50,DISP_2_KK,"Biskupcova, Praha - Žižkov",Žižkov,22990,2+KK,459.8,lower_student,inner_city
@@ -162,7 +162,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 21990,0,32,DISP_1_KK,"Ondříčkova, Praha - Žižkov",Žižkov,21990,1+KK,687.1875,lower_student,inner_city
 22000,3000,54,DISP_2_KK,"Komunardů, Praha - Holešovice",Holešovice,25000,2+KK,462.962962962963,lower_student,inner_city
 26900,5000,45,DISP_1_KK,"Osadní, Praha - Holešovice",Holešovice,31900,1+KK,708.8888888888889,upper_student,inner_city
-27740,12815,35,,"Hlaváčkova, Praha - Košíře",Košíře,40555,unknown,1158.7142857142858,luxury,inner_city
+27740,12815,35,,"Hlaváčkova, Praha - Košíře",Košíře,40555,,1158.7142857142858,luxury,inner_city
 24000,3900,50,DISP_2_KK,"Malešická, Praha - Žižkov",Žižkov,27900,2+KK,558.0,upper_student,inner_city
 13500,3500,34,DISP_1_KK,"Kokořínská, Praha - Ďáblice",Ďáblice,17000,1+KK,500.0,very_cheap,outer_or_suburbs
 17490,0,32,DISP_1_KK,"Horňátecká, Praha - Kobylisy",Kobylisy,17490,1+KK,546.5625,very_cheap,inner_city
@@ -172,9 +172,9 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 21500,5565,60,DISP_2_1,"U Okrouhlíku, Praha - Smíchov",Smíchov,27065,2+1,451.0833333333333,upper_student,inner_city
 23990,2430,55,DISP_2_KK,"Klapkova, Praha - Kobylisy",Kobylisy,26420,2+KK,480.3636363636364,lower_student,inner_city
 37000,7500,130,DISP_4_KK,"Stočesova, Praha - Ruzyně",Ruzyně,44500,4+KK,342.3076923076923,luxury,outer_or_suburbs
-34110,6019,35,,"Olgy Havlové, Praha - Žižkov",Žižkov,40129,unknown,1146.5428571428572,luxury,inner_city
+34110,6019,35,,"Olgy Havlové, Praha - Žižkov",Žižkov,40129,,1146.5428571428572,luxury,inner_city
 38000,6000,120,DISP_3_1,"Rumunská, Praha - Vinohrady",Vinohrady,44000,3+1,366.6666666666667,luxury,inner_city
-36299,6406,38,,"Kurta Konráda, Praha - Libeň",Libeň,42705,unknown,1123.8157894736842,luxury,inner_city
+36299,6406,38,,"Kurta Konráda, Praha - Libeň",Libeň,42705,,1123.8157894736842,luxury,inner_city
 25000,6000,55,DISP_2_KK,"Malešická, Praha - Žižkov",Žižkov,31000,2+KK,563.6363636363636,upper_student,inner_city
 17990,2990,45,DISP_1_1,"Mošnova, Praha - Smíchov",Smíchov,20980,1+1,466.22222222222223,lower_student,inner_city
 27500,210,65,DISP_2_1,"Kodaňská, Praha - Vršovice",Vršovice,27710,2+1,426.3076923076923,upper_student,inner_city
@@ -188,8 +188,8 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 34990,7650,72,DISP_2_KK,"Sokolova, Praha - Karlín",Karlín,42640,2+KK,592.2222222222222,luxury,inner_city
 21490,0,65,DISP_3_KK,"Brandlova, Praha - Chodov",Chodov,21490,3+KK,330.61538461538464,lower_student,outer_or_suburbs
 10000,1500,90,DISP_4_1,"Pertoldova, Praha - Modřany",Modřany,11500,4+1,127.77777777777777,very_cheap,outer_or_suburbs
-27085,4780,22,,"Kubánské náměstí, Praha - Vršovice",Vršovice,31865,unknown,1448.409090909091,upper_student,inner_city
-46464,8200,45,,"Plzeňská, Praha - Smíchov",Smíchov,54664,unknown,1214.7555555555555,luxury,inner_city
+27085,4780,22,,"Kubánské náměstí, Praha - Vršovice",Vršovice,31865,,1448.409090909091,upper_student,inner_city
+46464,8200,45,,"Plzeňská, Praha - Smíchov",Smíchov,54664,,1214.7555555555555,luxury,inner_city
 16490,0,22,DISP_1_KK,"Bozděchova, Praha - Smíchov",Smíchov,16490,1+KK,749.5454545454545,very_cheap,inner_city
 33000,5000,123,DISP_4_KK,"V Háji, Praha - Holešovice",Holešovice,38000,4+KK,308.9430894308943,upper_student,inner_city
 22000,3500,52,DISP_2_KK,"Zakšínská, Praha - Střížkov",Střížkov,25500,2+KK,490.38461538461536,lower_student,outer_or_suburbs
@@ -201,7 +201,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 19990,6500,46,DISP_1_KK,"Pod Kesnerkou, Praha - Smíchov",Smíchov,26490,1+KK,575.8695652173913,lower_student,inner_city
 21900,5000,53,DISP_2_KK,"Vladivostocká, Praha - Vršovice",Vršovice,26900,2+KK,507.54716981132077,upper_student,inner_city
 26990,0,73,DISP_3_1,"Prusíkova, Praha - Stodůlky",Stodůlky,26990,3+1,369.7260273972603,upper_student,outer_or_suburbs
-28953,5109,34,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,34062,unknown,1001.8235294117648,upper_student,outer_or_suburbs
+28953,5109,34,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,34062,,1001.8235294117648,upper_student,outer_or_suburbs
 23000,3500,43,DISP_2_KK,"Skuteckého, Praha - Řepy",Řepy,26500,2+KK,616.2790697674419,lower_student,outer_or_suburbs
 27900,0,45,DISP_2_KK,"Sládkova, Praha - Bubeneč",Bubeneč,27900,2+KK,620.0,upper_student,inner_city
 19600,4000,39,DISP_1_KK,"Nad Dalejským údolím, Praha - Stodůlky",Stodůlky,23600,1+KK,605.1282051282051,lower_student,outer_or_suburbs
@@ -217,19 +217,19 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 16000,3500,22,DISP_1_KK,"V Šáreckém údolí, Praha - Dejvice",Dejvice,19500,1+KK,886.3636363636364,lower_student,inner_city
 21990,0,56,DISP_3_KK,"Hurbanova, Praha - Krč",Krč,21990,3+KK,392.67857142857144,lower_student,outer_or_suburbs
 16490,0,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Hloubětín,16490,1+KK,515.3125,very_cheap,outer_or_suburbs
-25193,4446,52,,"Na Bečvářce, Praha - Dejvice",Dejvice,29639,unknown,569.9807692307693,upper_student,inner_city
+25193,4446,52,,"Na Bečvářce, Praha - Dejvice",Dejvice,29639,,569.9807692307693,upper_student,inner_city
 17600,0,36,DISP_1_KK,"Českobrodská, Praha - Hostavice",Hostavice,17600,1+KK,488.8888888888889,very_cheap,outer_or_suburbs
 35999,0,90,DISP_3_KK,"Vrázova, Praha - Smíchov",Smíchov,35999,3+KK,399.9888888888889,upper_student,inner_city
 38300,0,61,DISP_3_1,"U Pergamenky, Praha - Holešovice",Holešovice,38300,3+1,627.8688524590164,upper_student,inner_city
-26693,12979,35,,"Hlaváčkova, Praha - Košíře",Košíře,39672,unknown,1133.4857142857143,upper_student,inner_city
+26693,12979,35,,"Hlaváčkova, Praha - Košíře",Košíře,39672,,1133.4857142857143,upper_student,inner_city
 28500,4644,44,DISP_2_KK,"Poděbradská, Praha - Vysočany",Vysočany,33144,2+KK,753.2727272727273,upper_student,inner_city
 29000,5200,60,DISP_2_KK,"Petrohradská, Praha - Vršovice",Vršovice,34200,2+KK,570.0,upper_student,inner_city
-30258,11657,25,,"Freyova, Praha - Vysočany",Vysočany,41915,unknown,1676.6,luxury,inner_city
+30258,11657,25,,"Freyova, Praha - Vysočany",Vysočany,41915,,1676.6,luxury,inner_city
 28000,1,45,DISP_2_KK,"Chvalova, Praha - Žižkov",Žižkov,28001,2+KK,622.2444444444444,upper_student,inner_city
 27900,4500,39,DISP_1_KK,"U Mlýnského kanálu, Praha - Karlín",Karlín,32400,1+KK,830.7692307692307,upper_student,inner_city
 13500,1500,19,GARSONIERA,"Šmolíkova, Praha - Ruzyně",Ruzyně,15000,GARSONIERA,789.4736842105264,very_cheap,outer_or_suburbs
 17500,7000,48,DISP_2_1,"Kloboučnická, Praha - Nusle",Nusle,24500,2+1,510.4166666666667,lower_student,inner_city
-46510,8208,43,,"Na Mokřině, Praha - Žižkov",Žižkov,54718,unknown,1272.5116279069769,luxury,inner_city
+46510,8208,43,,"Na Mokřině, Praha - Žižkov",Žižkov,54718,,1272.5116279069769,luxury,inner_city
 20600,4000,51,DISP_1_KK,"Do Roklí, Praha - Přední Kopanina",Přední Kopanina,24600,1+KK,482.3529411764706,lower_student,outer_or_suburbs
 20980,0,15,DISP_1_KK,"Na Zátorách, Praha - Holešovice",Holešovice,20980,1+KK,1398.6666666666667,lower_student,inner_city
 25000,6000,56,DISP_2_KK,"Na Zemance, Praha - Braník",Braník,31000,2+KK,553.5714285714286,upper_student,inner_city
@@ -253,7 +253,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 25200,4300,46,DISP_1_KK,"Klapálkova, Praha - Záběhlice",Záběhlice,29500,1+KK,641.304347826087,upper_student,outer_or_suburbs
 26000,3200,58,DISP_3_1,"Biskupcova, Praha - Žižkov",Žižkov,29200,3+1,503.44827586206895,upper_student,inner_city
 26000,5400,68,DISP_4_KK,"Tobrucká, Praha - Vokovice",Vokovice,31400,4+KK,461.7647058823529,upper_student,inner_city
-48307,8525,30,,"Příčná, Praha - Nové Město",Nové Město,56832,unknown,1894.4,luxury,center
+48307,8525,30,,"Příčná, Praha - Nové Město",Nové Město,56832,,1894.4,luxury,center
 24500,5400,59,DISP_2_KK,"Babická, Praha - Chodov",Chodov,29900,2+KK,506.77966101694915,upper_student,outer_or_suburbs
 16500,3500,38,DISP_1_1,"Gdaňská, Praha - Bohnice",Bohnice,20000,1+1,526.3157894736842,lower_student,outer_or_suburbs
 22500,2200,41,DISP_2_KK,"Světova, Praha - Libeň",Libeň,24700,2+KK,602.439024390244,lower_student,inner_city
@@ -273,8 +273,8 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 26000,4000,45,DISP_2_KK,"Buchovcova, Praha - Žižkov",Žižkov,30000,2+KK,666.6666666666666,upper_student,inner_city
 29500,1200,62,DISP_2_KK,"Korunní, Praha - Vinohrady",Vinohrady,30700,2+KK,495.16129032258067,upper_student,inner_city
 23000,4500,34,DISP_1_KK,"Boleslavova, Praha - Nusle",Nusle,27500,1+KK,808.8235294117648,upper_student,inner_city
-20043,3537,25,,"Klapkova, Praha - Kobylisy",Kobylisy,23580,unknown,943.2,lower_student,inner_city
-14912,2631,25,,"Ďáblická, Praha - Kobylisy",Kobylisy,17543,unknown,701.72,very_cheap,inner_city
+20043,3537,25,,"Klapkova, Praha - Kobylisy",Kobylisy,23580,,943.2,lower_student,inner_city
+14912,2631,25,,"Ďáblická, Praha - Kobylisy",Kobylisy,17543,,701.72,very_cheap,inner_city
 21500,7360,63,DISP_2_1,"Patočkova, Praha - Střešovice",Střešovice,28860,2+1,458.0952380952381,upper_student,inner_city
 24000,5000,68,DISP_2_KK,"Jevanská, Praha - Strašnice",Strašnice,29000,2+KK,426.47058823529414,upper_student,inner_city
 17000,4500,27,DISP_1_KK,"Nebřenická, Praha - Chodov",Chodov,21500,1+KK,796.2962962962963,lower_student,outer_or_suburbs
@@ -284,12 +284,12 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 24000,4500,46,DISP_2_KK,"Hlučkova, Praha - Letňany",Letňany,28500,2+KK,619.5652173913044,upper_student,outer_or_suburbs
 30000,3001,78,DISP_2_1,"Sokolovská, Praha - Karlín",Karlín,33001,2+1,423.0897435897436,upper_student,inner_city
 27200,3750,51,DISP_2_KK,"Libická, Praha - Vinohrady",Vinohrady,30950,2+KK,606.8627450980392,upper_student,inner_city
-28529,5034,25,,"Na Proseku, Praha - Prosek",Prosek,33563,unknown,1342.52,upper_student,inner_city
+28529,5034,25,,"Na Proseku, Praha - Prosek",Prosek,33563,,1342.52,upper_student,inner_city
 15500,3500,33,DISP_1_KK,"Františka Diviše, Praha - Uhříněves",Uhříněves,19000,1+KK,575.7575757575758,lower_student,outer_or_suburbs
-46251,8162,28,,"Cimburkova, Praha - Žižkov",Žižkov,54413,unknown,1943.3214285714287,luxury,inner_city
+46251,8162,28,,"Cimburkova, Praha - Žižkov",Žižkov,54413,,1943.3214285714287,luxury,inner_city
 24000,5000,70,DISP_2_1,"Sámova, Praha - Vršovice",Vršovice,29000,2+1,414.2857142857143,upper_student,inner_city
 39000,7000,76,DISP_2_KK,"V Přístavu, Praha - Holešovice",Holešovice,46000,2+KK,605.2631578947369,luxury,inner_city
-19451,3433,16,,"Biskupcova, Praha - Žižkov",Žižkov,22884,unknown,1430.25,lower_student,inner_city
+19451,3433,16,,"Biskupcova, Praha - Žižkov",Žižkov,22884,,1430.25,lower_student,inner_city
 23000,3900,56,DISP_2_1,"Černokostelecká, Praha - Strašnice",Strašnice,26900,2+1,480.35714285714283,upper_student,inner_city
 18500,3500,34,DISP_1_KK,"U Michelského mlýna, Praha - Michle",Michle,22000,1+KK,647.0588235294117,lower_student,inner_city
 14900,4500,31,DISP_1_KK,"Kovanecká, Praha - Libeň",Libeň,19400,1+KK,625.8064516129032,lower_student,inner_city
@@ -311,7 +311,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 15000,2000,28,GARSONIERA,"Jaurisova, Praha - Nusle",Nusle,17000,GARSONIERA,607.1428571428571,very_cheap,inner_city
 28800,5000,72,DISP_3_1,"Kurkova, Praha - Kobylisy",Kobylisy,33800,3+1,469.44444444444446,upper_student,inner_city
 28700,5600,65,DISP_2_KK,"Milady Horákové, Praha - Holešovice",Holešovice,34300,2+KK,527.6923076923077,upper_student,inner_city
-38400,6776,20,,"Nuselská, Praha - Michle",Michle,45176,unknown,2258.8,luxury,inner_city
+38400,6776,20,,"Nuselská, Praha - Michle",Michle,45176,,2258.8,luxury,inner_city
 24000,5600,51,DISP_2_KK,"Bělohorská, Praha - Břevnov",Břevnov,29600,2+KK,580.3921568627451,upper_student,inner_city
 23900,2500,40,DISP_2_KK,"Andrštova, Praha - Libeň",Libeň,26400,2+KK,660.0,lower_student,inner_city
 31000,3170,45,DISP_2_KK,"Legerova, Praha - Nové Město",Nové Město,34170,2+KK,759.3333333333334,upper_student,center
@@ -321,7 +321,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 20990,0,49,DISP_2_KK,"Volutová, Praha - Stodůlky",Stodůlky,20990,2+KK,428.3673469387755,lower_student,outer_or_suburbs
 22900,169,27,DISP_1_KK,"Mukařovského, Praha - Stodůlky",Stodůlky,23069,1+KK,854.4074074074074,lower_student,outer_or_suburbs
 21000,5500,72,DISP_2_1,"Na moklině, Praha - Řepy",Řepy,26500,2+1,368.05555555555554,lower_student,outer_or_suburbs
-29353,5180,25,,"Na Bitevní Pláni, Praha - Nusle",Nusle,34533,unknown,1381.32,upper_student,inner_city
+29353,5180,25,,"Na Bitevní Pláni, Praha - Nusle",Nusle,34533,,1381.32,upper_student,inner_city
 17490,0,31,DISP_1_KK,"Gollové, Praha - Hlubočepy",Hlubočepy,17490,1+KK,564.1935483870968,very_cheap,inner_city
 23253,3247,52,DISP_2_1,"Poděbradská, Praha - Hloubětín",Hloubětín,26500,2+1,509.61538461538464,lower_student,outer_or_suburbs
 21000,4500,45,DISP_2_KK,"Thámova, Praha - Karlín",Karlín,25500,2+KK,566.6666666666666,lower_student,inner_city
@@ -346,8 +346,8 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 25000,4500,47,DISP_1_KK,"Poděbradská, Praha - Vysočany",Vysočany,29500,1+KK,627.6595744680851,upper_student,inner_city
 24500,4500,50,DISP_2_1,"Vostrovská, Praha - Dejvice",Dejvice,29000,2+1,580.0,upper_student,inner_city
 18500,5500,45,DISP_2_KK,"Bronzová, Praha - Stodůlky",Stodůlky,24000,2+KK,533.3333333333334,lower_student,outer_or_suburbs
-33620,5933,36,,"Slavíkova, Praha - Žižkov",Žižkov,39553,unknown,1098.6944444444443,upper_student,inner_city
-42664,7529,35,,"Rostovská, Praha - Vršovice",Vršovice,50193,unknown,1434.0857142857142,luxury,inner_city
+33620,5933,36,,"Slavíkova, Praha - Žižkov",Žižkov,39553,,1098.6944444444443,upper_student,inner_city
+42664,7529,35,,"Rostovská, Praha - Vršovice",Vršovice,50193,,1434.0857142857142,luxury,inner_city
 20000,3500,38,DISP_1_KK,"Chorošová, Praha - Pitkovice",Pitkovice,23500,1+KK,618.421052631579,lower_student,outer_or_suburbs
 21000,800,27,DISP_1_KK,"Slovenská, Praha - Vinohrady",Vinohrady,21800,1+KK,807.4074074074074,lower_student,inner_city
 17000,3000,34,DISP_1_KK,"Oty Bubeníčka, Praha - Uhříněves",Uhříněves,20000,1+KK,588.2352941176471,lower_student,outer_or_suburbs
@@ -356,30 +356,30 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 18990,0,55,DISP_2_KK,"Hrušovická, Praha - Kbely",Kbely,18990,2+KK,345.27272727272725,lower_student,outer_or_suburbs
 20000,4500,38,DISP_1_KK,"Štanderova, Praha - Letňany",Letňany,24500,1+KK,644.7368421052631,lower_student,outer_or_suburbs
 24000,4950,52,DISP_2_KK,"Hodkovická, Praha - Kamýk",Kamýk,28950,2+KK,556.7307692307693,upper_student,outer_or_suburbs
-34494,6087,50,,"Teplická, Praha - Střížkov",Střížkov,40581,unknown,811.62,luxury,outer_or_suburbs
+34494,6087,50,,"Teplická, Praha - Střížkov",Střížkov,40581,,811.62,luxury,outer_or_suburbs
 19500,4000,35,DISP_2_KK,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,23500,2+KK,671.4285714285714,lower_student,outer_or_suburbs
 20000,4500,37,DISP_1_KK,"Roháčova, Praha - Žižkov",Žižkov,24500,1+KK,662.1621621621622,lower_student,inner_city
 29000,3700,70,DISP_3_KK,"V Olšinách, Praha - Vršovice",Vršovice,32700,3+KK,467.14285714285717,upper_student,inner_city
 25000,8539,62,DISP_2_KK,"Klímova, Praha - Radlice",Radlice,33539,2+KK,540.9516129032259,upper_student,inner_city
-26454,4668,40,,"Rokycanova, Praha - Žižkov",Žižkov,31122,unknown,778.05,upper_student,inner_city
+26454,4668,40,,"Rokycanova, Praha - Žižkov",Žižkov,31122,,778.05,upper_student,inner_city
 30000,5800,85,DISP_3_1,"Legerova, Praha - Nové Město",Nové Město,35800,3+1,421.1764705882353,upper_student,center
 18000,3900,35,DISP_1_KK,Praha - Stodůlky,Stodůlky,21900,1+KK,625.7142857142857,lower_student,outer_or_suburbs
-25496,10302,24,,"Tyršova, Praha - Nové Město",Nové Město,35798,unknown,1491.5833333333333,upper_student,center
+25496,10302,24,,"Tyršova, Praha - Nové Město",Nové Město,35798,,1491.5833333333333,upper_student,center
 14500,2500,25,DISP_1_KK,"Bolevecká, Praha - Horní Měcholupy",Horní Měcholupy,17000,1+KK,680.0,very_cheap,outer_or_suburbs
 18000,6000,61,DISP_2_KK,"Soukalova, Praha - Modřany",Modřany,24000,2+KK,393.44262295081967,lower_student,outer_or_suburbs
 21500,4200,48,DISP_2_KK,"Musílkova, Praha - Košíře",Košíře,25700,2+KK,535.4166666666666,lower_student,inner_city
-38903,6865,36,,"Tetauerova, Praha - Žižkov",Žižkov,45768,unknown,1271.3333333333333,luxury,inner_city
+38903,6865,36,,"Tetauerova, Praha - Žižkov",Žižkov,45768,,1271.3333333333333,luxury,inner_city
 20900,2600,52,DISP_2_KK,"Pod Zahrady, Přezletice - Přezletice, Středočeský kraj",Přezletice,23500,2+KK,451.9230769230769,lower_student,outer_or_suburbs
 18990,0,41,DISP_1_KK,"Nad Akcízem, Praha - Ďáblice",Ďáblice,18990,1+KK,463.1707317073171,lower_student,outer_or_suburbs
 24990,0,28,DISP_1_KK,"V háji, Praha - Holešovice",Holešovice,24990,1+KK,892.5,lower_student,inner_city
-21786,9457,23,,"U Pernikářky, Praha - Smíchov",Smíchov,31243,unknown,1358.391304347826,upper_student,inner_city
+21786,9457,23,,"U Pernikářky, Praha - Smíchov",Smíchov,31243,,1358.391304347826,upper_student,inner_city
 20500,4298,43,DISP_2_KK,"Vašátkova, Praha - Černý Most",Černý Most,24798,2+KK,576.6976744186046,lower_student,outer_or_suburbs
 23490,0,73,DISP_3_1,"Poznaňská, Praha - Bohnice",Bohnice,23490,3+1,321.7808219178082,lower_student,outer_or_suburbs
-44540,7860,52,,"Vinohradská, Praha - Vinohrady",Vinohrady,52400,unknown,1007.6923076923077,luxury,inner_city
+44540,7860,52,,"Vinohradská, Praha - Vinohrady",Vinohrady,52400,,1007.6923076923077,luxury,inner_city
 24999,4000,29,DISP_2_KK,"Bělehradská, Praha - Vinohrady",Vinohrady,28999,2+KK,999.9655172413793,upper_student,inner_city
 23000,5000,51,DISP_2_KK,"Hlučkova, Praha - Letňany",Letňany,28000,2+KK,549.0196078431372,upper_student,outer_or_suburbs
 18500,4200,36,DISP_2_KK,"Boleslavova, Praha - Nusle",Nusle,22700,2+KK,630.5555555555555,lower_student,inner_city
-24204,11311,90,,"Blanická, Praha - Vinohrady",Vinohrady,35515,unknown,394.6111111111111,upper_student,inner_city
+24204,11311,90,,"Blanická, Praha - Vinohrady",Vinohrady,35515,,394.6111111111111,upper_student,inner_city
 16000,2800,75,DISP_3_1,"U Bažantnice, Praha - Velká Chuchle",Velká Chuchle,18800,3+1,250.66666666666666,lower_student,outer_or_suburbs
 27000,7500,62,DISP_3_KK,"Pod Barvířkou, Praha - Smíchov",Smíchov,34500,3+KK,556.4516129032259,upper_student,inner_city
 24500,4000,56,DISP_2_KK,"Karlovarská, Praha - Řepy",Řepy,28500,2+KK,508.92857142857144,upper_student,outer_or_suburbs
@@ -387,9 +387,9 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 17500,3500,39,DISP_1_KK,"Na Slatince, Praha - Záběhlice",Záběhlice,21000,1+KK,538.4615384615385,lower_student,outer_or_suburbs
 18500,3900,37,DISP_1_KK,"Gerstelova, Praha - Vysočany",Vysočany,22400,1+KK,605.4054054054054,lower_student,inner_city
 24500,4600,75,DISP_2_1,"Nučická, Praha - Strašnice",Strašnice,29100,2+1,388.0,upper_student,inner_city
-35238,15613,33,,"V Lesíčku, Praha - Smíchov",Smíchov,50851,unknown,1540.939393939394,luxury,inner_city
+35238,15613,33,,"V Lesíčku, Praha - Smíchov",Smíchov,50851,,1540.939393939394,luxury,inner_city
 18400,4000,33,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Hloubětín,22400,1+KK,678.7878787878788,lower_student,outer_or_suburbs
-49977,8820,45,,"Veletržní, Praha - Bubeneč",Bubeneč,58797,unknown,1306.6,luxury,inner_city
+49977,8820,45,,"Veletržní, Praha - Bubeneč",Bubeneč,58797,,1306.6,luxury,inner_city
 20000,5000,42,DISP_2_KK,"Novodvorská, Praha - Braník",Braník,25000,2+KK,595.2380952380952,lower_student,inner_city
 16700,5300,39,DISP_2_KK,"Tolstého, Praha - Vršovice",Vršovice,22000,2+KK,564.1025641025641,lower_student,inner_city
 13000,2000,28,DISP_1_KK,"Kostelecká, Praha - Čakovice",Čakovice,15000,1+KK,535.7142857142857,very_cheap,outer_or_suburbs
@@ -404,10 +404,10 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 35000,4500,85,DISP_3_KK,"Ocelářská, Praha - Libeň",Libeň,39500,3+KK,464.70588235294116,upper_student,inner_city
 27990,0,34,DISP_2_KK,"Vodičkova, Praha - Nové Město",Nové Město,27990,2+KK,823.2352941176471,upper_student,center
 16000,1001,23,DISP_1_KK,"Libocká, Praha - Liboc",Liboc,17001,1+KK,739.1739130434783,very_cheap,outer_or_suburbs
-38595,6811,25,,"Sokolská, Praha - Nové Město",Nové Město,45406,unknown,1816.24,luxury,center
+38595,6811,25,,"Sokolská, Praha - Nové Město",Nové Město,45406,,1816.24,luxury,center
 17990,4040,28,DISP_1_KK,"Sokolovská, Praha - Vysočany",Vysočany,22030,1+KK,786.7857142857143,lower_student,inner_city
 13175,0,19,GARSONIERA,"K Chotolu, Horoměřice, Středočeský kraj",Horoměřice,13175,GARSONIERA,693.421052631579,very_cheap,outer_or_suburbs
-44373,7830,42,,"Rumunská, Praha - Vinohrady",Vinohrady,52203,unknown,1242.9285714285713,luxury,inner_city
+44373,7830,42,,"Rumunská, Praha - Vinohrady",Vinohrady,52203,,1242.9285714285713,luxury,inner_city
 17000,4000,28,DISP_1_KK,"Milady Horákové, Praha - Holešovice",Holešovice,21000,1+KK,750.0,lower_student,inner_city
 22000,3000,62,DISP_2_1,"Víta Nejedlého, Praha - Žižkov",Žižkov,25000,2+1,403.2258064516129,lower_student,inner_city
 15990,0,36,DISP_1_1,"Fikerova, Praha - Modřany",Modřany,15990,1+1,444.1666666666667,very_cheap,outer_or_suburbs
@@ -418,15 +418,15 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 18000,5000,53,DISP_2_1,Praha - Sedlec,Sedlec,23000,2+1,433.9622641509434,lower_student,outer_or_suburbs
 24000,2100,61,DISP_2_KK,"Košická, Praha - Vršovice",Vršovice,26100,2+KK,427.8688524590164,lower_student,inner_city
 18500,2500,32,DISP_1_KK,"Kovářská, Praha - Libeň",Libeň,21000,1+KK,656.25,lower_student,inner_city
-23342,4119,19,,"Čelakovského sady, Praha - Nové Město",Nové Město,27461,unknown,1445.3157894736842,upper_student,center
+23342,4119,19,,"Čelakovského sady, Praha - Nové Město",Nové Město,27461,,1445.3157894736842,upper_student,center
 22000,3900,41,DISP_1_KK,"Na Maninách, Praha - Holešovice",Holešovice,25900,1+KK,631.7073170731708,lower_student,inner_city
 17000,4500,46,DISP_2_KK,"Horoměřice - Horoměřice, Středočeský kraj",Horoměřice,21500,2+KK,467.39130434782606,lower_student,outer_or_suburbs
-21271,3754,28,,"Branická, Praha - Braník",Braník,25025,unknown,893.75,lower_student,inner_city
+21271,3754,28,,"Branická, Praha - Braník",Braník,25025,,893.75,lower_student,inner_city
 23990,0,60,DISP_2_KK,"Argentinská, Praha - Holešovice",Holešovice,23990,2+KK,399.8333333333333,lower_student,inner_city
-30733,5424,36,,"Na Zbořenci, Praha - Nové Město",Nové Město,36157,unknown,1004.3611111111111,upper_student,center
+30733,5424,36,,"Na Zbořenci, Praha - Nové Město",Nové Město,36157,,1004.3611111111111,upper_student,center
 21490,0,50,DISP_1_KK,"Na Rokytce, Praha - Libeň",Libeň,21490,1+KK,429.8,lower_student,inner_city
 20990,0,54,DISP_2_KK,"V dolině, Praha - Michle",Michle,20990,2+KK,388.7037037037037,lower_student,inner_city
-29826,13938,98,,"Na Okrouhlíku, Praha - Libeň",Libeň,43764,unknown,446.57142857142856,luxury,inner_city
+29826,13938,98,,"Na Okrouhlíku, Praha - Libeň",Libeň,43764,,446.57142857142856,luxury,inner_city
 29490,0,74,DISP_3_KK,"Petržílkova, Praha - Stodůlky",Stodůlky,29490,3+KK,398.5135135135135,upper_student,outer_or_suburbs
 10900,3000,18,DISP_2_KK,"Kováků, Praha - Smíchov",Smíchov,13900,2+KK,772.2222222222222,very_cheap,inner_city
 24000,5900,54,DISP_2_KK,"Bukačova, Praha - Vysočany",Vysočany,29900,2+KK,553.7037037037037,upper_student,inner_city
@@ -460,8 +460,8 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 28000,6600,67,DISP_3_KK,"Jurkovičova, Praha - Háje",Háje,34600,3+KK,516.4179104477612,upper_student,outer_or_suburbs
 24000,4700,45,DISP_2_KK,"Hrdličkova, Praha - Chodov",Chodov,28700,2+KK,637.7777777777778,upper_student,outer_or_suburbs
 37000,7600,122,DISP_4_KK,"Nad Okrouhlíkem, Praha - Libeň",Libeň,44600,4+KK,365.57377049180326,luxury,inner_city
-30051,5303,40,,"Orebitská, Praha - Žižkov",Žižkov,35354,unknown,883.85,upper_student,inner_city
-29414,5191,29,,"Plzeňská, Praha - Motol",Motol,34605,unknown,1193.2758620689656,upper_student,outer_or_suburbs
+30051,5303,40,,"Orebitská, Praha - Žižkov",Žižkov,35354,,883.85,upper_student,inner_city
+29414,5191,29,,"Plzeňská, Praha - Motol",Motol,34605,,1193.2758620689656,upper_student,outer_or_suburbs
 22900,6900,42,DISP_2_KK,"Kozí, Praha - Staré Město",Staré Město,29800,2+KK,709.5238095238095,upper_student,center
 26000,5800,50,DISP_2_KK,"Hodkovická, Praha - Kamýk",Kamýk,31800,2+KK,636.0,upper_student,outer_or_suburbs
 18900,5500,54,DISP_1_KK,"Smolíkova, Praha - Košíře",Košíře,24400,1+KK,451.85185185185185,lower_student,inner_city
@@ -470,30 +470,30 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 23990,0,119,DISP_3_1,"Žitná, Šestajovice - Šestajovice u Prahy, Středočeský kraj",Šestajovice,23990,3+1,201.5966386554622,lower_student,outer_or_suburbs
 18000,3080,41,DISP_2_KK,"Kurandové, Praha - Hlubočepy",Hlubočepy,21080,2+KK,514.1463414634146,lower_student,inner_city
 29900,4200,56,DISP_2_1,"Všehrdova, Praha - Malá Strana",Malá Strana,34100,2+1,608.9285714285714,upper_student,center
-40791,7198,29,,"Rumunská, Praha - Vinohrady",Vinohrady,47989,unknown,1654.7931034482758,luxury,inner_city
+40791,7198,29,,"Rumunská, Praha - Vinohrady",Vinohrady,47989,,1654.7931034482758,luxury,inner_city
 14650,4050,26,GARSONIERA,"Písnická, Praha - Kamýk",Kamýk,18700,GARSONIERA,719.2307692307693,lower_student,outer_or_suburbs
 23000,6000,53,DISP_2_KK,"Mantovská, Praha - Horní Měcholupy",Horní Měcholupy,29000,2+KK,547.1698113207547,upper_student,outer_or_suburbs
 24000,5800,48,DISP_2_KK,"V Mezihoří, Praha - Libeň",Libeň,29800,2+KK,620.8333333333334,upper_student,inner_city
 27000,5500,74,DISP_3_KK,"Sazovická, Praha - Zličín",Zličín,32500,3+KK,439.18918918918916,upper_student,outer_or_suburbs
 27490,0,63,DISP_2_KK,"Hanusova, Praha - Michle",Michle,27490,2+KK,436.3492063492063,upper_student,inner_city
 17500,3250,30,DISP_1_KK,"Pod Soutratím, Praha - Vršovice",Vršovice,20750,1+KK,691.6666666666666,lower_student,inner_city
-43226,7628,72,,"Vrázova, Praha - Smíchov",Smíchov,50854,unknown,706.3055555555555,luxury,inner_city
+43226,7628,72,,"Vrázova, Praha - Smíchov",Smíchov,50854,,706.3055555555555,luxury,inner_city
 23900,6496,56,DISP_2_1,"Nad Ondřejovem, Praha - Podolí",Podolí,30396,2+1,542.7857142857143,upper_student,inner_city
 22000,3500,50,DISP_2_KK,"Lnářská, Praha - Uhříněves",Uhříněves,25500,2+KK,510.0,lower_student,outer_or_suburbs
 17200,2980,33,DISP_1_KK,"Na Břehu, Praha - Vysočany",Vysočany,20180,1+KK,611.5151515151515,lower_student,inner_city
-48162,8499,100,,"Milíčova, Praha - Žižkov",Žižkov,56661,unknown,566.61,luxury,inner_city
+48162,8499,100,,"Milíčova, Praha - Žižkov",Žižkov,56661,,566.61,luxury,inner_city
 22000,5200,59,DISP_2_KK,"Zdiměřická, Praha - Chodov",Chodov,27200,2+KK,461.0169491525424,upper_student,outer_or_suburbs
 41818,4990,144,DISP_4_1,"Československé armády, Praha - Bubeneč",Bubeneč,46808,4+1,325.05555555555554,luxury,inner_city
 29990,0,61,DISP_2_KK,"U průhonu, Praha - Holešovice",Holešovice,29990,2+KK,491.6393442622951,upper_student,inner_city
 25000,4000,69,DISP_2_1,"U Třetí baterie, Praha - Břevnov",Břevnov,29000,2+1,420.28985507246375,upper_student,inner_city
-42522,15708,40,,"U Michelského mlýna, Praha - Michle",Michle,58230,unknown,1455.75,luxury,inner_city
+42522,15708,40,,"U Michelského mlýna, Praha - Michle",Michle,58230,,1455.75,luxury,inner_city
 25000,5000,47,DISP_3_KK,"Žitavského, Praha - Zbraslav",Zbraslav,30000,3+KK,638.2978723404256,upper_student,outer_or_suburbs
 22000,5500,40,DISP_1_KK,"V Třešňovce, Praha - Hrdlořezy",Hrdlořezy,27500,1+KK,687.5,upper_student,outer_or_suburbs
-30396,5364,55,,"Švehlova, Praha - Hostivař",Hostivař,35760,unknown,650.1818181818181,upper_student,outer_or_suburbs
+30396,5364,55,,"Švehlova, Praha - Hostivař",Hostivař,35760,,650.1818181818181,upper_student,outer_or_suburbs
 16000,3500,33,DISP_1_KK,"Kadečkové, Praha - Letňany",Letňany,19500,1+KK,590.9090909090909,lower_student,outer_or_suburbs
 27000,2160,22,DISP_1_KK,"Legerova, Praha - Nové Město",Nové Město,29160,1+KK,1325.4545454545455,upper_student,center
 25490,0,73,DISP_3_KK,"Měchenická, Praha - Záběhlice",Záběhlice,25490,3+KK,349.17808219178085,lower_student,outer_or_suburbs
-30068,5306,46,,"Chodecká, Praha - Břevnov",Břevnov,35374,unknown,769.0,upper_student,inner_city
+30068,5306,46,,"Chodecká, Praha - Břevnov",Břevnov,35374,,769.0,upper_student,inner_city
 26000,8000,105,DISP_3_1,"Václavkova, Praha - Dejvice",Dejvice,34000,3+1,323.8095238095238,upper_student,inner_city
 38000,9500,121,DISP_3_1,"Družstevní ochoz, Praha - Michle",Michle,47500,3+1,392.56198347107437,luxury,inner_city
 30000,5000,87,DISP_2_KK,"Kudrnova, Praha - Motol",Motol,35000,2+KK,402.2988505747126,upper_student,outer_or_suburbs
@@ -519,7 +519,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 23000,7000,60,DISP_2_KK,"Nad Dalejským údolím, Praha - Stodůlky",Stodůlky,30000,2+KK,500.0,upper_student,outer_or_suburbs
 21000,3500,56,DISP_2_KK,"Libočanská, Praha - Prosek",Prosek,24500,2+KK,437.5,lower_student,inner_city
 23990,0,66,DISP_3_1,"Košťálkova, Praha - Kobylisy",Kobylisy,23990,3+1,363.4848484848485,lower_student,inner_city
-30632,12656,52,,"U Křížku, Praha - Nusle",Nusle,43288,unknown,832.4615384615385,luxury,inner_city
+30632,12656,52,,"U Křížku, Praha - Nusle",Nusle,43288,,832.4615384615385,luxury,inner_city
 18900,800,46,DISP_2_1,"Muchova, Praha - Dejvice",Dejvice,19700,2+1,428.2608695652174,lower_student,inner_city
 25500,4200,45,DISP_2_KK,"Vrázova, Praha - Smíchov",Smíchov,29700,2+KK,660.0,upper_student,inner_city
 22500,2000,46,DISP_2_KK,"Mexická, Praha - Vršovice",Vršovice,24500,2+KK,532.6086956521739,lower_student,inner_city
@@ -540,25 +540,25 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 23400,1300,59,DISP_2_1,"Jeseniova, Praha - Žižkov",Žižkov,24700,2+1,418.64406779661016,lower_student,inner_city
 16500,5000,42,DISP_2_KK,"Hekrova, Praha - Háje",Háje,21500,2+KK,511.9047619047619,lower_student,outer_or_suburbs
 26000,6600,63,DISP_2_KK,"Žitenická, Praha - Prosek",Prosek,32600,2+KK,517.4603174603175,upper_student,inner_city
-18851,8358,80,,"Voskovcova, Praha - Hlubočepy",Hlubočepy,27209,unknown,340.1125,upper_student,inner_city
+18851,8358,80,,"Voskovcova, Praha - Hlubočepy",Hlubočepy,27209,,340.1125,upper_student,inner_city
 37400,5500,86,DISP_3_KK,"Peckova, Praha - Karlín",Karlín,42900,3+KK,498.83720930232556,luxury,inner_city
 19000,3200,34,DISP_1_KK,"Vinohradská, Praha - Žižkov",Žižkov,22200,1+KK,652.9411764705883,lower_student,inner_city
 18500,3000,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Hloubětín,21500,1+KK,671.875,lower_student,outer_or_suburbs
 20000,1000,60,DISP_2_KK,"Vršovická, Praha - Vršovice",Vršovice,21000,2+KK,350.0,lower_student,inner_city
-45508,8031,51,,"Svatoslavova, Praha - Nusle",Nusle,53539,unknown,1049.7843137254902,luxury,inner_city
+45508,8031,51,,"Svatoslavova, Praha - Nusle",Nusle,53539,,1049.7843137254902,luxury,inner_city
 23000,3500,56,DISP_2_KK,"28. pluku, Praha - Vršovice",Vršovice,26500,2+KK,473.2142857142857,lower_student,inner_city
 34900,8556,87,DISP_3_KK,"Waltariho, Praha - Hloubětín",Hloubětín,43456,3+KK,499.4942528735632,luxury,outer_or_suburbs
-32756,5780,50,,"Kubelíkova, Praha - Žižkov",Žižkov,38536,unknown,770.72,upper_student,inner_city
+32756,5780,50,,"Kubelíkova, Praha - Žižkov",Žižkov,38536,,770.72,upper_student,inner_city
 29000,2350,25,DISP_1_KK,"Legerova, Praha - Nové Město",Nové Město,31350,1+KK,1254.0,upper_student,center
 17000,4000,45,DISP_2_KK,"Chabařovická, Praha - Kobylisy",Kobylisy,21000,2+KK,466.6666666666667,lower_student,inner_city
 17000,5500,55,DISP_1_1,"Gabčíkova, Praha - Libeň",Libeň,22500,1+1,409.09090909090907,lower_student,inner_city
-39503,15771,52,,"Husinecká, Praha - Žižkov",Žižkov,55274,unknown,1062.9615384615386,luxury,inner_city
+39503,15771,52,,"Husinecká, Praha - Žižkov",Žižkov,55274,,1062.9615384615386,luxury,inner_city
 15000,3000,29,DISP_1_KK,"Brtnická, Praha - Michle",Michle,18000,1+KK,620.6896551724138,very_cheap,inner_city
 16290,0,40,DISP_2_KK,"Havířovská, Praha - Letňany",Letňany,16290,2+KK,407.25,very_cheap,outer_or_suburbs
 23000,5225,53,DISP_2_1,"José Martího, Praha - Veleslavín",Veleslavín,28225,2+1,532.5471698113207,upper_student,outer_or_suburbs
 7950,800,25,GARSONIERA,"Jana Želivského, Praha - Žižkov",Žižkov,8750,GARSONIERA,350.0,very_cheap,inner_city
 17500,3200,51,DISP_3_1,"Biskupcova, Praha - Žižkov",Žižkov,20700,3+1,405.88235294117646,lower_student,inner_city
-25591,11533,37,,"Učňovská, Praha - Hrdlořezy",Hrdlořezy,37124,unknown,1003.3513513513514,upper_student,outer_or_suburbs
+25591,11533,37,,"Učňovská, Praha - Hrdlořezy",Hrdlořezy,37124,,1003.3513513513514,upper_student,outer_or_suburbs
 21000,3500,49,DISP_2_1,"Sadská, Praha - Hloubětín",Hloubětín,24500,2+1,500.0,lower_student,outer_or_suburbs
 20000,6200,53,DISP_2_KK,"Pavla Beneše, Praha - Letňany",Letňany,26200,2+KK,494.33962264150944,lower_student,outer_or_suburbs
 24000,5000,56,DISP_2_1,"Buková, Praha - Žižkov",Žižkov,29000,2+1,517.8571428571429,upper_student,inner_city
@@ -568,7 +568,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 14500,4100,24,DISP_1_KK,"Freyova, Praha - Vysočany",Vysočany,18600,1+KK,775.0,lower_student,inner_city
 24500,3450,45,DISP_2_KK,"Sokolovská, Praha - Karlín",Karlín,27950,2+KK,621.1111111111111,upper_student,inner_city
 19990,0,54,DISP_2_KK,"Kafkova, Praha - Dejvice",Dejvice,19990,2+KK,370.18518518518516,lower_student,inner_city
-37581,6632,23,,"Plzeňská, Praha - Smíchov",Smíchov,44213,unknown,1922.304347826087,luxury,inner_city
+37581,6632,23,,"Plzeňská, Praha - Smíchov",Smíchov,44213,,1922.304347826087,luxury,inner_city
 19999,3000,21,DISP_1_KK,"Bělehradská, Praha - Vinohrady",Vinohrady,22999,1+KK,1095.1904761904761,lower_student,inner_city
 47000,5000,108,DISP_2_KK,"Křižíkova, Praha - Karlín",Karlín,52000,2+KK,481.48148148148147,luxury,inner_city
 27500,3500,59,DISP_3_KK,"V Dolině, Praha - Michle",Michle,31000,3+KK,525.4237288135594,upper_student,inner_city
@@ -585,9 +585,9 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 14800,2000,19,DISP_1_KK,"Na Ostrůvku, Praha - Nusle",Nusle,16800,1+KK,884.2105263157895,very_cheap,inner_city
 15900,4500,37,DISP_1_KK,"Padovská, Praha - Horní Měcholupy",Horní Měcholupy,20400,1+KK,551.3513513513514,lower_student,outer_or_suburbs
 34000,4200,57,DISP_2_KK,"Novovysočanská, Praha - Vysočany",Vysočany,38200,2+KK,670.1754385964912,upper_student,inner_city
-33120,5845,50,,"Spojovací, Praha - Vysočany",Vysočany,38965,unknown,779.3,upper_student,inner_city
+33120,5845,50,,"Spojovací, Praha - Vysočany",Vysočany,38965,,779.3,upper_student,inner_city
 16000,5000,33,DISP_1_KK,"Šífařská, Praha - Hodkovičky",Hodkovičky,21000,1+KK,636.3636363636364,lower_student,outer_or_suburbs
-35159,6204,24,,"Sokolská, Praha - Nové Město",Nové Město,41363,unknown,1723.4583333333333,luxury,center
+35159,6204,24,,"Sokolská, Praha - Nové Město",Nové Město,41363,,1723.4583333333333,luxury,center
 30990,0,59,DISP_2_KK,"Sokolova, Praha - Karlín",Karlín,30990,2+KK,525.2542372881356,upper_student,inner_city
 16000,5000,38,DISP_1_KK,"V Osikách, Praha - Dolní Měcholupy",Dolní Měcholupy,21000,1+KK,552.6315789473684,lower_student,outer_or_suburbs
 12000,0,82,DISP_3_1,"Ciolkovského, Praha - Ruzyně",Ruzyně,12000,3+1,146.34146341463415,very_cheap,outer_or_suburbs
@@ -595,16 +595,16 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 33000,5500,60,DISP_3_KK,"Paťanka, Praha - Dejvice",Dejvice,38500,3+KK,641.6666666666666,upper_student,inner_city
 20800,6500,60,DISP_2_KK,"Bulharská, Praha - Vršovice",Vršovice,27300,2+KK,455.0,upper_student,inner_city
 16490,0,30,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Hloubětín,16490,1+KK,549.6666666666666,very_cheap,outer_or_suburbs
-37477,6614,53,,"Budečská, Praha - Vinohrady",Vinohrady,44091,unknown,831.9056603773585,luxury,inner_city
+37477,6614,53,,"Budečská, Praha - Vinohrady",Vinohrady,44091,,831.9056603773585,luxury,inner_city
 28000,4000,45,DISP_2_KK,"Rejskova, Praha - Vinohrady",Vinohrady,32000,2+KK,711.1111111111111,upper_student,inner_city
 22990,0,55,DISP_3_KK,"náměstí Hrdinů, Praha - Nusle",Nusle,22990,3+KK,418.0,lower_student,inner_city
-30863,5446,43,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,36309,unknown,844.3953488372093,upper_student,outer_or_suburbs
+30863,5446,43,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,36309,,844.3953488372093,upper_student,outer_or_suburbs
 18000,5000,42,DISP_2_KK,"Klapkova, Praha - Kobylisy",Kobylisy,23000,2+KK,547.6190476190476,lower_student,inner_city
 22500,1500,53,DISP_2_1,"Krátká, Praha - Vinohrady",Vinohrady,24000,2+1,452.8301886792453,lower_student,inner_city
-21354,3768,65,,"Plajnerova, Praha - Čakovice",Čakovice,25122,unknown,386.4923076923077,lower_student,outer_or_suburbs
-41497,7323,27,,"Perucká, Praha - Vinohrady",Vinohrady,48820,unknown,1808.148148148148,luxury,inner_city
+21354,3768,65,,"Plajnerova, Praha - Čakovice",Čakovice,25122,,386.4923076923077,lower_student,outer_or_suburbs
+41497,7323,27,,"Perucká, Praha - Vinohrady",Vinohrady,48820,,1808.148148148148,luxury,inner_city
 20000,4200,34,DISP_1_KK,"Bukačova, Praha - Vysočany",Vysočany,24200,1+KK,711.7647058823529,lower_student,inner_city
-37174,6560,74,,"Prosecka, Praha - Libeň",Libeň,43734,unknown,591.0,luxury,inner_city
+37174,6560,74,,"Prosecka, Praha - Libeň",Libeň,43734,,591.0,luxury,inner_city
 21700,1301,38,DISP_2_KK,"Slezská, Praha - Vinohrady",Vinohrady,23001,2+KK,605.2894736842105,lower_student,inner_city
 24900,5066,40,DISP_1_1,"Umělecká, Praha - Holešovice",Holešovice,29966,1+1,749.15,upper_student,inner_city
 23990,0,68,DISP_3_1,"Šiškova, Praha - Kobylisy",Kobylisy,23990,3+1,352.79411764705884,lower_student,inner_city
@@ -613,30 +613,30 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 21490,0,55,DISP_2_1,"Arabská, Praha - Vokovice",Vokovice,21490,2+1,390.72727272727275,lower_student,inner_city
 30000,5000,76,DISP_3_1,"Budějovická, Praha - Krč",Krč,35000,3+1,460.5263157894737,upper_student,outer_or_suburbs
 19900,2250,40,DISP_1_1,"Soudní, Praha - Nusle",Nusle,22150,1+1,553.75,lower_student,inner_city
-28851,5091,37,,"U Parního mlýna, Praha - Holešovice",Holešovice,33942,unknown,917.3513513513514,upper_student,inner_city
+28851,5091,37,,"U Parního mlýna, Praha - Holešovice",Holešovice,33942,,917.3513513513514,upper_student,inner_city
 26000,4000,70,DISP_2_KK,"Brožíkova, Praha - Košíře",Košíře,30000,2+KK,428.57142857142856,upper_student,inner_city
 31127,0,54,DISP_2_1,"Svatoslavova, Praha - Nusle",Nusle,31127,2+1,576.425925925926,upper_student,inner_city
 23400,5600,58,DISP_2_KK,"Na Veselí, Praha - Nusle",Nusle,29000,2+KK,500.0,upper_student,inner_city
 18000,4600,43,DISP_2_1,"Vršovická, Praha - Vršovice",Vršovice,22600,2+1,525.5813953488372,lower_student,inner_city
 27000,4200,46,DISP_2_KK,"U Komína, Praha - Radlice",Radlice,31200,2+KK,678.2608695652174,upper_student,inner_city
-23510,11133,33,,"Sokolovská, Praha - Karlín",Karlín,34643,unknown,1049.7878787878788,upper_student,inner_city
+23510,11133,33,,"Sokolovská, Praha - Karlín",Karlín,34643,,1049.7878787878788,upper_student,inner_city
 24000,4217,46,DISP_2_KK,"Hodkovická, Praha - Kamýk",Kamýk,28217,2+KK,613.4130434782609,upper_student,outer_or_suburbs
 18000,2328,49,DISP_2_KK,"Janovská, Praha - Horní Měcholupy",Horní Měcholupy,20328,2+KK,414.85714285714283,lower_student,outer_or_suburbs
 17000,3800,28,DISP_1_KK,"Novgorodská, Praha - Vršovice",Vršovice,20800,1+KK,742.8571428571429,lower_student,inner_city
 16900,2500,33,DISP_1_KK,"Vondroušova, Praha - Řepy",Řepy,19400,1+KK,587.8787878787879,lower_student,outer_or_suburbs
 17900,4500,43,DISP_2_KK,"Doležalova, Praha - Černý Most",Černý Most,22400,2+KK,520.9302325581396,lower_student,outer_or_suburbs
-28745,5073,47,,"Jerevanská, Praha - Vršovice",Vršovice,33818,unknown,719.531914893617,upper_student,inner_city
+28745,5073,47,,"Jerevanská, Praha - Vršovice",Vršovice,33818,,719.531914893617,upper_student,inner_city
 22700,4000,44,DISP_2_KK,"Strančická, Praha - Strašnice",Strašnice,26700,2+KK,606.8181818181819,upper_student,inner_city
 18000,4000,34,DISP_1_KK,"Hábova, Praha - Stodůlky",Stodůlky,22000,1+KK,647.0588235294117,lower_student,outer_or_suburbs
 20000,3200,48,DISP_1_KK,"Gerstelova, Praha - Vysočany",Vysočany,23200,1+KK,483.3333333333333,lower_student,inner_city
 21000,6000,54,DISP_2_KK,"U Traktorky, Praha - Dolní Chabry",Dolní Chabry,27000,2+KK,500.0,upper_student,outer_or_suburbs
 13990,0,33,DISP_1_1,"Pod strojírnami, Praha - Vysočany",Vysočany,13990,1+1,423.93939393939394,very_cheap,inner_city
-50384,8891,49,,"Rostovská, Praha - Vršovice",Vršovice,59275,unknown,1209.6938775510205,luxury,inner_city
+50384,8891,49,,"Rostovská, Praha - Vršovice",Vršovice,59275,,1209.6938775510205,luxury,inner_city
 24000,3750,52,DISP_2_KK,"Sudoměřská, Praha - Žižkov",Žižkov,27750,2+KK,533.6538461538462,upper_student,inner_city
 30000,6700,133,DISP_3_1,"Zoubkova, Praha - Smíchov",Smíchov,36700,3+1,275.9398496240602,upper_student,inner_city
 22000,5500,60,DISP_2_KK,"Blachutova, Praha - Čakovice",Čakovice,27500,2+KK,458.3333333333333,upper_student,outer_or_suburbs
 27000,3992,60,DISP_2_KK,"Poděbradská, Praha - Hloubětín",Hloubětín,30992,2+KK,516.5333333333333,upper_student,outer_or_suburbs
-24977,4408,37,,"Prvního pluku, Praha - Karlín",Karlín,29385,unknown,794.1891891891892,upper_student,inner_city
+24977,4408,37,,"Prvního pluku, Praha - Karlín",Karlín,29385,,794.1891891891892,upper_student,inner_city
 18500,4500,36,DISP_2_KK,"Sekaninova, Praha - Nusle",Nusle,23000,2+KK,638.8888888888889,lower_student,inner_city
 18000,4000,25,DISP_1_KK,"Lublaňská, Praha - Nové Město",Nové Město,22000,1+KK,880.0,lower_student,center
 13000,3600,32,DISP_1_KK,"Krátký lán, Praha - Vokovice",Vokovice,16600,1+KK,518.75,very_cheap,inner_city
@@ -662,7 +662,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 19700,5200,50,DISP_2_KK,"Škrábkových, Praha - Letňany",Letňany,24900,2+KK,498.0,lower_student,outer_or_suburbs
 18000,3447,42,DISP_2_KK,"Jarní, Hostivice - Hostivice, Středočeský kraj",Hostivice,21447,2+KK,510.64285714285717,lower_student,outer_or_suburbs
 27000,3500,61,DISP_2_KK,"Holečkova, Praha - Smíchov",Smíchov,30500,2+KK,500.0,upper_student,inner_city
-37809,6672,20,,"Plzeňská, Praha - Smíchov",Smíchov,44481,unknown,2224.05,luxury,inner_city
+37809,6672,20,,"Plzeňská, Praha - Smíchov",Smíchov,44481,,2224.05,luxury,inner_city
 23000,6950,60,DISP_2_1,"Karoliny Světlé, Praha - Staré Město",Staré Město,29950,2+1,499.1666666666667,upper_student,center
 24000,3600,60,DISP_2_KK,"Českomalínská, Praha - Bubeneč",Bubeneč,27600,2+KK,460.0,upper_student,inner_city
 19000,2500,30,DISP_1_KK,"Ondříčkova, Praha - Žižkov",Žižkov,21500,1+KK,716.6666666666666,lower_student,inner_city
@@ -684,7 +684,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 34490,0,110,DISP_4_1,"Na Hřebenkách, Praha - Smíchov",Smíchov,34490,4+1,313.54545454545456,upper_student,inner_city
 24900,4000,67,DISP_2_KK,"U Vysočanského pivovaru, Praha - Vysočany",Vysočany,28900,2+KK,431.34328358208955,upper_student,inner_city
 23000,6000,67,DISP_2_KK,"Názovská, Praha - Strašnice",Strašnice,29000,2+KK,432.8358208955224,upper_student,inner_city
-37336,19480,45,,"Pod dvorem, Praha - Veleslavín",Veleslavín,56816,unknown,1262.5777777777778,luxury,outer_or_suburbs
+37336,19480,45,,"Pod dvorem, Praha - Veleslavín",Veleslavín,56816,,1262.5777777777778,luxury,outer_or_suburbs
 21000,3900,62,DISP_2_KK,"Skloněná, Praha - Vysočany",Vysočany,24900,2+KK,401.61290322580646,lower_student,inner_city
 19500,4000,32,DISP_1_KK,"Herlíkovická, Praha - Kbely",Kbely,23500,1+KK,734.375,lower_student,outer_or_suburbs
 45000,7000,150,DISP_4_1,"Ohnivcova, Praha - Braník",Braník,52000,4+1,346.6666666666667,luxury,inner_city
@@ -706,16 +706,16 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 34000,6000,136,DISP_3_KK,"Na Výsledku II, Praha - Nusle",Nusle,40000,3+KK,294.11764705882354,upper_student,inner_city
 25000,6000,85,DISP_2_1,"Betlémské náměstí, Praha - Staré Město",Staré Město,31000,2+1,364.70588235294116,upper_student,center
 31900,3500,78,DISP_2_1,"Dušní, Praha - Staré Město",Staré Město,35400,2+1,453.84615384615387,upper_student,center
-30906,5454,56,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,36360,unknown,649.2857142857143,upper_student,outer_or_suburbs
-26146,4614,22,,"Radlická, Praha - Smíchov",Smíchov,30760,unknown,1398.1818181818182,upper_student,inner_city
-38903,6865,25,,"Sokolská, Praha - Nové Město",Nové Město,45768,unknown,1830.72,luxury,center
+30906,5454,56,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,36360,,649.2857142857143,upper_student,outer_or_suburbs
+26146,4614,22,,"Radlická, Praha - Smíchov",Smíchov,30760,,1398.1818181818182,upper_student,inner_city
+38903,6865,25,,"Sokolská, Praha - Nové Město",Nové Město,45768,,1830.72,luxury,center
 19700,5300,37,DISP_1_KK,"Breitfeldova, Praha - Karlín",Karlín,25000,1+KK,675.6756756756756,lower_student,inner_city
 38000,3900,87,DISP_2_1,"Klimentská, Praha - Nové Město",Nové Město,41900,2+1,481.60919540229884,luxury,center
 23000,700,96,DISP_2_KK,"Strakonická, Praha - Lahovice",Lahovice,23700,2+KK,246.875,lower_student,outer_or_suburbs
 23000,5000,48,DISP_2_1,"Šafářova, Praha - Hostivař",Hostivař,28000,2+1,583.3333333333334,upper_student,outer_or_suburbs
 24500,5500,45,DISP_2_1,"Blahníkova, Praha - Žižkov",Žižkov,30000,2+1,666.6666666666666,upper_student,inner_city
 10200,2800,22,GARSONIERA,"Pod Karlovarskou silnicí, Praha - Ruzyně",Ruzyně,13000,GARSONIERA,590.9090909090909,very_cheap,outer_or_suburbs
-43421,7662,35,,"Plzeňská, Praha - Smíchov",Smíchov,51083,unknown,1459.5142857142857,luxury,inner_city
+43421,7662,35,,"Plzeňská, Praha - Smíchov",Smíchov,51083,,1459.5142857142857,luxury,inner_city
 21000,7000,48,DISP_2_1,"Boučkova, Praha - Břevnov",Břevnov,28000,2+1,583.3333333333334,upper_student,inner_city
 19000,3100,37,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Hloubětín,22100,1+KK,597.2972972972973,lower_student,outer_or_suburbs
 29000,5000,55,DISP_2_KK,Praha - Hlubočepy,Hlubočepy,34000,2+KK,618.1818181818181,upper_student,inner_city
@@ -730,39 +730,39 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 23900,3500,46,DISP_2_KK,"Rajmonova, Praha - Kobylisy",Kobylisy,27400,2+KK,595.6521739130435,upper_student,inner_city
 20490,0,59,DISP_2_1,"Antala Staška, Praha - Krč",Krč,20490,2+1,347.2881355932203,lower_student,outer_or_suburbs
 20000,4300,45,DISP_2_KK,"Čimická, Praha - Kobylisy",Kobylisy,24300,2+KK,540.0,lower_student,inner_city
-29756,5251,60,,"Šárecká, Praha - Dejvice",Dejvice,35007,unknown,583.45,upper_student,inner_city
+29756,5251,60,,"Šárecká, Praha - Dejvice",Dejvice,35007,,583.45,upper_student,inner_city
 23000,4000,54,DISP_1_KK,"Novovysočanská, Praha - Vysočany",Vysočany,27000,1+KK,500.0,upper_student,inner_city
-39454,6962,55,,"Kubova, Praha - Karlín",Karlín,46416,unknown,843.9272727272727,luxury,inner_city
-36309,6408,70,,"Weberova, Praha - Motol",Motol,42717,unknown,610.2428571428571,luxury,outer_or_suburbs
+39454,6962,55,,"Kubova, Praha - Karlín",Karlín,46416,,843.9272727272727,luxury,inner_city
+36309,6408,70,,"Weberova, Praha - Motol",Motol,42717,,610.2428571428571,luxury,outer_or_suburbs
 12500,0,71,DISP_3_1,"Sámova, Praha - Vršovice",Vršovice,12500,3+1,176.05633802816902,very_cheap,inner_city
 16990,0,30,DISP_1_KK,"Ovesná, Hostivice - Litovice, Středočeský kraj",Hostivice,16990,1+KK,566.3333333333334,very_cheap,outer_or_suburbs
-25935,4577,50,,"Kamenická, Praha - Holešovice",Holešovice,30512,unknown,610.24,upper_student,inner_city
+25935,4577,50,,"Kamenická, Praha - Holešovice",Holešovice,30512,,610.24,upper_student,inner_city
 29000,6000,103,DISP_3_1,"Pod Karlovem, Praha - Vinohrady",Vinohrady,35000,3+1,339.80582524271847,upper_student,inner_city
-25240,11846,90,,"Blanická, Praha - Vinohrady",Vinohrady,37086,unknown,412.06666666666666,upper_student,inner_city
-47548,8391,65,,"U Půjčovny, Praha - Nové Město",Nové Město,55939,unknown,860.6,luxury,center
+25240,11846,90,,"Blanická, Praha - Vinohrady",Vinohrady,37086,,412.06666666666666,upper_student,inner_city
+47548,8391,65,,"U Půjčovny, Praha - Nové Město",Nové Město,55939,,860.6,luxury,center
 15000,3000,31,DISP_1_KK,"Sekaninova, Praha - Nusle",Nusle,18000,1+KK,580.6451612903226,very_cheap,inner_city
 23500,1300,45,DISP_1_1,"Milady Horákové, Praha - Holešovice",Holešovice,24800,1+1,551.1111111111111,lower_student,inner_city
 17490,0,46,DISP_1_KK,"Hradeckých, Praha - Nusle",Nusle,17490,1+KK,380.2173913043478,very_cheap,inner_city
 24000,7650,64,DISP_2_KK,"Wiedermannova, Praha - Stodůlky",Stodůlky,31650,2+KK,494.53125,upper_student,outer_or_suburbs
-38616,6814,20,,"Nuselská, Praha - Michle",Michle,45430,unknown,2271.5,luxury,inner_city
+38616,6814,20,,"Nuselská, Praha - Michle",Michle,45430,,2271.5,luxury,inner_city
 17999,6500,33,DISP_1_KK,"Benešova, Praha - Hlubočepy",Hlubočepy,24499,1+KK,742.3939393939394,lower_student,inner_city
 39500,7000,90,DISP_3_KK,"Vítkova, Praha - Karlín",Karlín,46500,3+KK,516.6666666666666,luxury,inner_city
 23000,6000,76,DISP_3_1,"Jasmínová, Praha - Záběhlice",Záběhlice,29000,3+1,381.57894736842104,upper_student,outer_or_suburbs
 21500,5000,25,DISP_1_KK,"Tyršova, Praha - Nové Město",Nové Město,26500,1+KK,1060.0,lower_student,center
-42664,7529,36,,"Bořivojova, Praha - Žižkov",Žižkov,50193,unknown,1394.25,luxury,inner_city
+42664,7529,36,,"Bořivojova, Praha - Žižkov",Žižkov,50193,,1394.25,luxury,inner_city
 21500,6026,58,DISP_2_KK,"Jaromíra Vejvody, Praha - Zbraslav",Zbraslav,27526,2+KK,474.58620689655174,upper_student,outer_or_suburbs
 27000,4000,53,DISP_2_KK,"Vrátnická, Praha - Modřany",Modřany,31000,2+KK,584.9056603773585,upper_student,outer_or_suburbs
-26928,12255,48,,"Vinohradská, Praha - Strašnice",Strašnice,39183,unknown,816.3125,upper_student,inner_city
+26928,12255,48,,"Vinohradská, Praha - Strašnice",Strašnice,39183,,816.3125,upper_student,inner_city
 31500,0,47,DISP_2_KK,"Vítězné náměstí, Praha - Bubeneč",Bubeneč,31500,2+KK,670.2127659574468,upper_student,inner_city
 12500,4500,40,DISP_2_1,"Rýdlova, Říčany - Říčany u Prahy, Středočeský kraj",Říčany,17000,2+1,425.0,very_cheap,outer_or_suburbs
 25000,3000,52,DISP_2_1,"Herálecká Ⅲ, Praha - Krč",Krč,28000,2+1,538.4615384615385,upper_student,outer_or_suburbs
 23500,5000,51,DISP_2_KK,"U Hostavického potoka, Praha - Hostavice",Hostavice,28500,2+KK,558.8235294117648,upper_student,outer_or_suburbs
-26360,4652,21,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,31012,unknown,1476.7619047619048,upper_student,outer_or_suburbs
+26360,4652,21,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,31012,,1476.7619047619048,upper_student,outer_or_suburbs
 29900,6400,82,DISP_3_1,"Petržílkova, Praha - Stodůlky",Stodůlky,36300,3+1,442.6829268292683,upper_student,outer_or_suburbs
 10000,0,70,DISP_3_KK,"Janského, Praha - Stodůlky",Stodůlky,10000,3+KK,142.85714285714286,very_cheap,outer_or_suburbs
 15500,4000,41,DISP_2_KK,"Hurbanova, Praha - Krč",Krč,19500,2+KK,475.609756097561,lower_student,outer_or_suburbs
 20600,6000,47,DISP_2_KK,"Vybíralova, Praha - Černý Most",Černý Most,26600,2+KK,565.9574468085107,upper_student,outer_or_suburbs
-48759,8604,44,,"Drahňovická, Praha - Chodov",Chodov,57363,unknown,1303.7045454545455,luxury,outer_or_suburbs
+48759,8604,44,,"Drahňovická, Praha - Chodov",Chodov,57363,,1303.7045454545455,luxury,outer_or_suburbs
 17890,5000,45,DISP_2_KK,"Doubravická, Praha - Chodov",Chodov,22890,2+KK,508.6666666666667,lower_student,outer_or_suburbs
 19000,6000,46,DISP_2_KK,"Bajkonurská, Praha - Háje",Háje,25000,2+KK,543.4782608695652,lower_student,outer_or_suburbs
 25000,6240,52,DISP_2_KK,"Jurkovičova, Praha - Háje",Háje,31240,2+KK,600.7692307692307,upper_student,outer_or_suburbs
@@ -771,9 +771,9 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 21000,2500,29,DISP_1_KK,"Holečkova, Praha - Košíře",Košíře,23500,1+KK,810.3448275862069,lower_student,inner_city
 19000,2200,47,DISP_1_1,"Sarajevská, Praha - Vinohrady",Vinohrady,21200,1+1,451.06382978723406,lower_student,inner_city
 21900,4200,49,DISP_2_1,"Na Louži, Praha - Vršovice",Vršovice,26100,2+1,532.6530612244898,lower_student,inner_city
-37706,6654,53,,"namesti generala Kutlvasra, Praha - Nusle",Nusle,44360,unknown,836.9811320754717,luxury,inner_city
+37706,6654,53,,"namesti generala Kutlvasra, Praha - Nusle",Nusle,44360,,836.9811320754717,luxury,inner_city
 30700,0,47,DISP_2_KK,"U Pergamenky, Praha - Holešovice",Holešovice,30700,2+KK,653.1914893617021,upper_student,inner_city
-32713,14353,35,,"Bulharská, Praha - Vršovice",Vršovice,47066,unknown,1344.7428571428572,luxury,inner_city
+32713,14353,35,,"Bulharská, Praha - Vršovice",Vršovice,47066,,1344.7428571428572,luxury,inner_city
 16500,0,27,DISP_1_KK,"Olgy Havlové, Praha - Žižkov",Žižkov,16500,1+KK,611.1111111111111,very_cheap,inner_city
 22000,4500,45,DISP_2_KK,"Hráského, Praha - Chodov",Chodov,26500,2+KK,588.8888888888889,lower_student,outer_or_suburbs
 26000,2000,30,DISP_1_KK,"Záhřebská, Praha - Vinohrady",Vinohrady,28000,1+KK,933.3333333333334,upper_student,inner_city
@@ -809,17 +809,17 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 32000,1904,55,DISP_2_KK,"Sudoměřská, Praha - Žižkov",Žižkov,33904,2+KK,616.4363636363636,upper_student,inner_city
 21900,3600,50,DISP_2_KK,"Hrdlořezská, Praha - Hrdlořezy",Hrdlořezy,25500,2+KK,510.0,lower_student,outer_or_suburbs
 25000,4500,34,DISP_1_KK,"Boleslavova, Praha - Nusle",Nusle,29500,1+KK,867.6470588235294,upper_student,inner_city
-24138,4260,160,,"Ruská, Praha - Vršovice",Vršovice,28398,unknown,177.4875,upper_student,inner_city
+24138,4260,160,,"Ruská, Praha - Vršovice",Vršovice,28398,,177.4875,upper_student,inner_city
 33900,5000,89,DISP_3_KK,"U Vysočanského pivovaru, Praha - Vysočany",Vysočany,38900,3+KK,437.07865168539325,upper_student,inner_city
 18000,0,34,DISP_2_KK,"Nepomuckých, Praha - Letňany",Letňany,18000,2+KK,529.4117647058823,very_cheap,outer_or_suburbs
 29000,6570,87,DISP_4_KK,"K Rovinám, Praha - Jinonice",Jinonice,35570,4+KK,408.85057471264366,upper_student,inner_city
-41038,7242,35,,"Ostrovského, Praha - Smíchov",Smíchov,48280,unknown,1379.4285714285713,luxury,inner_city
-31575,15231,35,,"Hlaváčkova, Praha - Košíře",Košíře,46806,unknown,1337.3142857142857,luxury,inner_city
+41038,7242,35,,"Ostrovského, Praha - Smíchov",Smíchov,48280,,1379.4285714285713,luxury,inner_city
+31575,15231,35,,"Hlaváčkova, Praha - Košíře",Košíře,46806,,1337.3142857142857,luxury,inner_city
 24000,5600,52,DISP_2_KK,"Františka Jansy, Praha - Dolní Měcholupy",Dolní Měcholupy,29600,2+KK,569.2307692307693,upper_student,outer_or_suburbs
 22000,5000,44,DISP_2_KK,"Jana Želivského, Praha - Žižkov",Žižkov,27000,2+KK,613.6363636363636,upper_student,inner_city
 33450,4500,93,DISP_3_KK,"Přemyslovská, Praha - Vinohrady",Vinohrady,37950,3+KK,408.06451612903226,upper_student,inner_city
-37830,6676,23,,"Plzeňská, Praha - Smíchov",Smíchov,44506,unknown,1935.0434782608695,luxury,inner_city
-28959,5110,34,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,34069,unknown,1002.0294117647059,upper_student,outer_or_suburbs
+37830,6676,23,,"Plzeňská, Praha - Smíchov",Smíchov,44506,,1935.0434782608695,luxury,inner_city
+28959,5110,34,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,34069,,1002.0294117647059,upper_student,outer_or_suburbs
 25000,1600,60,DISP_2_1,"Jeremenkova, Praha - Podolí",Podolí,26600,2+1,443.3333333333333,upper_student,inner_city
 28000,3151,63,DISP_2_KK,"Křižíkova, Praha - Karlín",Karlín,31151,2+KK,494.46031746031747,upper_student,inner_city
 13890,3480,16,DISP_1_KK,"Molákova, Praha - Karlín",Karlín,17370,1+KK,1085.625,very_cheap,inner_city
@@ -828,8 +828,8 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 17000,3000,20,DISP_1_KK,"Jenečská, Praha - Liboc",Liboc,20000,1+KK,1000.0,lower_student,outer_or_suburbs
 16990,0,49,DISP_2_KK,"Kukelská, Praha - Hloubětín",Hloubětín,16990,2+KK,346.734693877551,very_cheap,outer_or_suburbs
 18900,1001,30,DISP_1_KK,"Drahobejlova, Praha - Libeň",Libeň,19901,1+KK,663.3666666666667,lower_student,inner_city
-31088,5486,35,,"Koněvova, Praha - Žižkov",Žižkov,36574,unknown,1044.9714285714285,upper_student,inner_city
-43883,7744,39,,"Svatoslavova, Praha - Nusle",Nusle,51627,unknown,1323.7692307692307,luxury,inner_city
+31088,5486,35,,"Koněvova, Praha - Žižkov",Žižkov,36574,,1044.9714285714285,upper_student,inner_city
+43883,7744,39,,"Svatoslavova, Praha - Nusle",Nusle,51627,,1323.7692307692307,luxury,inner_city
 14500,4700,34,DISP_1_KK,"Sluneční náměstí, Praha - Stodůlky",Stodůlky,19200,1+KK,564.7058823529412,lower_student,outer_or_suburbs
 23000,7200,65,DISP_2_1,"Chlumova, Praha - Žižkov",Žižkov,30200,2+1,464.61538461538464,upper_student,inner_city
 15490,0,45,DISP_2_KK,"U zeleného ptáka, Praha - Kunratice",Kunratice,15490,2+KK,344.22222222222223,very_cheap,outer_or_suburbs
@@ -838,10 +838,10 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 26500,5000,65,DISP_2_1,"Vysokoškolská, Praha - Suchdol",Suchdol,31500,2+1,484.61538461538464,upper_student,outer_or_suburbs
 28500,5400,75,DISP_2_KK,"Pod Pramenem, Praha - Nusle",Nusle,33900,2+KK,452.0,upper_student,inner_city
 26500,6580,53,DISP_2_KK,"Za Vackovem, Praha - Žižkov",Žižkov,33080,2+KK,624.1509433962265,upper_student,inner_city
-8000,2500,16,,Praha - Chodov,Chodov,10500,unknown,656.25,very_cheap,outer_or_suburbs
+8000,2500,16,,Praha - Chodov,Chodov,10500,,656.25,very_cheap,outer_or_suburbs
 28000,5000,72,DISP_3_KK,"Kálikova, Praha - Stodůlky",Stodůlky,33000,3+KK,458.3333333333333,upper_student,outer_or_suburbs
 19000,6000,25,DISP_1_KK,"Plynární, Praha - Holešovice",Holešovice,25000,1+KK,1000.0,lower_student,inner_city
-31901,5629,52,,"Svitákova, Praha - Stodůlky",Stodůlky,37530,unknown,721.7307692307693,upper_student,outer_or_suburbs
+31901,5629,52,,"Svitákova, Praha - Stodůlky",Stodůlky,37530,,721.7307692307693,upper_student,outer_or_suburbs
 24000,3300,46,DISP_2_KK,"Biskupcova, Praha - Žižkov",Žižkov,27300,2+KK,593.4782608695652,upper_student,inner_city
 19490,0,64,DISP_1_KK,"Nad Výšinkou, Praha - Smíchov",Smíchov,19490,1+KK,304.53125,lower_student,inner_city
 22000,4000,61,DISP_2_1,"Kubánské náměstí, Praha - Vršovice",Vršovice,26000,2+1,426.2295081967213,lower_student,inner_city
@@ -854,10 +854,10 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 19000,4000,59,DISP_2_KK,"Františka Diviše, Praha - Uhříněves",Uhříněves,23000,2+KK,389.8305084745763,lower_student,outer_or_suburbs
 22000,600,75,DISP_2_1,"Valčíkova, Praha - Libeň",Libeň,22600,2+1,301.3333333333333,lower_student,inner_city
 19500,4000,41,DISP_1_KK,"Vrátnická, Praha - Modřany",Modřany,23500,1+KK,573.170731707317,lower_student,outer_or_suburbs
-29530,5211,45,,"Petřínská, Praha - Malá Strana",Malá Strana,34741,unknown,772.0222222222222,upper_student,center
+29530,5211,45,,"Petřínská, Praha - Malá Strana",Malá Strana,34741,,772.0222222222222,upper_student,center
 18000,4500,36,DISP_1_KK,"Milánská, Praha - Horní Měcholupy",Horní Měcholupy,22500,1+KK,625.0,lower_student,outer_or_suburbs
-28953,5109,36,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,34062,unknown,946.1666666666666,upper_student,outer_or_suburbs
-30258,5340,30,,"Hartigova, Praha - Žižkov",Žižkov,35598,unknown,1186.6,upper_student,inner_city
+28953,5109,36,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,34062,,946.1666666666666,upper_student,outer_or_suburbs
+30258,5340,30,,"Hartigova, Praha - Žižkov",Žižkov,35598,,1186.6,upper_student,inner_city
 20500,4500,48,DISP_2_1,"Ke Strašnické, Praha - Strašnice",Strašnice,25000,2+1,520.8333333333334,lower_student,inner_city
 24700,4300,55,DISP_2_KK,"Komornická, Praha - Dejvice",Dejvice,29000,2+KK,527.2727272727273,upper_student,inner_city
 20000,1000,44,DISP_2_KK,"Čistovická, Praha - Řepy",Řepy,21000,2+KK,477.27272727272725,lower_student,outer_or_suburbs
@@ -876,7 +876,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 14490,0,26,DISP_1_KK,"Peroutkova, Praha - Jinonice",Jinonice,14490,1+KK,557.3076923076923,very_cheap,inner_city
 19490,0,45,DISP_2_1,"Na Petřinách, Praha - Střešovice",Střešovice,19490,2+1,433.1111111111111,lower_student,inner_city
 17500,3800,37,DISP_1_KK,"Pod Viaduktem, Praha - Stodůlky",Stodůlky,21300,1+KK,575.6756756756756,lower_student,outer_or_suburbs
-24891,4392,50,,"Hartigova, Praha - Žižkov",Žižkov,29283,unknown,585.66,upper_student,inner_city
+24891,4392,50,,"Hartigova, Praha - Žižkov",Žižkov,29283,,585.66,upper_student,inner_city
 24000,5990,60,DISP_2_1,"Pod dálnicí, Praha - Michle",Michle,29990,2+1,499.8333333333333,upper_student,inner_city
 17500,2631,35,DISP_1_KK,"Gerstelova, Praha - Vysočany",Vysočany,20131,1+KK,575.1714285714286,lower_student,inner_city
 23000,4510,47,DISP_2_KK,"Čenětická, Praha - Chodov",Chodov,27510,2+KK,585.3191489361702,upper_student,outer_or_suburbs
@@ -888,14 +888,14 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 23900,4500,48,DISP_2_KK,"V Stráni, Praha - Košíře",Košíře,28400,2+KK,591.6666666666666,upper_student,inner_city
 15000,0,32,DISP_1_KK,"Přímá, Praha - Smíchov",Smíchov,15000,1+KK,468.75,very_cheap,inner_city
 19900,3600,33,DISP_1_KK,"Dačického, Praha - Nusle",Nusle,23500,1+KK,712.1212121212121,lower_student,inner_city
-28909,5102,37,,"Kolbenova, Praha - Vysočany",Vysočany,34011,unknown,919.2162162162163,upper_student,inner_city
-46330,8176,25,,"Varšavská, Praha - Vinohrady",Vinohrady,54506,unknown,2180.24,luxury,inner_city
+28909,5102,37,,"Kolbenova, Praha - Vysočany",Vysočany,34011,,919.2162162162163,upper_student,inner_city
+46330,8176,25,,"Varšavská, Praha - Vinohrady",Vinohrady,54506,,2180.24,luxury,inner_city
 15000,2460,28,DISP_1_KK,"Mattioliho, Praha - Záběhlice",Záběhlice,17460,1+KK,623.5714285714286,very_cheap,outer_or_suburbs
 26000,5700,57,DISP_2_KK,"Piskáčkových, Praha - Vysočany",Vysočany,31700,2+KK,556.140350877193,upper_student,inner_city
 21490,0,50,DISP_2_1,"Herálecká I, Praha - Krč",Krč,21490,2+1,429.8,lower_student,outer_or_suburbs
 30000,2500,94,DISP_2_KK,"Navrátilova, Praha - Nové Město",Nové Město,32500,2+KK,345.74468085106383,upper_student,center
 16490,0,35,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Hloubětín,16490,1+KK,471.14285714285717,very_cheap,outer_or_suburbs
-46727,8246,40,,"Veletržní, Praha - Bubeneč",Bubeneč,54973,unknown,1374.325,luxury,inner_city
+46727,8246,40,,"Veletržní, Praha - Bubeneč",Bubeneč,54973,,1374.325,luxury,inner_city
 29500,5000,95,DISP_3_KK,"U Včely, Praha - Zbraslav",Zbraslav,34500,3+KK,363.1578947368421,upper_student,outer_or_suburbs
 13000,3500,32,DISP_1_1,"Varnsdorfská, Praha - Střížkov",Střížkov,16500,1+1,515.625,very_cheap,outer_or_suburbs
 25000,4000,42,DISP_2_1,"Zengrova, Praha - Dejvice",Dejvice,29000,2+1,690.4761904761905,upper_student,inner_city
@@ -913,18 +913,18 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 26990,0,93,DISP_3_1,"Velká skála, Praha - Troja",Troja,26990,3+1,290.21505376344084,upper_student,outer_or_suburbs
 20000,4000,35,DISP_1_1,"Na Petynce, Praha - Střešovice",Střešovice,24000,1+1,685.7142857142857,lower_student,inner_city
 31990,0,68,DISP_3_KK,"Vokáčova, Praha - Michle",Michle,31990,3+KK,470.44117647058823,upper_student,inner_city
-26376,12326,60,,"U Sluncové, Praha - Karlín",Karlín,38702,unknown,645.0333333333333,upper_student,inner_city
-30541,5390,41,,"Kouřimská, Praha - Vinohrady",Vinohrady,35931,unknown,876.3658536585366,upper_student,inner_city
-47548,8391,49,,"U Okrouhlíku c, Praha - Smíchov",Smíchov,55939,unknown,1141.6122448979593,luxury,inner_city
+26376,12326,60,,"U Sluncové, Praha - Karlín",Karlín,38702,,645.0333333333333,upper_student,inner_city
+30541,5390,41,,"Kouřimská, Praha - Vinohrady",Vinohrady,35931,,876.3658536585366,upper_student,inner_city
+47548,8391,49,,"U Okrouhlíku c, Praha - Smíchov",Smíchov,55939,,1141.6122448979593,luxury,inner_city
 19000,4000,44,DISP_2_KK,"U Jezera, Praha - Stodůlky",Stodůlky,23000,2+KK,522.7272727272727,lower_student,outer_or_suburbs
-30906,5454,44,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,36360,unknown,826.3636363636364,upper_student,outer_or_suburbs
+30906,5454,44,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,36360,,826.3636363636364,upper_student,outer_or_suburbs
 21990,5500,35,DISP_2_KK,"Na Jarově, Praha - Žižkov",Žižkov,27490,2+KK,785.4285714285714,upper_student,inner_city
 36500,4500,50,DISP_2_KK,"Horská, Praha - Nové Město",Nové Město,41000,2+KK,820.0,luxury,center
 19000,2499,37,DISP_1_1,"Bořivojova, Praha - Žižkov",Žižkov,21499,1+1,581.0540540540541,lower_student,inner_city
 34000,5000,81,DISP_3_KK,"Belgická, Praha - Vinohrady",Vinohrady,39000,3+KK,481.48148148148147,upper_student,inner_city
 20990,0,48,DISP_2_KK,"Baranova, Praha - Žižkov",Žižkov,20990,2+KK,437.2916666666667,lower_student,inner_city
 25000,4000,46,DISP_2_KK,"Pod Harfou, Praha - Vysočany",Vysočany,29000,2+KK,630.4347826086956,upper_student,inner_city
-29299,13694,29,,"Slavíkova, Praha - Žižkov",Žižkov,42993,unknown,1482.5172413793102,luxury,inner_city
+29299,13694,29,,"Slavíkova, Praha - Žižkov",Žižkov,42993,,1482.5172413793102,luxury,inner_city
 33000,3000,39,DISP_2_KK,"Bořivojova, Praha - Žižkov",Žižkov,36000,2+KK,923.0769230769231,upper_student,inner_city
 23990,0,54,DISP_2_1,"Na Petřinách, Praha - Břevnov",Břevnov,23990,2+1,444.25925925925924,lower_student,inner_city
 20000,5000,43,DISP_1_KK,"U Hranic, Praha - Strašnice",Strašnice,25000,1+KK,581.3953488372093,lower_student,inner_city
@@ -953,29 +953,29 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 38000,9300,90,DISP_4_KK,"Generála Šišky, Praha - Modřany",Modřany,47300,4+KK,525.5555555555555,luxury,outer_or_suburbs
 21000,2500,46,DISP_2_KK,"Oldřichova, Praha - Nusle",Nusle,23500,2+KK,510.8695652173913,lower_student,inner_city
 22000,5000,47,DISP_2_KK,"Slávy Horníka, Praha - Košíře",Košíře,27000,2+KK,574.468085106383,upper_student,inner_city
-50142,8848,40,,"Dlážděná, Praha - Nové Město",Nové Město,58990,unknown,1474.75,luxury,center
+50142,8848,40,,"Dlážděná, Praha - Nové Město",Nové Město,58990,,1474.75,luxury,center
 20900,4100,38,DISP_2_KK,"Holečkova, Praha - Košíře",Košíře,25000,2+KK,657.8947368421053,lower_student,inner_city
 26990,0,73,DISP_3_KK,"Klapálkova, Praha - Chodov",Chodov,26990,3+KK,369.7260273972603,upper_student,outer_or_suburbs
 28000,5200,72,DISP_3_1,"Šiškova, Praha - Kobylisy",Kobylisy,33200,3+1,461.1111111111111,upper_student,inner_city
 19000,4300,55,DISP_2_KK,"Bartoškova, Praha - Nusle",Nusle,23300,2+KK,423.6363636363636,lower_student,inner_city
 24000,5578,60,DISP_2_1,"Čimelická, Praha - Lhotka",Lhotka,29578,2+1,492.96666666666664,upper_student,outer_or_suburbs
 17000,3331,28,DISP_1_KK,"Zakšínská, Praha - Střížkov",Střížkov,20331,1+KK,726.1071428571429,lower_student,outer_or_suburbs
-29566,5218,35,,"Dvacátého osmého pluku, Praha - Vršovice",Vršovice,34784,unknown,993.8285714285714,upper_student,inner_city
+29566,5218,35,,"Dvacátého osmého pluku, Praha - Vršovice",Vršovice,34784,,993.8285714285714,upper_student,inner_city
 22500,3000,43,DISP_2_KK,"Fibichova, Praha - Žižkov",Žižkov,25500,2+KK,593.0232558139535,lower_student,inner_city
 18000,3400,60,DISP_2_KK,"Rostislavova, Praha - Nusle",Nusle,21400,2+KK,356.6666666666667,lower_student,inner_city
-25569,4512,82,,"Kosatcová, Praha - Záběhlice",Záběhlice,30081,unknown,366.8414634146341,upper_student,outer_or_suburbs
-38806,6848,60,,"Tyršova, Praha - Nové Město",Nové Město,45654,unknown,760.9,luxury,center
+25569,4512,82,,"Kosatcová, Praha - Záběhlice",Záběhlice,30081,,366.8414634146341,upper_student,outer_or_suburbs
+38806,6848,60,,"Tyršova, Praha - Nové Město",Nové Město,45654,,760.9,luxury,center
 26000,5000,46,DISP_2_KK,"Arnošta Valenty, Praha - Černý Most",Černý Most,31000,2+KK,673.9130434782609,upper_student,outer_or_suburbs
-27955,4933,22,,"Kubánské náměstí, Praha - Vršovice",Vršovice,32888,unknown,1494.909090909091,upper_student,inner_city
-32678,14318,34,,"Bulharská, Praha - Vršovice",Vršovice,46996,unknown,1382.235294117647,luxury,inner_city
+27955,4933,22,,"Kubánské náměstí, Praha - Vršovice",Vršovice,32888,,1494.909090909091,upper_student,inner_city
+32678,14318,34,,"Bulharská, Praha - Vršovice",Vršovice,46996,,1382.235294117647,luxury,inner_city
 19000,800,40,DISP_2_KK,"Strančická, Praha - Strašnice",Strašnice,19800,2+KK,495.0,lower_student,inner_city
 18000,4000,50,DISP_2_KK,"Dvořákova, Říčany - Říčany u Prahy, Středočeský kraj",Říčany,22000,2+KK,440.0,lower_student,outer_or_suburbs
-38194,6740,30,,"Řehořova, Praha - Žižkov",Žižkov,44934,unknown,1497.8,luxury,inner_city
+38194,6740,30,,"Řehořova, Praha - Žižkov",Žižkov,44934,,1497.8,luxury,inner_city
 24500,5000,56,DISP_3_KK,"Vratislavská, Praha - Bohnice",Bohnice,29500,3+KK,526.7857142857143,upper_student,outer_or_suburbs
 23000,5000,50,DISP_3_KK,"Kloboučnická, Praha - Nusle",Nusle,28000,3+KK,560.0,upper_student,inner_city
 20000,3700,56,DISP_2_KK,"Plzeňská, Praha - Smíchov",Smíchov,23700,2+KK,423.2142857142857,lower_student,inner_city
 22800,4500,77,DISP_3_KK,"Za Hotelem, Nupaky - Nupaky, Středočeský kraj",Nupaky,27300,3+KK,354.54545454545456,upper_student,outer_or_suburbs
-36569,6453,40,,"Olgy Havlové, Praha - Žižkov",Žižkov,43022,unknown,1075.55,luxury,inner_city
+36569,6453,40,,"Olgy Havlové, Praha - Žižkov",Žižkov,43022,,1075.55,luxury,inner_city
 24000,6000,49,DISP_2_KK,"Musílkova, Praha - Košíře",Košíře,30000,2+KK,612.2448979591836,upper_student,inner_city
 31000,2300,91,DISP_3_KK,"Na Křivce, Praha - Michle",Michle,33300,3+KK,365.9340659340659,upper_student,inner_city
 21000,3700,50,DISP_2_KK,"Levá, Praha - Podolí",Podolí,24700,2+KK,494.0,lower_student,inner_city
@@ -992,14 +992,14 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 24800,5000,78,DISP_3_KK,"Hošťálkova, Praha - Břevnov",Břevnov,29800,3+KK,382.05128205128204,upper_student,inner_city
 25000,5000,52,DISP_2_KK,"Ondrákové, Praha - Hlubočepy",Hlubočepy,30000,2+KK,576.9230769230769,upper_student,inner_city
 22900,6700,60,DISP_2_KK,"Ke Strašnické, Praha - Strašnice",Strašnice,29600,2+KK,493.3333333333333,upper_student,inner_city
-44289,7816,46,,"Svatoslavova, Praha - Nusle",Nusle,52105,unknown,1132.7173913043478,luxury,inner_city
+44289,7816,46,,"Svatoslavova, Praha - Nusle",Nusle,52105,,1132.7173913043478,luxury,inner_city
 29000,4100,56,DISP_3_KK,"Hodonínská, Praha - Michle",Michle,33100,3+KK,591.0714285714286,upper_student,inner_city
 20000,4120,54,DISP_2_KK,"Michelská, Praha - Michle",Michle,24120,2+KK,446.6666666666667,lower_student,inner_city
-14265,6431,86,,"Přemyslovská, Praha - Vinohrady",Vinohrady,20696,unknown,240.65116279069767,lower_student,inner_city
+14265,6431,86,,"Přemyslovská, Praha - Vinohrady",Vinohrady,20696,,240.65116279069767,lower_student,inner_city
 28990,0,43,DISP_2_KK,"V háji, Praha - Holešovice",Holešovice,28990,2+KK,674.1860465116279,upper_student,inner_city
 25000,6644,79,DISP_3_1,"Kpt. Stránského, Praha - Černý Most",Černý Most,31644,3+1,400.55696202531647,upper_student,outer_or_suburbs
 23990,0,48,DISP_2_KK,"Hrušovická, Praha - Kbely",Kbely,23990,2+KK,499.7916666666667,lower_student,outer_or_suburbs
-36309,16387,34,,"Kurta Konráda, Praha - Libeň",Libeň,52696,unknown,1549.8823529411766,luxury,inner_city
+36309,16387,34,,"Kurta Konráda, Praha - Libeň",Libeň,52696,,1549.8823529411766,luxury,inner_city
 26490,0,68,DISP_3_1,"Krynická, Praha - Troja",Troja,26490,3+1,389.55882352941177,lower_student,outer_or_suburbs
 13000,3000,49,DISP_2_1,"Křižíkova, Praha - Karlín",Karlín,16000,2+1,326.53061224489795,very_cheap,inner_city
 24990,0,54,DISP_2_KK,"Na Zámyšli, Praha - Košíře",Košíře,24990,2+KK,462.77777777777777,lower_student,inner_city
@@ -1007,22 +1007,22 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 23800,7000,50,DISP_2_KK,"Na Vysočanských vinicích, Praha - Vysočany",Vysočany,30800,2+KK,616.0,upper_student,inner_city
 32000,1000,83,DISP_2_1,"Dětská, Praha - Strašnice",Strašnice,33000,2+1,397.5903614457831,upper_student,inner_city
 20000,2500,43,DISP_2_KK,"Okrajní, Praha - Strašnice",Strašnice,22500,2+KK,523.2558139534884,lower_student,inner_city
-43355,7651,102,,"Xaveriova, Praha - Smíchov",Smíchov,51006,unknown,500.05882352941177,luxury,inner_city
+43355,7651,102,,"Xaveriova, Praha - Smíchov",Smíchov,51006,,500.05882352941177,luxury,inner_city
 17877,8650,15,DISP_1_KK,"Na Zátorách, Praha - Holešovice",Holešovice,26527,1+KK,1768.4666666666667,upper_student,inner_city
 16500,5500,30,DISP_2_KK,"Čestmírova, Praha - Nusle",Nusle,22000,2+KK,733.3333333333334,lower_student,inner_city
 25000,0,25,DISP_1_KK,"Jana Masaryka, Praha - Vinohrady",Vinohrady,25000,1+KK,1000.0,lower_student,inner_city
 22000,6000,50,DISP_2_KK,"Poděbradská, Praha - Vysočany",Vysočany,28000,2+KK,560.0,upper_student,inner_city
 19000,5000,55,DISP_1_KK,"Sídlištní, Praha - Lysolaje",Lysolaje,24000,1+KK,436.3636363636364,lower_student,outer_or_suburbs
 37000,8500,114,DISP_4_KK,"Ondrákové, Praha - Hlubočepy",Hlubočepy,45500,4+KK,399.12280701754383,luxury,inner_city
-42361,7476,20,,"Nuselská, Praha - Michle",Michle,49837,unknown,2491.85,luxury,inner_city
+42361,7476,20,,"Nuselská, Praha - Michle",Michle,49837,,2491.85,luxury,inner_city
 16500,5000,31,DISP_1_KK,"Za Strašnickou vozovnou, Praha - Strašnice",Strašnice,21500,1+KK,693.5483870967741,lower_student,inner_city
 15500,3500,33,DISP_1_KK,"Českomoravská, Praha - Libeň",Libeň,19000,1+KK,575.7575757575758,lower_student,inner_city
-37830,6676,20,,"Plzeňská, Praha - Smíchov",Smíchov,44506,unknown,2225.3,luxury,inner_city
+37830,6676,20,,"Plzeňská, Praha - Smíchov",Smíchov,44506,,2225.3,luxury,inner_city
 10505,7800,17,DISP_1_KK,"Na Zátorách, Praha - Holešovice",Holešovice,18305,1+KK,1076.764705882353,lower_student,inner_city
-14787,2610,19,,"Ďáblická, Praha - Dejvice",Dejvice,17397,unknown,915.6315789473684,very_cheap,inner_city
-25888,4568,22,,"Těšnov, Praha - Nové Město",Nové Město,30456,unknown,1384.3636363636363,upper_student,center
-26988,4763,25,,"Kubánské náměstí, Praha - Vršovice",Vršovice,31751,unknown,1270.04,upper_student,inner_city
-40633,7170,53,,Praha - Karlín,Karlín,47803,unknown,901.9433962264151,luxury,inner_city
+14787,2610,19,,"Ďáblická, Praha - Dejvice",Dejvice,17397,,915.6315789473684,very_cheap,inner_city
+25888,4568,22,,"Těšnov, Praha - Nové Město",Nové Město,30456,,1384.3636363636363,upper_student,center
+26988,4763,25,,"Kubánské náměstí, Praha - Vršovice",Vršovice,31751,,1270.04,upper_student,inner_city
+40633,7170,53,,Praha - Karlín,Karlín,47803,,901.9433962264151,luxury,inner_city
 22000,6500,54,DISP_2_KK,"Saarinenova, Praha - Hloubětín",Hloubětín,28500,2+KK,527.7777777777778,upper_student,outer_or_suburbs
 19900,4300,47,DISP_1_1,"U Balabenky, Praha - Libeň",Libeň,24200,1+1,514.8936170212766,lower_student,inner_city
 17490,0,34,DISP_1_KK,"Českomoravská, Praha - Libeň",Libeň,17490,1+KK,514.4117647058823,very_cheap,inner_city
@@ -1032,7 +1032,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 15600,3000,23,DISP_1_KK,"Kralická, Praha - Strašnice",Strašnice,18600,1+KK,808.695652173913,lower_student,inner_city
 15000,2800,25,DISP_1_KK,"Vokovická, Praha - Vokovice",Vokovice,17800,1+KK,712.0,very_cheap,inner_city
 22990,0,77,DISP_3_1,"Dědinova, Praha - Chodov",Chodov,22990,3+1,298.57142857142856,lower_student,outer_or_suburbs
-31028,14036,30,,"V Háji, Praha - Holešovice",Holešovice,45064,unknown,1502.1333333333334,luxury,inner_city
+31028,14036,30,,"V Háji, Praha - Holešovice",Holešovice,45064,,1502.1333333333334,luxury,inner_city
 12000,3000,24,DISP_1_KK,"Přemyšlenská, Praha - Kobylisy",Kobylisy,15000,1+KK,625.0,very_cheap,inner_city
 36000,6000,80,DISP_3_1,"Voroněžská, Praha - Vršovice",Vršovice,42000,3+1,525.0,luxury,inner_city
 21000,6500,64,DISP_2_KK,"Petržílkova, Praha - Stodůlky",Stodůlky,27500,2+KK,429.6875,upper_student,outer_or_suburbs
@@ -1063,8 +1063,8 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 21000,4000,29,DISP_1_1,"Voroněžská, Praha - Vršovice",Vršovice,25000,1+1,862.0689655172414,lower_student,inner_city
 21500,2500,45,DISP_2_KK,"Svatoslavova, Praha - Nusle",Nusle,24000,2+KK,533.3333333333334,lower_student,inner_city
 14490,0,30,DISP_1_KK,"Šestajovická, Praha - Hloubětín",Hloubětín,14490,1+KK,483.0,very_cheap,outer_or_suburbs
-30906,5454,40,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,36360,unknown,909.0,upper_student,outer_or_suburbs
-17772,3136,117,,"Americká, Praha - Vinohrady",Vinohrady,20908,unknown,178.7008547008547,lower_student,inner_city
+30906,5454,40,,"Zbraslavská, Praha - Malá Chuchle",Malá Chuchle,36360,,909.0,upper_student,outer_or_suburbs
+17772,3136,117,,"Americká, Praha - Vinohrady",Vinohrady,20908,,178.7008547008547,lower_student,inner_city
 22000,3500,53,DISP_2_KK,"Mochovská, Praha - Hloubětín",Hloubětín,25500,2+KK,481.1320754716981,lower_student,outer_or_suburbs
 17000,4000,42,DISP_1_1,"Hennerova, Praha - Motol",Motol,21000,1+1,500.0,lower_student,outer_or_suburbs
 26000,7000,80,DISP_2_KK,"Vrbenského, Praha - Holešovice",Holešovice,33000,2+KK,412.5,upper_student,inner_city
@@ -1100,10 +1100,10 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 36000,6000,94,DISP_3_KK,"V Třešňovce, Praha - Hrdlořezy",Hrdlořezy,42000,3+KK,446.8085106382979,luxury,outer_or_suburbs
 21000,4400,35,DISP_1_KK,"Gerstelova, Praha - Vysočany",Vysočany,25400,1+KK,725.7142857142857,lower_student,inner_city
 25000,7300,63,DISP_3_KK,"Tererova, Praha - Chodov",Chodov,32300,3+KK,512.6984126984127,upper_student,outer_or_suburbs
-25935,4577,53,,"Arabská, Praha - Vokovice",Vokovice,30512,unknown,575.6981132075472,upper_student,inner_city
+25935,4577,53,,"Arabská, Praha - Vokovice",Vokovice,30512,,575.6981132075472,upper_student,inner_city
 23000,7855,66,DISP_3_1,"Jažlovická, Praha - Chodov",Chodov,30855,3+1,467.5,upper_student,outer_or_suburbs
 17000,3000,49,DISP_1_1,"Hradeckých, Praha - Nusle",Nusle,20000,1+1,408.16326530612247,lower_student,inner_city
-39007,6883,34,,"Svatoslavova, Praha - Nusle",Nusle,45890,unknown,1349.7058823529412,luxury,inner_city
+39007,6883,34,,"Svatoslavova, Praha - Nusle",Nusle,45890,,1349.7058823529412,luxury,inner_city
 24000,7000,73,DISP_2_1,"Sokolovská, Praha - Libeň",Libeň,31000,2+1,424.6575342465753,upper_student,inner_city
 25490,0,59,DISP_2_KK,"Domalípova, Praha - Hloubětín",Hloubětín,25490,2+KK,432.03389830508473,lower_student,outer_or_suburbs
 23000,3600,45,DISP_2_KK,"Ve Struhách, Praha - Bubeneč",Bubeneč,26600,2+KK,591.1111111111111,upper_student,inner_city
@@ -1115,11 +1115,11 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 15800,2500,24,DISP_1_KK,"Na Dolinách, Praha - Nusle",Nusle,18300,1+KK,762.5,lower_student,inner_city
 23000,2200,80,DISP_3_KK,"Korunní, Praha - Vinohrady",Vinohrady,25200,3+KK,315.0,lower_student,inner_city
 19500,3000,32,DISP_1_KK,"28. pluku, Praha - Vršovice",Vršovice,22500,1+KK,703.125,lower_student,inner_city
-28813,5085,21,,"Bulharská, Praha - Vršovice",Vršovice,33898,unknown,1614.1904761904761,upper_student,inner_city
+28813,5085,21,,"Bulharská, Praha - Vršovice",Vršovice,33898,,1614.1904761904761,upper_student,inner_city
 27000,4300,66,DISP_1_KK,"Březenská, Praha - Libeň",Libeň,31300,1+KK,474.24242424242425,upper_student,inner_city
 22000,4700,54,DISP_3_KK,"Peštukova, Praha - Veleslavín",Veleslavín,26700,3+KK,494.44444444444446,upper_student,outer_or_suburbs
 21000,4700,54,DISP_2_KK,"Chotěšovská, Praha - Letňany",Letňany,25700,2+KK,475.9259259259259,lower_student,outer_or_suburbs
-30258,5340,85,,"Pod Štěpem, Praha - Hostivař",Hostivař,35598,unknown,418.8,upper_student,outer_or_suburbs
+30258,5340,85,,"Pod Štěpem, Praha - Hostivař",Hostivař,35598,,418.8,upper_student,outer_or_suburbs
 21000,3900,45,DISP_1_KK,"Kettnerova, Praha - Stodůlky",Stodůlky,24900,1+KK,553.3333333333334,lower_student,outer_or_suburbs
 27000,5000,56,DISP_2_KK,"Chodská, Praha - Vinohrady",Vinohrady,32000,2+KK,571.4285714285714,upper_student,inner_city
 16490,0,26,DISP_1_KK,"Stočesova, Praha - Ruzyně",Ruzyně,16490,1+KK,634.2307692307693,very_cheap,outer_or_suburbs
@@ -1130,23 +1130,23 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 22900,2901,54,DISP_2_KK,"Pod Lipami, Praha - Žižkov",Žižkov,25801,2+KK,477.7962962962963,lower_student,inner_city
 31000,9000,74,DISP_3_KK,"Kettnerova, Praha - Stodůlky",Stodůlky,40000,3+KK,540.5405405405405,upper_student,outer_or_suburbs
 8000,3000,53,DISP_2_KK,"Táboritská, Praha - Žižkov",Žižkov,11000,2+KK,207.54716981132074,very_cheap,inner_city
-33068,5835,55,,"náměstí Olgy Scheinpflugové, Praha - Hlubočepy",Hlubočepy,38903,unknown,707.3272727272728,upper_student,inner_city
+33068,5835,55,,"náměstí Olgy Scheinpflugové, Praha - Hlubočepy",Hlubočepy,38903,,707.3272727272728,upper_student,inner_city
 13200,0,25,GARSONIERA,"Poděbradská, Praha - Vysočany",Vysočany,13200,GARSONIERA,528.0,very_cheap,inner_city
 19000,1000,54,DISP_2_KK,"Litovická, Hostivice - Litovice, Středočeský kraj",Hostivice,20000,2+KK,370.3703703703704,lower_student,outer_or_suburbs
-31597,5576,63,,"U Druhé baterie, Praha - Břevnov",Břevnov,37173,unknown,590.047619047619,upper_student,inner_city
+31597,5576,63,,"U Druhé baterie, Praha - Břevnov",Břevnov,37173,,590.047619047619,upper_student,inner_city
 10400,1,85,DISP_5_1,"Vladivostocká, Praha - Vršovice",Vršovice,10401,5+1,122.36470588235294,very_cheap,inner_city
 17000,1000,35,DISP_1_1,"Vodičkova, Praha - Nové Město",Nové Město,18000,1+1,514.2857142857143,very_cheap,center
 12000,3000,21,DISP_1_KK,"Bořivojova, Praha - Žižkov",Žižkov,15000,1+KK,714.2857142857143,very_cheap,inner_city
 24000,6500,56,DISP_2_KK,"Sazovická, Praha - Zličín",Zličín,30500,2+KK,544.6428571428571,upper_student,outer_or_suburbs
 32000,5300,80,DISP_3_KK,"Píškova, Praha - Stodůlky",Stodůlky,37300,3+KK,466.25,upper_student,outer_or_suburbs
-25758,4545,20,,"Víta Nejedlého, Praha - Žižkov",Žižkov,30303,unknown,1515.15,upper_student,inner_city
+25758,4545,20,,"Víta Nejedlého, Praha - Žižkov",Žižkov,30303,,1515.15,upper_student,inner_city
 42000,7500,97,DISP_3_1,"Korunní, Praha - Vinohrady",Vinohrady,49500,3+1,510.30927835051546,luxury,inner_city
-34485,6085,55,,"Rumunská, Praha - Vinohrady",Vinohrady,40570,unknown,737.6363636363636,luxury,inner_city
+34485,6085,55,,"Rumunská, Praha - Vinohrady",Vinohrady,40570,,737.6363636363636,luxury,inner_city
 30000,5500,88,DISP_3_KK,"K Novému dvoru, Praha - Lhotka",Lhotka,35500,3+KK,403.40909090909093,upper_student,outer_or_suburbs
 15000,3000,37,DISP_2_KK,"Vehlovická, Praha - Čimice",Čimice,18000,2+KK,486.4864864864865,very_cheap,outer_or_suburbs
-16403,7354,80,,"Voskovcova, Praha - Hlubočepy",Hlubočepy,23757,unknown,296.9625,lower_student,inner_city
+16403,7354,80,,"Voskovcova, Praha - Hlubočepy",Hlubočepy,23757,,296.9625,lower_student,inner_city
 15000,5100,30,DISP_1_1,"Šestajovická, Praha - Hloubětín",Hloubětín,20100,1+1,670.0,lower_student,outer_or_suburbs
-21551,3803,24,,"Nádražní, Praha - Smíchov",Smíchov,25354,unknown,1056.4166666666667,lower_student,inner_city
+21551,3803,24,,"Nádražní, Praha - Smíchov",Smíchov,25354,,1056.4166666666667,lower_student,inner_city
 19500,4500,59,DISP_2_1,"Libocká, Praha - Liboc",Liboc,24000,2+1,406.77966101694915,lower_student,outer_or_suburbs
 15000,4400,32,DISP_1_KK,"Radlická, Praha - Smíchov",Smíchov,19400,1+KK,606.25,lower_student,inner_city
 9254,3366,22,DISP_4_1,"Thámova, Praha - Karlín",Karlín,12620,4+1,573.6363636363636,very_cheap,inner_city
@@ -1161,12 +1161,12 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 17500,3699,44,DISP_2_KK,"Frýdlantská, Praha - Kobylisy",Kobylisy,21199,2+KK,481.79545454545456,lower_student,inner_city
 13500,4300,49,DISP_1_KK,"Za Mlýnem, Hostivice - Hostivice, Středočeský kraj",Hostivice,17800,1+KK,363.265306122449,very_cheap,outer_or_suburbs
 25000,4531,46,DISP_2_KK,"Na Spojce, Praha - Vršovice",Vršovice,29531,2+KK,641.9782608695652,upper_student,inner_city
-49018,8650,50,,"Zemědělská, Praha - Dejvice",Dejvice,57668,unknown,1153.36,luxury,inner_city
+49018,8650,50,,"Zemědělská, Praha - Dejvice",Dejvice,57668,,1153.36,luxury,inner_city
 34000,4200,55,DISP_2_KK,"U Vodárny, Praha - Vinohrady",Vinohrady,38200,2+KK,694.5454545454545,upper_student,inner_city
 23000,3200,33,DISP_1_KK,"Tupolevova, Praha - Letňany",Letňany,26200,1+KK,793.939393939394,lower_student,outer_or_suburbs
 33800,4800,63,DISP_2_KK,"Na Farkáně Ⅰ, Praha - Radlice",Radlice,38600,2+KK,612.6984126984127,upper_student,inner_city
 37990,0,87,DISP_3_KK,"K Červenému vrchu, Praha - Vokovice",Vokovice,37990,3+KK,436.6666666666667,upper_student,inner_city
-12000,2900,16,,"Českobrodská, Praha - Hrdlořezy",Hrdlořezy,14900,unknown,931.25,very_cheap,outer_or_suburbs
+12000,2900,16,,"Českobrodská, Praha - Hrdlořezy",Hrdlořezy,14900,,931.25,very_cheap,outer_or_suburbs
 26000,6000,60,DISP_2_1,"Ve Smečkách, Praha - Nové Město",Nové Město,32000,2+1,533.3333333333334,upper_student,center
 19900,900,40,DISP_1_KK,"Skloněná, Praha - Vysočany",Vysočany,20800,1+KK,520.0,lower_student,inner_city
 16500,3500,40,DISP_1_1,"Jaroslava Foglara, Praha - Stodůlky",Stodůlky,20000,1+1,500.0,lower_student,outer_or_suburbs
@@ -1175,16 +1175,16 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 17500,4150,39,DISP_1_KK,"Hadovitá, Praha - Michle",Michle,21650,1+KK,555.1282051282051,lower_student,inner_city
 17300,4600,30,DISP_1_KK,"U Libeňského pivovaru, Praha - Libeň",Libeň,21900,1+KK,730.0,lower_student,inner_city
 10000,2000,74,DISP_3_1,"Svojetická, Praha - Strašnice",Strašnice,12000,3+1,162.16216216216216,very_cheap,inner_city
-18582,3279,30,,"Kotorská, Praha - Nusle",Nusle,21861,unknown,728.7,lower_student,inner_city
+18582,3279,30,,"Kotorská, Praha - Nusle",Nusle,21861,,728.7,lower_student,inner_city
 22000,4000,56,DISP_3_KK,"Borošova, Praha - Háje",Háje,26000,3+KK,464.2857142857143,lower_student,outer_or_suburbs
-42257,7457,30,,"Veletržní, Praha - Bubeneč",Bubeneč,49714,unknown,1657.1333333333334,luxury,inner_city
+42257,7457,30,,"Veletržní, Praha - Bubeneč",Bubeneč,49714,,1657.1333333333334,luxury,inner_city
 19500,5000,41,DISP_2_KK,"Šluknovská, Praha - Střížkov",Střížkov,24500,2+KK,597.560975609756,lower_student,outer_or_suburbs
-25071,4424,20,,"Vrchlického, Praha - Košíře",Košíře,29495,unknown,1474.75,upper_student,inner_city
+25071,4424,20,,"Vrchlického, Praha - Košíře",Košíře,29495,,1474.75,upper_student,inner_city
 18000,4850,46,DISP_1_KK,"Komořanská, Praha - Modřany",Modřany,22850,1+KK,496.7391304347826,lower_student,outer_or_suburbs
 26500,5900,85,DISP_4_1,"Sládkovičova, Praha - Krč",Krč,32400,4+1,381.1764705882353,upper_student,outer_or_suburbs
 20000,4000,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Hloubětín,24000,1+KK,750.0,lower_student,outer_or_suburbs
 18000,4500,45,DISP_2_KK,"Böhmova, Praha - Stodůlky",Stodůlky,22500,2+KK,500.0,lower_student,outer_or_suburbs
-32843,14102,45,,"Sportovní, Praha - Vršovice",Vršovice,46945,unknown,1043.2222222222222,luxury,inner_city
+32843,14102,45,,"Sportovní, Praha - Vršovice",Vršovice,46945,,1043.2222222222222,luxury,inner_city
 21500,3990,48,DISP_2_KK,"Pšeničná, Hostivice - Litovice, Středočeský kraj",Hostivice,25490,2+KK,531.0416666666666,lower_student,outer_or_suburbs
 24000,5000,46,DISP_2_KK,"Starokošířská, Praha - Košíře",Košíře,29000,2+KK,630.4347826086956,upper_student,inner_city
 23990,0,72,DISP_3_KK,"Hlivická, Praha - Bohnice",Bohnice,23990,3+KK,333.19444444444446,lower_student,outer_or_suburbs
@@ -1198,7 +1198,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 22000,5000,53,DISP_2_KK,"Ječná, Hostivice - Litovice, Středočeský kraj",Hostivice,27000,2+KK,509.4339622641509,upper_student,outer_or_suburbs
 17000,2500,39,DISP_1_1,"U Vesny, Praha - Strašnice",Strašnice,19500,1+1,500.0,lower_student,inner_city
 19900,3800,55,DISP_2_KK,"Na Jezerce, Praha - Nusle",Nusle,23700,2+KK,430.90909090909093,lower_student,inner_city
-30627,5405,45,,"Táboritská, Praha - Žižkov",Žižkov,36032,unknown,800.7111111111111,upper_student,inner_city
+30627,5405,45,,"Táboritská, Praha - Žižkov",Žižkov,36032,,800.7111111111111,upper_student,inner_city
 18600,4000,35,DISP_1_KK,"Veletržní, Praha - Holešovice",Holešovice,22600,1+KK,645.7142857142857,lower_student,inner_city
 30000,2500,72,DISP_3_1,"Lublinská, Praha - Troja",Troja,32500,3+1,451.3888888888889,upper_student,outer_or_suburbs
 17112,2888,25,DISP_1_KK,"Ve Smečkách, Praha - Nové Město",Nové Město,20000,1+KK,800.0,lower_student,center
@@ -1208,7 +1208,7 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 19990,0,32,DISP_1_KK,"Poděbradská, Praha - Hloubětín",Hloubětín,19990,1+KK,624.6875,lower_student,outer_or_suburbs
 18000,4500,42,DISP_1_1,"Bořivojova, Praha - Žižkov",Žižkov,22500,1+1,535.7142857142857,lower_student,inner_city
 25990,0,55,DISP_2_KK,"Rooseveltova, Praha - Bubeneč",Bubeneč,25990,2+KK,472.54545454545456,lower_student,inner_city
-32497,5735,53,,"Drahobejlova, Praha - Libeň",Libeň,38232,unknown,721.3584905660377,upper_student,inner_city
+32497,5735,53,,"Drahobejlova, Praha - Libeň",Libeň,38232,,721.3584905660377,upper_student,inner_city
 9000,3000,130,DISP_6_1,"Veltruská, Praha - Prosek",Prosek,12000,6+1,92.3076923076923,very_cheap,inner_city
 17500,2260,32,DISP_1_KK,"Pod Labuťkou, Praha - Libeň",Libeň,19760,1+KK,617.5,lower_student,inner_city
 29000,2350,28,DISP_2_KK,"Legerova, Praha - Nové Město",Nové Město,31350,2+KK,1119.642857142857,upper_student,center
@@ -1220,13 +1220,13 @@ price,charges,surface,disposition,address,district,full_cost,disposition_clean,p
 23500,6800,48,DISP_2_KK,"Na Domovině, Praha - Libuš",Libuš,30300,2+KK,631.25,upper_student,outer_or_suburbs
 30000,6500,72,DISP_3_KK,"Buchovcova, Praha - Žižkov",Žižkov,36500,3+KK,506.94444444444446,upper_student,inner_city
 23700,5300,64,DISP_3_1,"Něvská, Praha - Čakovice",Čakovice,29000,3+1,453.125,upper_student,outer_or_suburbs
-14697,6870,86,,"Přemyslovská, Praha - Vinohrady",Vinohrady,21567,unknown,250.77906976744185,lower_student,inner_city
-37098,17354,65,,"Švehlova, Praha - Záběhlice",Záběhlice,54452,unknown,837.723076923077,luxury,outer_or_suburbs
+14697,6870,86,,"Přemyslovská, Praha - Vinohrady",Vinohrady,21567,,250.77906976744185,lower_student,inner_city
+37098,17354,65,,"Švehlova, Praha - Záběhlice",Záběhlice,54452,,837.723076923077,luxury,outer_or_suburbs
 14000,4000,42,DISP_1_1,"Purkyňova, Říčany - Říčany u Prahy, Středočeský kraj",Říčany,18000,1+1,428.57142857142856,very_cheap,outer_or_suburbs
 29900,9975,75,DISP_3_KK,"Ostravská, Praha - Letňany",Letňany,39875,3+KK,531.6666666666666,upper_student,outer_or_suburbs
 21000,3000,41,DISP_2_KK,"Vorařská, Praha - Modřany",Modřany,24000,2+KK,585.3658536585366,lower_student,outer_or_suburbs
 34900,12049,71,DISP_3_1,"Francouzská, Praha - Vinohrady",Vinohrady,46949,3+1,661.2535211267606,luxury,inner_city
-31987,5645,31,,"Kmochova, Praha - Smíchov",Smíchov,37632,unknown,1213.9354838709678,upper_student,inner_city
+31987,5645,31,,"Kmochova, Praha - Smíchov",Smíchov,37632,,1213.9354838709678,upper_student,inner_city
 23000,4000,42,DISP_2_KK,"Podplukovníka Sochora, Praha - Holešovice",Holešovice,27000,2+KK,642.8571428571429,upper_student,inner_city
 19000,3500,43,DISP_2_KK,"Nad Kolonií, Praha - Podolí",Podolí,22500,2+KK,523.2558139534884,lower_student,inner_city
 19400,4600,45,DISP_2_KK,"Kurkova, Praha - Kobylisy",Kobylisy,24000,2+KK,533.3333333333334,lower_student,inner_city

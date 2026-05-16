@@ -1,9 +1,29 @@
-# project
+# Student Cost of Living in Prague
+## Data Processing in Python 
+### Goal
+Analyse and compare monthly living consts for students in Prague across different housing, food and lifestyle choices.
 
-!!allow the users to pick free time spending price themselves in the simulation
+### Data Sources
+- Apartments - scraped from Bezrealitky.cz
+- Dorms - scraped from official university web rehos.cuni.cz
+- Canteen - scraped from CHarles University canteen web kamweb.ruk.cuni.cz
+- Transport - PID student pass (pid.cz)
+- Leisure - manually estimated 
+
+### How to run 
+1. run notebooks(apartments_cleaner,dorm_cleaner,canteen_processed,groceries_processed)
+2. run analysis
+
+### Requirements
+see requirements.txt
+
+
+
+
+
 
 # Work in Progress 
-
+!!allow the users to pick free time spending price themselves in the simulation
 ## Apartments
 Rental listings will be scraped from Bezrealitky.cz by first collecting listing URLs from search results pages using BeautifulSoup, then fetching JSON data for each listing. As proof that data can be scraped, `apartments.csv` has been produced with 1,363 listings including price, size, room type, address and district. There were some issues, including some listings outside Prague, extreme price outliers, missing room types and ambiguous zero service charges. These will be adressed during data cleaning. 
 

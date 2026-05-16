@@ -1,5 +1,7 @@
 # project
 
+!!allow the users to pick free time spending price themselves in the simulation
+
 # Work in Progress 
 
 ## Apartments

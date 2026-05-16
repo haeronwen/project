@@ -6,7 +6,7 @@ Analyse and compare monthly living consts for students in Prague across differen
 ### Data Sources
 - Apartments - scraped from Bezrealitky.cz
 - Dorms - scraped from official university web rehos.cuni.cz
-- Canteen - scraped from CHarles University canteen web kamweb.ruk.cuni.cz
+- Canteen - scraped from Charles University canteen web kamweb.ruk.cuni.cz
 - Transport - PID student pass (pid.cz)
 - Leisure - manually estimated 
 

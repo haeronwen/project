@@ -8,7 +8,7 @@ from source_code.loaders import (
     LEISURE_MONTHLY
 )
 
-#load canteen lookup once at module level
+#load canteen lookup table once at module level
 canteen=load_canteen().set_index("days_per_week")["monthly_cost"]
 
 def get_canteen_cost(days_per_week:int)->float:
@@ -22,8 +22,13 @@ def get_canteen_cost(days_per_week:int)->float:
     """
     if days_per_week==0:
         return 0
+    
+    if days_per_week not in canteen.index:
+        raise ValueError(f"Invalid days_per_week: {days_per_week}. Must be 0-5.")    
+    
     return float(canteen.loc[days_per_week])
 
+#monthly cost calculation
 def compute_monthly_cost(
         housing_cost:float,
         canteen_days:int=5,
@@ -31,8 +36,14 @@ def compute_monthly_cost(
         transport:float=TRANSPORT_MONTHLY,
         leisure:float=LEISURE_MONTHLY)->dict:
     """
-    compute itemised monthly cost of living for a Prague student 
+    compute itemized monthly cost of living for a Prague student 
     combines housing, food (canteen+groceries), transport and leisure into a full monthly breakdown
+    arguments:
+        housing_cost - monthly
+        canteen_days - 0-5
+        groceries - monthly, if None, uses average basket
+        transport - monthly, default: PID student pass
+        leisure - monthly, default: 2000 (estimated)
     """
     #fall back to cheapest basket from data if groceries not provided
     if groceries is None:
@@ -56,13 +67,14 @@ def build_scenario_table(canteen_days:int=5)->pd.DataFrame:
     build a comparison table of monthly costs across all housing options
     iterates over all dorm configurations and apartment types from the cleaned data, computes monthly cost for each using compute_monthly_cost()
     returns a signle DataFrame for comparison and cisualisation 
+    arguments: canteen_days per week, default:5
     """
     dorms=load_dorms()
     apartments=load_apartments()
     rows=[]
 
     #monthly cost for each dorm type
-    for id,row in dorms.iterrows():
+    for idx,row in dorms.iterrows():
         facilities="own facilities" if row["facilities"]=="Yes" else "shared facilities"
         cost=compute_monthly_cost(row["avg_cost"],canteen_days=canteen_days)
         cost["label"]=f"Dorm {row['beds']}-bed ({facilities})"
@@ -70,7 +82,7 @@ def build_scenario_table(canteen_days:int=5)->pd.DataFrame:
         rows.append(cost)
 
     #monthly cost for each apartment type (cost per person - assuming sharing)
-    for id,row in apartments.iterrows():
+    for idx,row in apartments.iterrows():
         cost= compute_monthly_cost(row["avg_rent_per_person"],canteen_days=canteen_days)
         cost["label"]=f"Flat {row['disposition_clean']} {row['zone']}"
         cost["type"]="apartment"

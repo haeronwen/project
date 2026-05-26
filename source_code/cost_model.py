@@ -62,7 +62,7 @@ def build_scenario_table(canteen_days:int=5)->pd.DataFrame:
     rows=[]
 
     #monthly cost for each dorm type
-    for id, row in dorms.iterrows():
+    for id,row in dorms.iterrows():
         facilities="own facilities" if row["facilities"]=="Yes" else "shared facilities"
         cost=compute_monthly_cost(row["avg_cost"],canteen_days=canteen_days)
         cost["label"]=f"Dorm {row['beds']}-bed ({facilities})"
@@ -70,7 +70,7 @@ def build_scenario_table(canteen_days:int=5)->pd.DataFrame:
         rows.append(cost)
 
     #monthly cost for each apartment type (cost per person - assuming sharing)
-    for id, row in apartments.iterrows():
+    for id,row in apartments.iterrows():
         cost= compute_monthly_cost(row["avg_rent_per_person"],canteen_days=canteen_days)
         cost["label"]=f"Flat {row['disposition_clean']} {row['zone']}"
         cost["type"]="apartment"

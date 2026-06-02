@@ -1,15 +1,11 @@
 import streamlit as st
 import plotly.express as px
-import sys
 import pandas as pd
 from pathlib import Path
 
-sys.path.append(str(Path(__file__).parent))
-
-from cost_calculator import compute_monthly_cost, build_scenario_table
+from source_code.cost_calculator import compute_monthly_cost, build_scenario_table
 from source_code.loaders import load_apartments, load_dorms
 
-# ── Constants ─────────────────────────────────────────────────────────────────
 
 ZONE_MAP = {
     "Center": "center",
@@ -28,7 +24,6 @@ CATEGORY_LABELS = {
     "leisure": "Leisure",
 }
 
-# Approximate rates from CZK - TODO: replace with live scrape from frankfurter.app
 FX_RATES = {
     "CZK": (1.0,   "Kč"),
     "EUR": (0.040, "€"),
@@ -43,31 +38,13 @@ FX_RATES = {
 
 PIE_COLORS = ["#4A7C72", "#C0513A", "#D4A043", "#7B9E87", "#B8956A"]
 
-# ── Helper functions ───────────────────────────────────────────────────────────
 
 def fmt(czk):
-    """Convert a CZK amount to the selected display currency and format it."""
     converted = czk * rate
     if currency == "CZK":
         return f"{converted:,.0f} Kč"
     return f"{symbol}{converted:,.0f}"
 
-
-def get_store_groceries(store):
-    """
-    Calculate monthly grocery cost from raw store prices.
-    store: 'lidl' (physical) or 'rohlik' (online delivery)
-    """
-    basket = pd.read_csv(Path(__file__).parent / "data/clean/groceries_basket.csv")
-    raw = pd.read_csv(Path(__file__).parent / f"data/raw/{store}_prices.csv")
-
-    cheapest = raw.groupby("item")["price"].min().reset_index()
-    merged = basket.merge(cheapest, on="item", how="left")
-    merged["final_price"] = merged["price"].fillna(merged["unit_price"])
-    return float((merged["final_price"] * merged["qty_per_month"]).sum())
-
-
-# ── Page setup ─────────────────────────────────────────────────────────────────
 
 st.set_page_config(page_title="Prague Student Cost of Living", layout="wide", page_icon="🏰")
 st.markdown("""
@@ -90,7 +67,6 @@ rate, symbol = FX_RATES[currency]
 
 st.divider()
 
-# ── Inputs ─────────────────────────────────────────────────────────────────────
 
 left, right = st.columns([1, 1.6])
 
@@ -99,7 +75,6 @@ with left:
 
     housing_type = st.radio("Accommodation type", ["Apartment", "Dorm"], horizontal=True)
 
-    # default people=1 for dorm path so build_scenario_table always has it
     people = 1
 
     if housing_type == "Apartment":
@@ -134,12 +109,21 @@ with left:
         st.markdown("**Food**")
         canteen_days = st.slider("Canteen days / week", 0, 5, 3,
             help="Student meal ~100 CZK. Reduces grocery spend.")
+
+        grocery_basket = st.radio(
+            "Diet",
+            ["Standard", "Vegan"],
+            horizontal=True,
+            help="Vegan basket replaces meat, dairy and eggs with plant-based alternatives.",
+        )
+
         grocery_store = st.radio(
             "Grocery shopping",
             ["Physical store", "Online delivery", "Average"],
             horizontal=True,
-            help="Physical store e.g. Lidl, online delivery e.g. Rohlik (~35% pricier)",
+            help="Physical store = Billa/Lidl average. Online = Rohlik/Košík average (~35% pricier).",
         )
+
         with st.expander("Where are the canteens?"):
             st.markdown("""
 | Canteen | Area | Hours (Mon-Thu) |
@@ -162,7 +146,6 @@ with left:
         cafe   = st.slider("Cafe visits / week", 0, 14, 2, help="~100 CZK per visit")
         gym    = st.checkbox("Gym membership", value=False, help="~1,000 CZK/month")
 
-# ── Results ────────────────────────────────────────────────────────────────────
 
 with right:
     st.subheader("Your Estimated Monthly Costs")
@@ -187,17 +170,20 @@ with right:
             st.stop()
         housing_cost = float(row["avg_cost"].values[0])
 
+    # map UI choices to basket/store params
+    basket = "vegan" if grocery_basket == "Vegan" else "standard"
     if grocery_store == "Physical store":
-        groceries = get_store_groceries("lidl")
+        store = "physical"
     elif grocery_store == "Online delivery":
-        groceries = get_store_groceries("rohlik")
+        store = "online"
     else:
-        groceries = None
+        store = "online"  # average: use online as default, handled in compute_monthly_cost
 
     breakdown = compute_monthly_cost(
         housing_cost=housing_cost,
         canteen_days=canteen_days,
-        groceries=groceries,
+        basket=basket,
+        store=store,
         cinema_per_month=cinema,
         pub_per_month=pub,
         cafe_per_week=cafe,
@@ -239,22 +225,24 @@ with right:
 
         housing_pct = round(breakdown["housing"] / breakdown["total"] * 100)
         data_source = "scraped from Bezrealitky.cz" if housing_type == "Apartment" else "scraped from rehos.cuni.cz"
+        grocery_source = "Rohlik & Košík" if store == "online" else "Billa & Lidl"
         st.caption(
             f"Housing is {housing_pct}% of total ({data_source}). "
-            f"Groceries from Lidl and Rohlik price data. "
+            f"Groceries from {grocery_source}. "
             f"Transport = PID student pass. Leisure is user estimate."
         )
         st.text_input("🔗 Share this configuration", value="", placeholder="URL sharing coming soon...", disabled=True)
 
 st.divider()
 
-# ── Compare Similar Housing Options ───────────────────────────────────────────
 
 st.subheader("Compare Similar Housing Options")
 
 scenario_df = build_scenario_table(
     people=people,
     canteen_days=canteen_days,
+    basket=basket,
+    store=store,
     cinema_per_month=cinema,
     pub_per_month=pub,
     cafe_per_week=cafe,
@@ -265,7 +253,6 @@ if housing_type == "Apartment":
     apt_df = scenario_df[scenario_df["type"] == "apartment"].copy()
     current_idx = ROOM_ORDER.get(disposition, 1)
 
-    # Same room type across all zones
     st.markdown(f"**{disposition} — rent per person by zone**")
     same_disp_rows = sorted(
         [(label, row) for label, row in apt_df.iterrows() if f"Flat {disposition} " in label],
@@ -278,7 +265,6 @@ if housing_type == "Apartment":
             title = f"{zone_name}{' (yours)' if zone_display in label else ''}"
             col.metric(title, fmt(row["housing"]))
 
-    # Smaller / larger options in the same zone
     adjacent = [r for r, i in ROOM_ORDER.items() if abs(i - current_idx) == 1]
     if adjacent:
         st.markdown(f"**Smaller / larger options in {zone_display}**")

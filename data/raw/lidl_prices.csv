@@ -1,14 +1,25 @@
-item,title,price,packaging
-bread,Jablečná kapsa,12.9,105 g
-milk,Pšeničná mouka polohrubá,9.9,1 kg
-eggs,Špagety,11.9,500 g
-butter,Máslový croissant,7.9,74 g
-chicken,BIO Kuřecí prsní řízky,59.9,Dostupné pouze ve vybraných prodejnách
-pasta,Špagety,15.9,500 g
-rice,Dlouhozrnná rýže v varných sáčcích,19.9,4x100 g
-chopped_tomatoes,Jablečná kapsa,12.9,105 g
-onions,Cibule žlutá,36.9,5 kg - balení
-frozen_vegetables,Avokado zelené,14.9,kus
-yoghurt,"Bio jogurt bílý 3,8%, tuku",9.9,150 g
-coffee,Cavatappi,15.9,500 g
-bananas,Bio protlak jablko-banán,13.9,100 g
+item,title,price_czk,packaging,price_per_unit
+ovesne_vlocky,Ovesné vločky hrub,11.9,500 g,0.0238
+mleko,"Trvanlivé mléko 1,5%",12.9,1 l,0.0129
+banany,,,,
+chleb,Dřevorubecký chléb,23.9,405 g,0.05901234567901234
+maslo,Perla Margarín s máslovou příchutí 39% tuku,34.9,450 g,0.07755555555555556
+vejce,,,,
+spagety,Špagety,11.9,500 g,0.0238
+pesto,,,,
+ryze,,,,
+mrazena_zelenina,,,,
+kureci_prsa,BIO Kuřecí prsní řízky,59.9,Dostupné pouze ve vybraných prodejnách,
+tofu,,,,
+cibule,,,,
+cesnek,Česnek,39.9,,
+syr_eidam,PILOS Eidam,9.9,,
+tunak,Tuňák žlutoploutvý,39.9,cena za 100 g,0.39899999999999997
+jogurt,Bílý jogurt,17.9,300 g,0.05966666666666666
+kava,,,,
+ovesny_napoj,,,,
+sojovy_napoj,,,,
+repkovy_olej,Řepkový olej,34.9,1 l,0.0349
+cervena_cocka,,,,
+rajcatova_omacka,,,,
+paprika,,,,

@@ -1,14 +1,25 @@
-item,title,price,packaging
-bread,Breadway Kváskový toustáček žitný,37.9,400 g
-milk,"Miil Trvanlivé polotučné mléko 1,5%",14.9,1 l
-eggs,Varmuža Ruské vejce v aspiku,34.9,200 g
-butter,Dr. Halíř Máslo,40.9,125 g
-chicken,Světničkové kuře prsní řízek,59.78,cca 230 g
-pasta,Kitchin Spaghetti N. 5,15.9,500 g
-rice,Kitchin Rýže jasmínová,24.9,500 g
-chopped_tomatoes,Kitchin Celá loupaná rajčata v rajčatové šťávě,24.9,400 g
-onions,Cibule žlutá 1 ks,1.85,cca 90 g
-frozen_vegetables,Agro Jesenice Zelenina s kukuřicí,20.9,350 g
-yoghurt,"Miil Krémový jogurt bílý 3,7 % tuku",7.9,150 g
-coffee,Mokate Café Irish Kávový nápoj 3v1,35.9,170 g
-bananas,Banán 1 ks,7.78,cca 190 g
+item,title,price_czk,packaging,price_per_unit
+ovesne_vlocky,Yutto Celozrnné ovesné vločky extra jemné,11.9,500 g,0.0238
+mleko,"Miil Trvanlivé polotučné mléko 1,5%",14.9,1 l,0.0149
+banany,Banán 1 ks,6.95,cca 190 g,0.03657894736842105
+chleb,Merhautovo pekařství Chléb žitný,35.9,400 g,0.08975
+maslo,Miil Máslo 82%,44.9,250 g,0.17959999999999998
+vejce,Pohodová vejce Podestýlková L,45.9,6 ks,7.6499999999999995
+spagety,Špagety,12.9,400 g,0.03225
+pesto,Kitchin Bazalkové pesto alla Genovese,37.9,190 g,0.1994736842105263
+ryze,Kitchin Rýže dlouhozrnná,29.9,1 kg,0.0299
+mrazena_zelenina,Agro Jesenice Zelenina s kukuřicí,20.9,350 g,0.05971428571428571
+kureci_prsa,Kuřecí prsní řízky od českého výrobce XXL balení,263.88,"cca 1,2 kg",0.21989999999999998
+tofu,SoYum Tofu,60.9,450 g,0.13533333333333333
+cibule,"Cibule žlutá, síť",19.9,1 kg,0.019899999999999998
+cesnek,"Česnek ""ošklivák"" český, síť",69.9,350 g,0.19971428571428573
+syr_eidam,Miil Eidam 30% bloček,44.9,250 g,0.17959999999999998
+tunak,Kitchin Tuňák celý ve slunečnicovém oleji,52.9,195 g,0.2712820512820513
+jogurt,Hollandia Nízkotučný jogurt bílý,17.9,380 g,0.04710526315789473
+kava,Ubomi Intense RFA mletá káva,84.9,250 g,0.3396
+ovesny_napoj,Yutto BIO Ovesný nápoj,27.9,1 l,0.027899999999999998
+sojovy_napoj,Yutto BIO Sójový nápoj,29.9,1 l,0.0299
+repkovy_olej,Kitchin Řepkový olej,34.9,1 l,0.0349
+cervena_cocka,Kitchin Červená čočka,33.9,500 g,0.0678
+rajcatova_omacka,Kitchin Pečené fazole v rajčatové omáčce,19.9,420 g,0.04738095238095238
+paprika,Paprika žlutá 1 ks,20.54,cca 210 g,0.0978095238095238

@@ -1,5 +1,5 @@
 import pandas as pd
-from source_code.loaders import (
+from .loaders import (
     load_apartments,
     load_dorms,
     load_canteen,

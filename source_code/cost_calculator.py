@@ -4,10 +4,9 @@ from source_code.loaders import (
     load_dorms,
     load_canteen,
     get_groceries_monthly,
-    TRANSPORT_MONTHLY
+    TRANSPORT_MONTHLY,
 )
 
-# Leisure prices based on Prague estimates
 CINEMA_PRICE = 180
 PUB_PRICE = 250
 CAFE_PRICE = 100
@@ -17,14 +16,13 @@ WEEKS_PER_MONTH = 4.33
 ZONE_LABELS = {
     "center": "Center",
     "inner_city": "Inner city",
-    "outer_or_suburbs": "Outer/suburbs"
+    "outer_or_suburbs": "Outer/suburbs",
 }
 
 canteen = load_canteen().set_index("days_per_week")["monthly_cost"]
 
 
 def get_canteen_cost(days_per_week: int) -> float:
-    """Monthly canteen cost for 0-5 days/week. Returns 0 if days_per_week is 0."""
     if days_per_week == 0:
         return 0
     return float(canteen.loc[days_per_week])
@@ -35,7 +33,6 @@ def compute_leisure_cost(
         pub_per_month: int = 4,
         cafe_per_week: int = 2,
         gym: bool = False) -> float:
-    """Total monthly leisure cost. Prices: cinema 180, pub 250, cafe 100, gym 1000 CZK."""
     return (
         cinema_per_month * CINEMA_PRICE
         + pub_per_month * PUB_PRICE
@@ -48,6 +45,8 @@ def compute_monthly_cost(
         housing_cost: float,
         canteen_days: int = 5,
         groceries: float = None,
+        basket: str = "standard",
+        store: str = "online",
         transport: float = TRANSPORT_MONTHLY,
         cinema_per_month: int = 1,
         pub_per_month: int = 4,
@@ -55,17 +54,17 @@ def compute_monthly_cost(
         gym: bool = False) -> dict:
     """Itemised monthly cost breakdown. Grocery spend reduced proportionally with canteen days."""
     if groceries is None:
-        groceries = get_groceries_monthly()
+        groceries = get_groceries_monthly(basket=basket, store=store)
 
     grocery_reduction = (canteen_days / 5) * 0.4
     adjusted_groceries = groceries * (1 - grocery_reduction)
 
     breakdown = {
-        "housing": housing_cost,
-        "canteen": get_canteen_cost(canteen_days),
+        "housing":   housing_cost,
+        "canteen":   get_canteen_cost(canteen_days),
         "groceries": adjusted_groceries,
         "transport": transport,
-        "leisure": compute_leisure_cost(cinema_per_month, pub_per_month, cafe_per_week, gym),
+        "leisure":   compute_leisure_cost(cinema_per_month, pub_per_month, cafe_per_week, gym),
     }
     breakdown["total"] = sum(breakdown.values())
     return breakdown
@@ -74,15 +73,13 @@ def compute_monthly_cost(
 def build_scenario_table(
         people: int = 1,
         canteen_days: int = 5,
+        basket: str = "standard",
+        store: str = "online",
         cinema_per_month: int = 1,
         pub_per_month: int = 4,
         cafe_per_week: int = 2,
         gym: bool = False) -> pd.DataFrame:
-    """Comparison table of monthly costs across all housing options.
-
-    For apartments, avg_rent is divided by `people` so the comparison
-    always reflects the per-person cost consistent with the user's sharing setting.
-    """
+    """Comparison table of monthly costs across all housing options."""
     dorms = load_dorms()
     apartments = load_apartments()
     rows = []
@@ -92,6 +89,7 @@ def build_scenario_table(
         cost = compute_monthly_cost(
             housing_cost=row["avg_cost"],
             canteen_days=canteen_days,
+            basket=basket, store=store,
             cinema_per_month=cinema_per_month,
             pub_per_month=pub_per_month,
             cafe_per_week=cafe_per_week,
@@ -106,6 +104,7 @@ def build_scenario_table(
         cost = compute_monthly_cost(
             housing_cost=row["avg_rent"] / people,
             canteen_days=canteen_days,
+            basket=basket, store=store,
             cinema_per_month=cinema_per_month,
             pub_per_month=pub_per_month,
             cafe_per_week=cafe_per_week,

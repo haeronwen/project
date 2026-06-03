@@ -68,34 +68,3 @@ def load_groceries_full() -> pd.DataFrame:
     if not filepath.exists():
         raise FileNotFoundError(f"Missing data file: {filepath}")
     return pd.read_csv(filepath)
-
-
-def get_groceries_monthly(basket: str = "standard", store: str = "online") -> float:
-    """
-    Return monthly grocery cost for a given basket and store type.
-    
-    Args:
-    basket: "standard" or "vegan" or "budget"
-    store:  "online" (Rohlik + Košík avg) or "physical" (Billa + Lidl avg) or "cheapest"
-    
-    Returns:
-    float: monthly cost in CZK
-    
-    If no custom file exists, calculates from groceries_basket.csv
-    """
-    filepath = DATA_DIR / "grocery_monthly.csv"
-    
-    # Try loading pre-calculated table
-    if filepath.exists():
-        df = pd.read_csv(filepath)
-        row = df[(df["basket"] == basket) & (df["store"] == store)]
-        if len(row) > 0:
-            return float(row["monthly"].values[0])
-    
-    # Fallback: calculate from basket if only 'standard' requested
-    if basket == "standard":
-        basket_df = load_groceries_basket()
-        return float(basket_df["monthly_cost"].sum())
-    
-    raise ValueError(f"No grocery data for basket='{basket}', store='{store}'")
-

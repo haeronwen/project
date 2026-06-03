@@ -1,12 +1,9 @@
 import pandas as pd
 from source_code.loaders import (
     load_apartments,
-    load_apartments_clean,
     load_dorms,
     load_canteen,
     load_groceries_basket,
-    load_groceries_full,
-    get_groceries_monthly,
     TRANSPORT_MONTHLY,
     LEISURE_MONTHLY
 )
@@ -51,48 +48,28 @@ def compute_monthly_cost(
         canteen_days: int = 5,
         groceries: float = None,
         transport: float = TRANSPORT_MONTHLY,
-        leisure: float = LEISURE_MONTHLY) -> dict:
-    """
-    Compute itemized monthly cost of living for a Prague student.
-    
-    Combines housing, food (canteen + groceries), transport, and leisure 
-    into a detailed cost breakdown.
-    
-    Args:
-        housing_cost (float): monthly housing cost in CZK
-        canteen_days (int, 0-5): number of days per week eating at canteen
-        groceries (float, optional): monthly grocery budget in CZK
-                                   If None, uses standard basket from data
-        transport (float, optional): monthly transport cost
-                                   Default: PID student monthly pass (~107 CZK)
-        leisure (float, optional): monthly leisure budget
-                                  Default: 2000 CZK (estimated for cinema, pub, gym, etc.)
-    
-    Returns:
-        dict: breakdown with keys:
-            - housing: float
-            - canteen: float
-            - groceries: float
-            - transport: float
-            - leisure: float
-            - total: float (sum of all components)
-    """
-    # Fallback to standard grocery basket if not provided
-    if groceries is None:
-        groceries = get_groceries_monthly(basket="standard", store="online")
+        leisure: float = LEISURE_MONTHLY,
+        lunch_share: float = 0.4) -> dict:
 
-    # Build itemized breakdown
+    full_grocery_basket = load_groceries_basket()["monthly_cost"].sum()
+    
+    if groceries is None:
+        # Scale down groceries based on how many lunches canteen covers
+        home_lunch_cost = full_grocery_basket * lunch_share
+        other_food_cost = full_grocery_basket * (1 - lunch_share)
+        home_lunch_remaining = home_lunch_cost * (5 - canteen_days) / 5
+        groceries = other_food_cost + home_lunch_remaining
+
+    canteen_cost = get_canteen_cost(canteen_days)
+
     breakdown = {
         "housing": housing_cost,
-        "canteen": get_canteen_cost(canteen_days),
+        "canteen": canteen_cost,
         "groceries": groceries,
         "transport": transport,
         "leisure": leisure
     }
-    
-    # Add total as sum of all components
     breakdown["total"] = sum(breakdown.values())
-    
     return breakdown
 
 
@@ -153,48 +130,6 @@ def build_scenario_table(canteen_days: int = 5) -> pd.DataFrame:
     df = pd.DataFrame(rows).set_index("label")
     
     return df
-
-
-# COMPARISON FUNCTIONS
-
-def compare_scenarios(scenario1: dict, scenario2: dict) -> dict:
-    """
-    Compare two living scenarios side-by-side.
-    
-    Args:
-        scenario1, scenario2 (dict): output from compute_monthly_cost()
-    
-    Returns:
-        dict: comparison metrics
-    """
-    total_diff = scenario2["total"] - scenario1["total"]
-    pct_diff = (total_diff / scenario1["total"]) * 100
-    
-    return {
-        "scenario1_total": scenario1["total"],
-        "scenario2_total": scenario2["total"],
-        "difference": total_diff,
-        "percent_difference": pct_diff,
-        "breakdown_diffs": {
-            key: scenario2[key] - scenario1[key]
-            for key in ["housing", "canteen", "groceries", "transport", "leisure"]
-        }
-    }
-
-
-def get_affordable_options(max_budget: float, canteen_days: int = 5) -> pd.DataFrame:
-    """
-    Filter scenario table to show only options within a budget.
-    
-    Args:
-        max_budget (float): maximum monthly budget in CZK
-        canteen_days (int): canteen usage frequency
-    
-    Returns:
-        pd.DataFrame: filtered scenarios sorted by total cost
-    """
-    df = build_scenario_table(canteen_days=canteen_days)
-    return df[df["total"] <= max_budget].sort_values("total")
 
 # INSIGHTS 
 

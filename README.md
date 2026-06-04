@@ -14,27 +14,27 @@ Analyse and compare monthly living consts for students in Prague across differen
 - Leisure - manually estimated 
 
 ## Project structure 
-project/
-|
-+--- data/
-|   |
-│   +--- raw/ 
-|   |     
-│   +--- clean/ 
-|      
-+--- figures/ 
-|        
-+--- source_code/
-|   |
-│   +--- loaders.py 
-|   |  
-│   +--- cost_model.py
-| 
-+--- analysis.ipynb 
+project/   
 |   
-+--- requirements.txt
-|
-+--- AI_DISCLOSURE.md
++--- data/   
+|   |   
+│   +--- raw/    
+|   |        
+│   +--- clean/    
+|         
++--- figures/    
+|           
++--- source_code/   
+|   |   
+│   +--- loaders.py    
+|   |     
+│   +--- cost_model.py   
+|    
++--- analysis.ipynb    
+|       
++--- requirements.txt   
+|    
++--- AI_DISCLOSURE.md    
 
 ## How to run 
 1. Instal dependencies: 
@@ -44,6 +44,8 @@ pip install -r requirements.txt
 2. Run the cleaning notebooks in `source_code/` (1–4)
 3. Run `analysis.ipynb`
 
+
+---DELETE
 
 # Work in Progress 
 !!allow the users to pick free time spending price themselves in the simulation

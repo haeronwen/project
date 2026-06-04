@@ -97,6 +97,10 @@ with left:
     st.subheader("Your Preferences")
 
     housing_type = st.radio("Accommodation type", ["Apartment", "Dorm"], horizontal=True)
+    if housing_type == "Apartment":
+        st.caption("Data from [Bezrealitky.cz](https://bezrealitky.cz)")
+    else:
+        st.caption("Data from [rehos.cuni.cz](https://rehos.cuni.cz)")
 
     people = 1
 
@@ -240,9 +244,7 @@ with right:
         housing_pct = round(breakdown["housing"] / breakdown["total"] * 100)
         data_source = "scraped from Bezrealitky.cz" if housing_type == "Apartment" else "scraped from rehos.cuni.cz"
         grocery_source = "Rohlik & Košík" if store == "online" else "Billa & Lidl"
-        st.caption(
-            f"Housing is {housing_pct}% of total ({data_source}). "
-        )
+        st.caption("Transport: [PID annual student pass](https://pid.cz/tarif-web/stud.php?cat=STU&lt=1&range=P-7&noprg=0&nolt=0&lang=en) — 1,280 Kč/year")
 st.divider()
 
 
@@ -308,8 +310,26 @@ if housing_type == "Apartment":
 
 else:
     filtered = scenario_df[scenario_df["type"] == "dorm"].copy()
-    st.markdown("**All dorm options — rent comparison**")
-    cols = st.columns(min(len(filtered), 4))
-    for col, (label, row) in zip(cols, filtered.iterrows()):
-        col.metric(label, fmt(row["housing"]))
+
+    # same bed count — own vs shared bathroom
+    st.markdown(f"**{beds}-bed room — bathroom options**")
+    same_beds = filtered[filtered.index.str.contains(f"{beds}-bed")]
+    if not same_beds.empty:
+        cols = st.columns(len(same_beds))
+        for col, (label, row) in zip(cols, same_beds.iterrows()):
+            bath = "own bathroom" if "own" in label else "shared bathroom"
+            title = f"{bath}{' (yours)' if (facilities == 'Private') == ('own' in label) else ''}"
+            col.metric(title, fmt(row["housing"]))
+
+    # same bathroom type — other bed counts
+    bath_str = "own bathroom" if facilities == "Private" else "shared bathroom"
+    other_beds = filtered[
+        filtered.index.str.contains(bath_str) &
+        ~filtered.index.str.contains(f"{beds}-bed")
+    ]
+    if not other_beds.empty:
+        st.markdown(f"**Other room sizes — {bath_str}**")
+        cols2 = st.columns(min(len(other_beds), 4))
+        for col, (label, row) in zip(cols2, other_beds.iterrows()):
+            col.metric(label, fmt(row["housing"]))
 

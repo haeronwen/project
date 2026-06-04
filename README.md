@@ -14,27 +14,17 @@ Analyse and compare monthly living consts for students in Prague across differen
 - Leisure - manually estimated 
 
 ## Project structure 
-project/   
-|   
-+--- data/   
-|   |   
-│   +--- raw/    
-|   |        
-│   +--- clean/    
-|         
-+--- figures/    
-|           
-+--- source_code/   
-|   |   
-│   +--- loaders.py    
-|   |     
-│   +--- cost_model.py   
-|    
-+--- analysis.ipynb    
-|       
-+--- requirements.txt   
-|    
-+--- AI_DISCLOSURE.md    
+project/
+├── data/
+│   ├── raw/          
+│   └── clean/        
+├── figures/          
+├── source_code/
+│   ├── loaders.py    
+│   └── cost_model.py 
+├── analysis.ipynb    
+├── requirements.txt
+└── AI_DISCLOSURE.md
 
 ## How to run 
 1. Instal dependencies: 

@@ -38,7 +38,7 @@ project/
 ```
 pip install -r requirements.txt
 ```
-2. Optionally re-run screaping notebooks in `source_code/` to collect fresh data
+2. Optionally re-run scraping notebooks in `source_code/` to collect fresh data   
     note: `menza.ipynb` cannot be re-run to reproduce the original data as it was scraped for a specific week (April 20–24 2025) and the canteen API only serves current menus. Raw data is already included in `data/raw/`
 3. Run the cleaning notebooks in `source_code/` (1–4)
 4. Run `data_prep_app.ipynb` to generate additional app-specific clean files

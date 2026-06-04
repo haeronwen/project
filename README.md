@@ -21,6 +21,7 @@ project/
 │   └── clean/        
 ├── figures/          
 ├── source_code/
+│   ├── cleaning notebooks 1-4.ipynb
 │   ├── loaders.py    
 │   └── cost_model.py 
 ├── analysis.ipynb    
@@ -33,8 +34,10 @@ project/
 ```
 pip install -r requirements.txt
 ```
-2. Run the cleaning notebooks in `source_code/` (1–4)
-3. Run `analysis.ipynb`
+2. Optionally re-run screaping notebooks in `source_code/` to collect    fresh data
+    note: `menza.ipynb` cannot be re-run to reproduce the original data as it was scraped for a specific week (April 20–24 2025) and the canteen API only serves current menus. Raw data is already included in `data/raw/`
+3. Run the cleaning notebooks in `source_code/` (1–4)
+4. Run `analysis.ipynb`
 
 
 ---DELETE

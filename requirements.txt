@@ -12,9 +12,9 @@ plotly>=5.18.0
 matplotlib>=3.8.0
 seaborn>=0.13.0
 
-#Visualisation
+# Visualisation
 matplotlib>=3.8.0
 seaborn>=0.13.0
 
-#Notebook 
+# Notebook 
 jupyter>=1.0.0

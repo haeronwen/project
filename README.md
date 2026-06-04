@@ -1,25 +1,48 @@
 # Student Cost of Living in Prague
 ## Data Processing in Python 
-### Goal
+Anna Chodurková, Barbora Motyková
+
+## Goal
 Analyse and compare monthly living consts for students in Prague across different housing, food and lifestyle choices.
 
 ### Data Sources
 - Apartments - scraped from Bezrealitky.cz
-- Dorms - scraped from official university web rehos.cuni.cz
-- Canteen - scraped from Charles University canteen web kamweb.ruk.cuni.cz
-- Transport - PID student pass (pid.cz)
+- Dorms - scraped from Charles University accommodation system rehos.cuni.cz
+- Canteen - scraped from Charles University canteen API kamweb.ruk.cuni.cz, week of April 20–24
+- Groceries - scraped from Billa, Lidl, Košík, Rohlík 
+- Transport - PID student yearly pass (pid.cz)
 - Leisure - manually estimated 
 
-### How to run 
-1. run notebooks(1-4cleaner)
-2. run analysis
+## Project structure 
+project/
+|
++--- data/
+|   |
+│   +--- raw/ 
+|   |     
+│   +--- clean/ 
+|      
++--- figures/ 
+|        
++--- source_code/
+|   |
+│   +--- loaders.py 
+|   |  
+│   +--- cost_model.py
+| 
++--- analysis.ipynb 
+|   
++--- requirements.txt
+|
++--- AI_DISCLOSURE.md
 
-### Requirements
-see requirements.txt
-
-
-
-
+## How to run 
+1. Instal dependencies: 
+```
+pip install -r requirements.txt
+```
+2. Run the cleaning notebooks in `source_code/` (1–4)
+3. Run `analysis.ipynb`
 
 
 # Work in Progress 

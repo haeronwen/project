@@ -1,3 +1,6 @@
+from locale import currency
+
+import requests
 import streamlit as st
 import plotly.express as px
 import pandas as pd
@@ -24,25 +27,40 @@ CATEGORY_LABELS = {
     "leisure": "Leisure",
 }
 
-FX_RATES = {
-    "CZK": (1.0,   "Kč"),
-    "EUR": (0.040, "€"),
-    "USD": (0.044, "$"),
-    "GBP": (0.035, "£"),
-    "PLN": (0.18,  "zł"),
-    "HUF": (16.2,  "Ft"),
-    "NOK": (0.47,  "kr"),
-    "SEK": (0.46,  "kr"),
-    "CHF": (0.039, "Fr"),
+CURRENCY_SYMBOLS = {
+    "CZK": "Kč", "EUR": "€", "USD": "$", "GBP": "£",
+    "PLN": "zł", "HUF": "Ft", "NOK": "kr", "SEK": "kr", "CHF": "Fr",
 }
+
+FALLBACK_RATES = {
+    "CZK": 1.0, "EUR": 0.040, "USD": 0.044, "GBP": 0.035,
+    "PLN": 0.18, "HUF": 16.2, "NOK": 0.47, "SEK": 0.46, "CHF": 0.039,
+}
+
+@st.cache_data(ttl=259200)
+def fetch_fx_rates():
+    currencies = ",".join(c for c in CURRENCY_SYMBOLS if c != "CZK")
+    try:
+        r = requests.get(
+            f"https://api.frankfurter.dev/v2/rates?base=CZK&quotes={currencies}",
+            timeout=5
+        )
+        data = r.json()
+        rates = {"CZK": 1.0}
+        rates.update(data["rates"])
+        return rates
+    except Exception:
+        return FALLBACK_RATES
 
 PIE_COLORS = ["#4A7C72", "#C0513A", "#D4A043", "#7B9E87", "#B8956A"]
 
-
 def fmt(czk):
     converted = czk * rate
+    symbol = CURRENCY_SYMBOLS[currency]
     if currency == "CZK":
         return f"{converted:,.0f} Kč"
+    if currency in ("HUF", "NOK", "SEK", "PLN", "CHF"):
+        return f"{converted:,.0f} {symbol}"
     return f"{symbol}{converted:,.0f}"
 
 st.markdown("""
@@ -56,6 +74,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+fx_rates = fetch_fx_rates()
+
 title_col, fx_col = st.columns([4, 1])
 with title_col:
     st.title("Cost of Living Simulator for Students in Prague")
@@ -63,10 +83,10 @@ with title_col:
 with fx_col:
     st.write("")
     st.write("")
-    currency = st.selectbox("Display currency", list(FX_RATES.keys()), index=0,
-                            help="Exchange rates are approximate.")
+    currency = st.selectbox("Display currency", list(CURRENCY_SYMBOLS.keys()), index=0,
+                        help="Rates updated from the European Central Bank.")
 
-rate, symbol = FX_RATES[currency]
+rate = fx_rates.get(currency, FALLBACK_RATES[currency])
 
 st.divider()
 
@@ -130,14 +150,14 @@ with left:
             st.markdown("""
 | Canteen | Area | Hours (Mon-Thu) |
 |---|---|---|
-| [Menza Arnosty z Pardubic](https://kam.cuni.cz/KAM-389.html) | Nove Mesto | 10:45-14:15 |
-| [Menza Jednota](https://kam.cuni.cz/KAM-388.html) | Nove Mesto | 10:45-15:00 |
+| [Menza Arnosty z Pardubic](https://kam.cuni.cz/KAM-389.html) | Nové Město | 10:45-14:15 |
+| [Menza Jednota](https://kam.cuni.cz/KAM-388.html) | Nové Město | 10:45-15:00 |
 | [Menza Kajetanka](https://kam.cuni.cz/KAM-392.html) | Praha 6 | 11:00-14:15 |
 | [Menza Budec](https://kam.cuni.cz/KAM-391.html) | Vinohrady | 10:45-14:15 |
-| [Menza Troja](https://kam.cuni.cz/KAM-396.html) | Troja | 10:45-14:15 |
-| [Menza Pravnicka](https://kam.cuni.cz/KAM-387.html) | Stare Mesto | 11:00-14:15 |
+| [Menza Troja](https://kam.cuni.cz/KAM-396.html) | Trója | 10:45-14:15 |
+| [Menza Pravnicka](https://kam.cuni.cz/KAM-387.html) | Staré Město | 11:00-14:15 |
 | [Menza Albertov](https://kam.cuni.cz/KAM-390.html) | Albertov | 11:30-15:00 |
-| [Menza Malostranska](https://kam.cuni.cz/KAM-769.html) | Mala Strana | 11:00-14:00 |
+| [Menza Malostranska](https://kam.cuni.cz/KAM-769.html) | Malá Strana | 11:00-14:00 |
 """)
             st.caption("Closed Sat-Sun. Fri hours shorter. Student meal ~70-100 CZK with ISIC.")
 
@@ -222,11 +242,7 @@ with right:
         grocery_source = "Rohlik & Košík" if store == "online" else "Billa & Lidl"
         st.caption(
             f"Housing is {housing_pct}% of total ({data_source}). "
-            f"Groceries from {grocery_source}. "
-            f"Transport = PID student pass. Leisure is user estimate."
         )
-        st.text_input("🔗 Share this configuration", value="", placeholder="URL sharing coming soon...", disabled=True)
-
 st.divider()
 
 

@@ -226,7 +226,7 @@ with right:
             hole=0.4,
             color_discrete_sequence=PIE_COLORS,
         )
-        fig.update_traces(textposition="auto", textinfo="percent")
+        fig.update_traces(textposition="auto", textinfo="percent", texttemplate="%{percent:.1%}")
         fig.update_layout(
             showlegend=True,
             legend=dict(orientation="v", x=1, y=0.5, font=dict(size=11)),

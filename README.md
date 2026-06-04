@@ -43,7 +43,7 @@ pip install -r requirements.txt
 3. Run the cleaning notebooks in `source_code/` (1–4)
 4. Run `data_prep_app.ipynb` to generate additional app-specific clean files
 5. Run `analysis.ipynb`
-6. Run `app.py` locally (optional) since https://praguestudentcosts.streamlit.app/ 
+6. Run `app.py` locally (optional) since https://praguestudentcosts.streamlit.app/ is live
 
 
 

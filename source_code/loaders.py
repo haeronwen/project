@@ -32,6 +32,9 @@ def load_apartments_clean() -> pd.DataFrame:
     except FileNotFoundError:
         raise FileNotFoundError(f"Missing data file: {DATA_DIR / 'apartments_clean.csv'}")
 
+def load_apartments_app() -> pd.DataFrame:
+    """Load full 9-disposition apartment data for the app"""
+    return pd.read_csv(DATA_DIR / "apartment_monthly_cost_app.csv")
 
 def load_dorms() -> pd.DataFrame:
     """Load dorm statistics (for baseline comparison)"""
@@ -65,3 +68,14 @@ def load_groceries_full() -> pd.DataFrame:
         return pd.read_csv(DATA_DIR / "groceries_full.csv")
     except FileNotFoundError:
         raise FileNotFoundError(f"Missing data file: {DATA_DIR / 'groceries_full.csv'}")
+    
+def get_groceries_monthly(basket: str = "standard", store: str = "online") -> float:
+    """Return monthly grocery cost for a given basket and store type for app"""
+    filepath = DATA_DIR / "grocery_monthly.csv"
+    if not filepath.exists():
+        raise FileNotFoundError(f"Missing data file: {filepath}")
+    df = pd.read_csv(filepath)
+    row = df[(df["basket"] == basket) & (df["store"] == store)]
+    if len(row) == 0:
+        raise ValueError(f"No grocery data for basket='{basket}', store='{store}'")
+    return float(row["monthly"].values[0])

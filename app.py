@@ -3,9 +3,9 @@ import plotly.express as px
 import pandas as pd
 from pathlib import Path
 
-from source_code.cost_calculator import compute_monthly_cost, build_scenario_table
-from source_code.loaders import load_apartments, load_dorms
+st.set_page_config(page_title="Prague Student Cost of Living", layout="wide", page_icon=":school:")
 
+from source_code.cost_calculator import compute_monthly_cost, build_scenario_table, get_housing_cost, get_dorm_options
 
 ZONE_MAP = {
     "Center": "center",
@@ -45,11 +45,14 @@ def fmt(czk):
         return f"{converted:,.0f} Kč"
     return f"{symbol}{converted:,.0f}"
 
-
-st.set_page_config(page_title="Prague Student Cost of Living", layout="wide", page_icon="🏰")
 st.markdown("""
 <style>
-    div[data-testid="stMetric"] { background: #f8f9fa; border-radius: 8px; padding: 0.6rem 1rem; }
+    div[data-testid="stMetric"] { 
+        background: rgba(128,128,128,0.1); 
+        border-radius: 8px; 
+        padding: 0.6rem 1rem;
+        border: 1px solid rgba(128,128,128,0.2);
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -90,12 +93,11 @@ with left:
             people = st.number_input("Sharing", min_value=1, max_value=4, value=1,
                 help="Rent is split equally between occupants")
     else:
+        available_beds, dorms_df = get_dorm_options()
         c1, c2 = st.columns(2)
         with c1:
-            available_beds = sorted(load_dorms()["beds"].unique().tolist())
-            beds = st.selectbox("Beds per room", available_beds)
+            beds = st.selectbox("Beds per room", sorted(available_beds))
         with c2:
-            dorms_df = load_dorms()
             available_facilities = dorms_df[dorms_df["beds"] == beds]["facilities"].unique().tolist()
             facilities_options = []
             for f in ["Shared", "Private"]:
@@ -150,25 +152,17 @@ with left:
 with right:
     st.subheader("Your Estimated Monthly Costs")
 
-    apartments = load_apartments()
-    dorms_df = load_dorms()
-
-    if housing_type == "Apartment":
-        row = apartments[
-            (apartments["zone"] == zone) &
-            (apartments["disposition_clean"] == disposition)
-        ]
-        if len(row) == 0:
-            st.warning("No data for this combination. Try a different zone or room type.")
-            st.stop()
-        housing_cost = float(row["avg_rent"].values[0]) / people
-    else:
-        facilities_val = "Yes" if facilities == "Private" else "No"
-        row = dorms_df[(dorms_df["beds"] == beds) & (dorms_df["facilities"] == facilities_val)]
-        if len(row) == 0:
-            st.warning(f"No data for {beds}-bed rooms with {facilities.lower()} bathroom.")
-            st.stop()
-        housing_cost = float(row["avg_cost"].values[0])
+    housing_cost = get_housing_cost(
+        housing_type=housing_type,
+        zone=zone if housing_type == "Apartment" else None,
+        disposition=disposition if housing_type == "Apartment" else None,
+        people=people,
+        beds=beds if housing_type == "Dorm" else None,
+        facilities=facilities if housing_type == "Dorm" else None,
+    )
+    if housing_cost is None:
+        st.warning("No data for this combination. Try different options.")
+        st.stop()
 
     # map UI choices to basket/store params
     basket = "vegan" if grocery_basket == "Vegan" else "standard"
@@ -214,14 +208,14 @@ with right:
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
     with table_col:
         table_data = pd.DataFrame({
             "Category": [CATEGORY_LABELS.get(k, k) for k in breakdown_display],
             f"Monthly cost ({currency})": [fmt(v) for v in breakdown_display.values()],
         })
-        st.dataframe(table_data, hide_index=True, use_container_width=True, height=212)
+        st.dataframe(table_data, hide_index=True, width='stretch', height=212)
 
         housing_pct = round(breakdown["housing"] / breakdown["total"] * 100)
         data_source = "scraped from Bezrealitky.cz" if housing_type == "Apartment" else "scraped from rehos.cuni.cz"
@@ -263,7 +257,10 @@ if housing_type == "Apartment":
         for col, (label, row) in zip(cols, same_disp_rows):
             zone_name = label.replace(f"Flat {disposition} (", "").rstrip(")")
             title = f"{zone_name}{' (yours)' if zone_display in label else ''}"
-            col.metric(title, fmt(row["housing"]))
+            if people > 1:
+                col.metric(title, fmt(row["housing"]), f"Total: {fmt(row['housing'] * people)}")
+            else:
+                col.metric(title, fmt(row["housing"]))
 
     adjacent = [r for r, i in ROOM_ORDER.items() if abs(i - current_idx) == 1]
     if adjacent:
@@ -288,7 +285,10 @@ if housing_type == "Apartment":
             cols2 = st.columns(len(adj_cards))
             for col, (disp, rent) in zip(cols2, adj_cards):
                 direction = "smaller" if ROOM_ORDER[disp] < current_idx else "larger"
-                col.metric(f"{disp} ({direction})", fmt(rent))
+                if people > 1:
+                    col.metric(f"{disp} ({direction})", fmt(rent), f"Total: {fmt(rent * people)}", )
+                else:
+                    col.metric(f"{disp} ({direction})", fmt(rent))
 
 else:
     filtered = scenario_df[scenario_df["type"] == "dorm"].copy()
@@ -296,3 +296,4 @@ else:
     cols = st.columns(min(len(filtered), 4))
     for col, (label, row) in zip(cols, filtered.iterrows()):
         col.metric(label, fmt(row["housing"]))
+

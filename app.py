@@ -135,6 +135,8 @@ with left:
         st.markdown("**Food**")
         canteen_days = st.slider("Canteen days / week", 0, 5, 3,
             help="Student meal ~100 CZK. Reduces grocery spend.")
+        
+        soup = st.checkbox("Include soup", value=True, help="Adds ~18 Kč per canteen visit")
 
         grocery_basket = st.radio(
             "Diet",
@@ -195,11 +197,12 @@ with right:
     elif grocery_store == "Online delivery":
         store = "online"
     else:
-        store = "online"  # average: use online as default, handled in compute_monthly_cost
+        store = "average"
 
     breakdown = compute_monthly_cost(
         housing_cost=housing_cost,
         canteen_days=canteen_days,
+        soup=soup,
         basket=basket,
         store=store,
         cinema_per_month=cinema,
@@ -212,7 +215,7 @@ with right:
 
     st.metric("Estimated Monthly Total", fmt(breakdown["total"]))
 
-    pie_col, table_col = st.columns([1.2, 1])
+    pie_col, table_col = st.columns([1.5, 1])
 
     with pie_col:
         labels = [CATEGORY_LABELS.get(k, k) for k in breakdown_display]
@@ -228,7 +231,7 @@ with right:
             showlegend=True,
             legend=dict(orientation="v", x=1, y=0.5, font=dict(size=11)),
             margin=dict(t=10, b=10, l=0, r=120),
-            height=260,
+            height=320,
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
         )
@@ -243,7 +246,7 @@ with right:
 
         housing_pct = round(breakdown["housing"] / breakdown["total"] * 100)
         data_source = "scraped from Bezrealitky.cz" if housing_type == "Apartment" else "scraped from rehos.cuni.cz"
-        grocery_source = "Rohlik & Košík" if store == "online" else "Billa & Lidl"
+        grocery_source = "Rohlik & Košík" if store == "online" else "Billa & Lidl" if store == "physical" else "Rohlik, Košík, Billa & Lidl average"
         st.caption("Transport: [PID annual student pass](https://pid.cz/tarif-web/stud.php?cat=STU&lt=1&range=P-7&noprg=0&nolt=0&lang=en) — 1,280 Kč/year")
 st.divider()
 
@@ -333,3 +336,5 @@ else:
         for col, (label, row) in zip(cols2, other_beds.iterrows()):
             col.metric(label, fmt(row["housing"]))
 
+st.divider()
+st.caption("Full housing and cost analysis available on our [GitHub repository](https://github.com/haeronwen/project).")

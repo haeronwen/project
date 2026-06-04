@@ -79,3 +79,17 @@ def get_groceries_monthly(basket: str = "standard", store: str = "online") -> fl
     if len(row) == 0:
         raise ValueError(f"No grocery data for basket='{basket}', store='{store}'")
     return float(row["monthly"].values[0])
+
+def load_canteen_app() -> pd.DataFrame:
+    """Load canteen costs with 4.33 weeks/month and soup/no soup options"""
+    return pd.read_csv(DATA_DIR / "canteen_costs_app.csv")
+
+def load_dorms_app() -> pd.DataFrame:
+    """Load dorm stats with accurate monthly cost (price * 365/12)"""
+    return pd.read_csv(DATA_DIR / "dorm_stats_app.csv")
+
+def get_groceries_average(basket: str = "standard") -> float:
+    """Return average of online and physical monthly grocery cost"""
+    online = get_groceries_monthly(basket=basket, store="online")
+    physical = get_groceries_monthly(basket=basket, store="physical")
+    return (online + physical) / 2

@@ -1,8 +1,8 @@
 import pandas as pd
 from .loaders import (
     load_apartments_app,
-    load_dorms,
-    load_canteen,
+    load_dorms_app,
+    load_canteen_app,
     get_groceries_monthly,
     TRANSPORT_MONTHLY,
 )
@@ -19,13 +19,14 @@ ZONE_LABELS = {
     "outer_or_suburbs": "Outer/suburbs",
 }
 
-canteen = load_canteen().set_index("days_per_week")["monthly_cost"]
+canteen = load_canteen_app().set_index(["days_per_week", "meal_type"])["monthly_cost"]
 
 
-def get_canteen_cost(days_per_week: int) -> float:
+def get_canteen_cost(days_per_week: int, soup: bool = True) -> float:
     if days_per_week == 0:
         return 0
-    return float(canteen.loc[days_per_week])
+    meal_type = "with_soup" if soup else "without_soup"
+    return float(canteen.loc[(days_per_week, meal_type)])
 
 
 def compute_leisure_cost(
@@ -44,6 +45,7 @@ def compute_leisure_cost(
 def compute_monthly_cost(
         housing_cost: float,
         canteen_days: int = 5,
+        soup: bool = True,
         groceries: float = None,
         basket: str = "standard",
         store: str = "online",
@@ -54,14 +56,19 @@ def compute_monthly_cost(
         gym: bool = False) -> dict:
     """Itemised monthly cost breakdown. Grocery spend reduced proportionally with canteen days."""
     if groceries is None:
-        groceries = get_groceries_monthly(basket=basket, store=store)
+        if store == "average":
+            from source_code.loaders import get_groceries_average
+            groceries = get_groceries_average(basket=basket)
+        else:
+            groceries = get_groceries_monthly(basket=basket, store=store)
+    
 
     grocery_reduction = (canteen_days / 5) * 0.4
     adjusted_groceries = groceries * (1 - grocery_reduction)
 
     breakdown = {
         "housing":   housing_cost,
-        "canteen":   get_canteen_cost(canteen_days),
+        "canteen": get_canteen_cost(canteen_days, soup=soup),
         "groceries": adjusted_groceries,
         "transport": transport,
         "leisure":   compute_leisure_cost(cinema_per_month, pub_per_month, cafe_per_week, gym),
@@ -80,7 +87,7 @@ def build_scenario_table(
         cafe_per_week: int = 2,
         gym: bool = False) -> pd.DataFrame:
     """Comparison table of monthly costs across all housing options."""
-    dorms = load_dorms()
+    dorms = load_dorms_app()
     apartments = load_apartments_app()
     rows = []
 
@@ -88,6 +95,7 @@ def build_scenario_table(
         facilities = "own bathroom" if row["facilities"] == "Yes" else "shared bathroom"
         cost = compute_monthly_cost(
             housing_cost=row["avg_cost"],
+            soup=True,
             canteen_days=canteen_days,
             basket=basket, store=store,
             cinema_per_month=cinema_per_month,
@@ -124,7 +132,7 @@ def get_housing_cost(housing_type, zone=None, disposition=None, people=1, beds=N
             return None
         return float(row["avg_rent"].values[0]) / people
     else:
-        dorms = load_dorms()
+        dorms = load_dorms_app()
         facilities_val = "Yes" if facilities == "Private" else "No"
         row = dorms[(dorms["beds"] == beds) & (dorms["facilities"] == facilities_val)]
         if len(row) == 0:
@@ -132,5 +140,5 @@ def get_housing_cost(housing_type, zone=None, disposition=None, people=1, beds=N
         return float(row["avg_cost"].values[0])
     
 def get_dorm_options():
-    dorms = load_dorms()
+    dorms = load_dorms_app()
     return dorms["beds"].unique().tolist(), dorms

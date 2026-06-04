@@ -35,10 +35,10 @@ def get_canteen_cost(days_per_week: int) -> float:
     if days_per_week == 0:
         return 0
     
-    if days_per_week not in canteen.index:
+    try:
+        return float(canteen.loc[days_per_week])
+    except KeyError:
         raise ValueError(f"Invalid days_per_week: {days_per_week}. Must be 0-5.")
-    
-    return float(canteen.loc[days_per_week])
 
 
 # MONTHLY COST COMPUTATION

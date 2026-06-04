@@ -1,11 +1,14 @@
+from locale import currency
+
+import requests
 import streamlit as st
 import plotly.express as px
 import pandas as pd
 from pathlib import Path
 
-from source_code.cost_calculator import compute_monthly_cost, build_scenario_table
-from source_code.loaders import load_apartments, load_dorms
+st.set_page_config(page_title="Prague Student Cost of Living", layout="wide", page_icon=":school:")
 
+from source_code.cost_calculator import compute_monthly_cost, build_scenario_table, get_housing_cost, get_dorm_options
 
 ZONE_MAP = {
     "Center": "center",
@@ -24,34 +27,54 @@ CATEGORY_LABELS = {
     "leisure": "Leisure",
 }
 
-FX_RATES = {
-    "CZK": (1.0,   "Kč"),
-    "EUR": (0.040, "€"),
-    "USD": (0.044, "$"),
-    "GBP": (0.035, "£"),
-    "PLN": (0.18,  "zł"),
-    "HUF": (16.2,  "Ft"),
-    "NOK": (0.47,  "kr"),
-    "SEK": (0.46,  "kr"),
-    "CHF": (0.039, "Fr"),
+CURRENCY_SYMBOLS = {
+    "CZK": "Kč", "EUR": "€", "USD": "$", "GBP": "£",
+    "PLN": "zł", "HUF": "Ft", "NOK": "kr", "SEK": "kr", "CHF": "Fr",
 }
+
+FALLBACK_RATES = {
+    "CZK": 1.0, "EUR": 0.040, "USD": 0.044, "GBP": 0.035,
+    "PLN": 0.18, "HUF": 16.2, "NOK": 0.47, "SEK": 0.46, "CHF": 0.039,
+}
+
+@st.cache_data(ttl=259200)
+def fetch_fx_rates():
+    currencies = ",".join(c for c in CURRENCY_SYMBOLS if c != "CZK")
+    try:
+        r = requests.get(
+            f"https://api.frankfurter.dev/v2/rates?base=CZK&quotes={currencies}",
+            timeout=5
+        )
+        data = r.json()
+        rates = {"CZK": 1.0}
+        rates.update(data["rates"])
+        return rates
+    except Exception:
+        return FALLBACK_RATES
 
 PIE_COLORS = ["#4A7C72", "#C0513A", "#D4A043", "#7B9E87", "#B8956A"]
 
-
 def fmt(czk):
     converted = czk * rate
+    symbol = CURRENCY_SYMBOLS[currency]
     if currency == "CZK":
         return f"{converted:,.0f} Kč"
+    if currency in ("HUF", "NOK", "SEK", "PLN", "CHF"):
+        return f"{converted:,.0f} {symbol}"
     return f"{symbol}{converted:,.0f}"
 
-
-st.set_page_config(page_title="Prague Student Cost of Living", layout="wide", page_icon="🏰")
 st.markdown("""
 <style>
-    div[data-testid="stMetric"] { background: #f8f9fa; border-radius: 8px; padding: 0.6rem 1rem; }
+    div[data-testid="stMetric"] { 
+        background: rgba(128,128,128,0.1); 
+        border-radius: 8px; 
+        padding: 0.6rem 1rem;
+        border: 1px solid rgba(128,128,128,0.2);
+    }
 </style>
 """, unsafe_allow_html=True)
+
+fx_rates = fetch_fx_rates()
 
 title_col, fx_col = st.columns([4, 1])
 with title_col:
@@ -60,10 +83,10 @@ with title_col:
 with fx_col:
     st.write("")
     st.write("")
-    currency = st.selectbox("Display currency", list(FX_RATES.keys()), index=0,
-                            help="Exchange rates are approximate.")
+    currency = st.selectbox("Display currency", list(CURRENCY_SYMBOLS.keys()), index=0,
+                        help="Rates updated from the European Central Bank.")
 
-rate, symbol = FX_RATES[currency]
+rate = fx_rates.get(currency, FALLBACK_RATES[currency])
 
 st.divider()
 
@@ -90,12 +113,11 @@ with left:
             people = st.number_input("Sharing", min_value=1, max_value=4, value=1,
                 help="Rent is split equally between occupants")
     else:
+        available_beds, dorms_df = get_dorm_options()
         c1, c2 = st.columns(2)
         with c1:
-            available_beds = sorted(load_dorms()["beds"].unique().tolist())
-            beds = st.selectbox("Beds per room", available_beds)
+            beds = st.selectbox("Beds per room", sorted(available_beds))
         with c2:
-            dorms_df = load_dorms()
             available_facilities = dorms_df[dorms_df["beds"] == beds]["facilities"].unique().tolist()
             facilities_options = []
             for f in ["Shared", "Private"]:
@@ -128,14 +150,14 @@ with left:
             st.markdown("""
 | Canteen | Area | Hours (Mon-Thu) |
 |---|---|---|
-| [Menza Arnosty z Pardubic](https://kam.cuni.cz/KAM-389.html) | Nove Mesto | 10:45-14:15 |
-| [Menza Jednota](https://kam.cuni.cz/KAM-388.html) | Nove Mesto | 10:45-15:00 |
+| [Menza Arnosty z Pardubic](https://kam.cuni.cz/KAM-389.html) | Nové Město | 10:45-14:15 |
+| [Menza Jednota](https://kam.cuni.cz/KAM-388.html) | Nové Město | 10:45-15:00 |
 | [Menza Kajetanka](https://kam.cuni.cz/KAM-392.html) | Praha 6 | 11:00-14:15 |
 | [Menza Budec](https://kam.cuni.cz/KAM-391.html) | Vinohrady | 10:45-14:15 |
-| [Menza Troja](https://kam.cuni.cz/KAM-396.html) | Troja | 10:45-14:15 |
-| [Menza Pravnicka](https://kam.cuni.cz/KAM-387.html) | Stare Mesto | 11:00-14:15 |
+| [Menza Troja](https://kam.cuni.cz/KAM-396.html) | Trója | 10:45-14:15 |
+| [Menza Pravnicka](https://kam.cuni.cz/KAM-387.html) | Staré Město | 11:00-14:15 |
 | [Menza Albertov](https://kam.cuni.cz/KAM-390.html) | Albertov | 11:30-15:00 |
-| [Menza Malostranska](https://kam.cuni.cz/KAM-769.html) | Mala Strana | 11:00-14:00 |
+| [Menza Malostranska](https://kam.cuni.cz/KAM-769.html) | Malá Strana | 11:00-14:00 |
 """)
             st.caption("Closed Sat-Sun. Fri hours shorter. Student meal ~70-100 CZK with ISIC.")
 
@@ -150,25 +172,17 @@ with left:
 with right:
     st.subheader("Your Estimated Monthly Costs")
 
-    apartments = load_apartments()
-    dorms_df = load_dorms()
-
-    if housing_type == "Apartment":
-        row = apartments[
-            (apartments["zone"] == zone) &
-            (apartments["disposition_clean"] == disposition)
-        ]
-        if len(row) == 0:
-            st.warning("No data for this combination. Try a different zone or room type.")
-            st.stop()
-        housing_cost = float(row["avg_rent"].values[0]) / people
-    else:
-        facilities_val = "Yes" if facilities == "Private" else "No"
-        row = dorms_df[(dorms_df["beds"] == beds) & (dorms_df["facilities"] == facilities_val)]
-        if len(row) == 0:
-            st.warning(f"No data for {beds}-bed rooms with {facilities.lower()} bathroom.")
-            st.stop()
-        housing_cost = float(row["avg_cost"].values[0])
+    housing_cost = get_housing_cost(
+        housing_type=housing_type,
+        zone=zone if housing_type == "Apartment" else None,
+        disposition=disposition if housing_type == "Apartment" else None,
+        people=people,
+        beds=beds if housing_type == "Dorm" else None,
+        facilities=facilities if housing_type == "Dorm" else None,
+    )
+    if housing_cost is None:
+        st.warning("No data for this combination. Try different options.")
+        st.stop()
 
     # map UI choices to basket/store params
     basket = "vegan" if grocery_basket == "Vegan" else "standard"
@@ -214,25 +228,21 @@ with right:
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
         )
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width='stretch')
 
     with table_col:
         table_data = pd.DataFrame({
             "Category": [CATEGORY_LABELS.get(k, k) for k in breakdown_display],
             f"Monthly cost ({currency})": [fmt(v) for v in breakdown_display.values()],
         })
-        st.dataframe(table_data, hide_index=True, use_container_width=True, height=212)
+        st.dataframe(table_data, hide_index=True, width='stretch', height=212)
 
         housing_pct = round(breakdown["housing"] / breakdown["total"] * 100)
         data_source = "scraped from Bezrealitky.cz" if housing_type == "Apartment" else "scraped from rehos.cuni.cz"
         grocery_source = "Rohlik & Košík" if store == "online" else "Billa & Lidl"
         st.caption(
             f"Housing is {housing_pct}% of total ({data_source}). "
-            f"Groceries from {grocery_source}. "
-            f"Transport = PID student pass. Leisure is user estimate."
         )
-        st.text_input("🔗 Share this configuration", value="", placeholder="URL sharing coming soon...", disabled=True)
-
 st.divider()
 
 
@@ -263,7 +273,10 @@ if housing_type == "Apartment":
         for col, (label, row) in zip(cols, same_disp_rows):
             zone_name = label.replace(f"Flat {disposition} (", "").rstrip(")")
             title = f"{zone_name}{' (yours)' if zone_display in label else ''}"
-            col.metric(title, fmt(row["housing"]))
+            if people > 1:
+                col.metric(title, fmt(row["housing"]), f"Total: {fmt(row['housing'] * people)}")
+            else:
+                col.metric(title, fmt(row["housing"]))
 
     adjacent = [r for r, i in ROOM_ORDER.items() if abs(i - current_idx) == 1]
     if adjacent:
@@ -288,7 +301,10 @@ if housing_type == "Apartment":
             cols2 = st.columns(len(adj_cards))
             for col, (disp, rent) in zip(cols2, adj_cards):
                 direction = "smaller" if ROOM_ORDER[disp] < current_idx else "larger"
-                col.metric(f"{disp} ({direction})", fmt(rent))
+                if people > 1:
+                    col.metric(f"{disp} ({direction})", fmt(rent), f"Total: {fmt(rent * people)}", )
+                else:
+                    col.metric(f"{disp} ({direction})", fmt(rent))
 
 else:
     filtered = scenario_df[scenario_df["type"] == "dorm"].copy()
@@ -296,3 +312,4 @@ else:
     cols = st.columns(min(len(filtered), 4))
     for col, (label, row) in zip(cols, filtered.iterrows()):
         col.metric(label, fmt(row["housing"]))
+

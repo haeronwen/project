@@ -1,6 +1,6 @@
 import pandas as pd
 from .loaders import (
-    load_apartments,
+    load_apartments_app,
     load_dorms,
     load_canteen,
     get_groceries_monthly,
@@ -81,7 +81,7 @@ def build_scenario_table(
         gym: bool = False) -> pd.DataFrame:
     """Comparison table of monthly costs across all housing options."""
     dorms = load_dorms()
-    apartments = load_apartments()
+    apartments = load_apartments_app()
     rows = []
 
     for _, row in dorms.iterrows():
@@ -115,3 +115,22 @@ def build_scenario_table(
         rows.append(cost)
 
     return pd.DataFrame(rows).set_index("label")
+
+def get_housing_cost(housing_type, zone=None, disposition=None, people=1, beds=None, facilities=None):
+    if housing_type == "Apartment":
+        apartments = load_apartments_app()
+        row = apartments[(apartments["zone"] == zone) & (apartments["disposition_clean"] == disposition)]
+        if len(row) == 0:
+            return None
+        return float(row["avg_rent"].values[0]) / people
+    else:
+        dorms = load_dorms()
+        facilities_val = "Yes" if facilities == "Private" else "No"
+        row = dorms[(dorms["beds"] == beds) & (dorms["facilities"] == facilities_val)]
+        if len(row) == 0:
+            return None
+        return float(row["avg_cost"].values[0])
+    
+def get_dorm_options():
+    dorms = load_dorms()
+    return dorms["beds"].unique().tolist(), dorms

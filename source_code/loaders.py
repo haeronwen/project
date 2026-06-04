@@ -10,7 +10,7 @@ LEISURE_MONTHLY = 2000
 # HOUSING LOADERS
 
 def load_apartments() -> pd.DataFrame:
-    """Load apartments with monthly cost (for scenarios/comparisons)"""
+    """Load apartments with monthly cost (for scenarios)"""
     try:
         return pd.read_csv(DATA_DIR / "apartment_monthly_cost.csv")
     except FileNotFoundError:

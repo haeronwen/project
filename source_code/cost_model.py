@@ -12,9 +12,7 @@ from source_code.loaders import (
 canteen = load_canteen().set_index("days_per_week")["monthly_cost"]
 
 
-# ============================================
 # CANTEEN COST FUNCTION
-# ============================================
 
 def get_canteen_cost(days_per_week: int) -> float:
     """

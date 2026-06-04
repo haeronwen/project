@@ -215,7 +215,7 @@ with right:
 
     st.metric("Estimated Monthly Total", fmt(breakdown["total"]))
 
-    pie_col, table_col = st.columns([1.5, 1])
+    pie_col, table_col = st.columns([1.8, 1])
 
     with pie_col:
         labels = [CATEGORY_LABELS.get(k, k) for k in breakdown_display]
@@ -226,11 +226,11 @@ with right:
             hole=0.4,
             color_discrete_sequence=PIE_COLORS,
         )
-        fig.update_traces(textposition="outside", textinfo="percent")
+        fig.update_traces(textposition="auto", textinfo="percent")
         fig.update_layout(
             showlegend=True,
             legend=dict(orientation="v", x=1, y=0.5, font=dict(size=11)),
-            margin=dict(t=10, b=10, l=0, r=120),
+            margin=dict(t=10, b=10, l=10, r=120),
             height=320,
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",

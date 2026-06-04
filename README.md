@@ -14,6 +14,7 @@ Analyse and compare monthly living consts for students in Prague across differen
 - Leisure - manually estimated 
 
 ## Project structure 
+```
 project/
 ├── data/
 │   ├── raw/          
@@ -25,6 +26,7 @@ project/
 ├── analysis.ipynb    
 ├── requirements.txt
 └── AI_DISCLOSURE.md
+```
 
 ## How to run 
 1. Instal dependencies: 

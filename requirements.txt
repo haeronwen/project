@@ -1,20 +1,18 @@
 # Web scraping
-requests>=2.31.0
-beautifulsoup4>=4.12.0
+requests==2.31.0
+beautifulsoup4==4.12.0
  
 # Data processing
-pandas>=2.1.0
-numpy>=1.26.0
+pandas==2.1.0
+numpy==1.26.0
  
 # Interactive app
-streamlit>=1.32.0
-plotly>=5.18.0
-matplotlib>=3.8.0
-seaborn>=0.13.0
+streamlit==1.32.0
+plotly==5.18.0
 
 # Visualisation
-matplotlib>=3.8.0
-seaborn>=0.13.0
+matplotlib==3.8.0
+seaborn==0.13.0
 
 # Notebook 
-jupyter>=1.0.0
+jupyter==1.0.0
